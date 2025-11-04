@@ -1,0 +1,6 @@
+"Hospital_Name","FAC","Type","Input_URL","Base_URL","Robots_Allowed","Plan_Found","PDF_URL","Local_Path","Search_Method","Status","Notes","Date_Checked"
+"Toronto General Hospital",1,"Teaching","https://www.uhn.ca/TorontoGeneral/AboutUs/Leadership","https://www.uhn.ca",TRUE,FALSE,NA,NA,NA,"Not Found","Strategic plan not found in main page or About section",2025-11-03 20:19:45.300967
+"St. Michael's Hospital",2,"Teaching","https://unityhealth.to/about-us/leadership/","https://unityhealth.to",TRUE,FALSE,NA,NA,NA,"Not Found","Strategic plan not found in main page or About section",2025-11-03 20:19:47.815957
+"Mount Sinai Hospital",3,"Teaching","https://www.sinaihealth.ca/about-us/leadership-team/","https://www.sinaihealth.ca",TRUE,FALSE,NA,NA,NA,"Not Found","Strategic plan not found in main page or About section",2025-11-03 20:19:51.95925
+"Sunnybrook Health Sciences Centre",4,"Teaching","https://sunnybrook.ca/content/?page=about-sunnybrook-leadership","https://sunnybrook.ca",TRUE,FALSE,NA,NA,NA,"Not Found","Strategic plan not found in main page or About section",2025-11-03 20:19:54.327104
+"The Ottawa Hospital",5,"Teaching","https://www.ottawahospital.on.ca/en/about-us/leadership/","https://www.ottawahospital.on.ca",TRUE,FALSE,NA,NA,NA,"Not Found","Strategic plan not found in main page or About section",2025-11-03 20:19:57.449878
