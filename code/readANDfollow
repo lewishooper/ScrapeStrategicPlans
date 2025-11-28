@@ -1,0 +1,11 @@
+#guidelines for this code area deailing with yamlcode and updates
+setwd("E:/Hospital_Strategic_Plans/code") if necessary in thecode
+
+1) first run the CreateBaseYamlCode.R
+  the input is the "Base_hospitalsOLD.yaml"
+  the output is the "base_hospials.yaml"
+  The overall purpose is to clean up the enhanced_hospitals.yaml code 
+  used int eh executivescarpping project
+2) the next Step is to run "validateBaseURLs.R"
+  this simply checks that hte URLS are ok
+  
