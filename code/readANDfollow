@@ -9,3 +9,7 @@ setwd("E:/Hospital_Strategic_Plans/code") if necessary in thecode
 2) the next Step is to run "validateBaseURLs.R"
   this simply checks that hte URLS are ok
   
+3) using the "base_hospital_validated.yaml" file we will add the link where a pdf
+    labled stratetgic plan is located. and add it to the base_hospital_validated.yaml file
+    The file for this is "IdentifyAndDownloadStrategicPDF.R""
+    

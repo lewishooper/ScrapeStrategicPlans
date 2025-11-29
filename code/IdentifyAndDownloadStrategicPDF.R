@@ -24,12 +24,15 @@ CONFIG <- list(
   # Search keywords (case-insensitive)
   tier1_keywords = c(
     "strategic plan",
+    "strategic-plan",
+    "strat-plan",
     "strategic direction", 
     "strategic priorities"
   ),
   
   tier2_keywords = c(
     "multi-year plan",
+    "multi year plan",
     "strategic framework",
     "future planning"
   ),
@@ -45,7 +48,10 @@ CONFIG <- list(
   
   # Testing mode
   test_mode = TRUE,  # Set to FALSE for full run
-  test_sample_size = 5
+  test_sample_size = 5,
+  
+  # Diagnostic mode - shows detailed link analysis
+  diagnostic_mode = TRUE  # Set to FALSE to reduce console output
 )
 
 # Initialize ----
@@ -75,6 +81,18 @@ initialize_project <- function() {
     cat("\n*** TEST MODE: Processing only", CONFIG$test_sample_size, "hospitals ***\n")
   }
   
+  if (CONFIG$diagnostic_mode) {
+    cat("*** DIAGNOSTIC MODE: Verbose logging enabled ***\n")
+    
+    # Setup diagnostic log file
+    log_file <- file.path(output_path, paste0("diagnostic_log_", format(Sys.time(), "%Y%m%d_%H%M%S"), ".txt"))
+    cat("Diagnostic log will be saved to:", log_file, "\n")
+    CONFIG$log_file <<- log_file
+    
+    # Redirect console output to both console and file
+    sink(log_file, split = TRUE)
+  }
+  
   cat("\n")
   
   # Store paths globally
@@ -94,8 +112,14 @@ read_yaml_hospitals <- function() {
   
   data <- read_yaml(yaml_path)
   
-  # Convert to data frame for easier processing
-  hospitals <- data$hospitals
+  # Handle both structures: with and without 'hospitals:' key
+  if (is.null(data$hospitals)) {
+    # YAML is a direct list (no 'hospitals:' key)
+    hospitals <- data
+  } else {
+    # YAML has 'hospitals:' key
+    hospitals <- data$hospitals
+  }
   
   cat("Loaded", length(hospitals), "hospitals from YAML\n\n")
   
@@ -111,9 +135,8 @@ write_yaml_hospitals <- function(hospitals) {
   file.copy(yaml_path, backup_path)
   cat("Created backup:", backup_path, "\n")
   
-  # Write updated YAML
-  data <- list(hospitals = hospitals)
-  write_yaml(data, yaml_path)
+  # Write updated YAML - maintain original structure (list without 'hospitals:' key)
+  write_yaml(hospitals, yaml_path)
   
   cat("Updated YAML file:", yaml_path, "\n")
 }
@@ -128,6 +151,10 @@ clean_hospital_name <- function(name) {
 
 # Safe GET request with error handling
 safe_get <- function(url, timeout = CONFIG$request_timeout) {
+  if (CONFIG$diagnostic_mode) {
+    cat("    [HTTP GET] Requesting:", url, "\n")
+  }
+  
   Sys.sleep(CONFIG$delay_between_requests)
   
   tryCatch({
@@ -138,8 +165,14 @@ safe_get <- function(url, timeout = CONFIG$request_timeout) {
     )
     
     if (status_code(response) == 200) {
+      if (CONFIG$diagnostic_mode) {
+        cat("    [HTTP 200] Success - Content length:", length(content(response, "raw")), "bytes\n")
+      }
       return(list(success = TRUE, response = response, error = NULL))
     } else {
+      if (CONFIG$diagnostic_mode) {
+        cat("    [HTTP", status_code(response), "] Failed\n")
+      }
       return(list(
         success = FALSE,
         response = NULL,
@@ -147,14 +180,29 @@ safe_get <- function(url, timeout = CONFIG$request_timeout) {
       ))
     }
   }, error = function(e) {
+    if (CONFIG$diagnostic_mode) {
+      cat("    [ERROR]", e$message, "\n")
+    }
     return(list(success = FALSE, response = NULL, error = e$message))
   })
 }
 
 # Get all links from a page
-get_page_links <- function(html_content, base_url) {
+get_page_links <- function(response_content, base_url) {
   tryCatch({
-    page <- read_html(html_content)
+    if (CONFIG$diagnostic_mode) {
+      cat("    [PARSE] Extracting links from HTML...\n")
+    }
+    
+    # Content is already parsed by httr, just use it directly
+    # Or get as text if needed
+    if (inherits(response_content, "xml_document")) {
+      # Already parsed
+      page <- response_content
+    } else {
+      # Parse if raw text/bytes
+      page <- read_html(response_content)
+    }
     
     # Get all links
     links <- page %>%
@@ -167,8 +215,15 @@ get_page_links <- function(html_content, base_url) {
       html_text() %>%
       str_trim()
     
+    if (CONFIG$diagnostic_mode) {
+      cat("    [PARSE] Found", length(links), "raw <a> tags\n")
+    }
+    
     # Handle empty results
     if (length(links) == 0) {
+      if (CONFIG$diagnostic_mode) {
+        cat("    [PARSE] WARNING: No <a> tags found in HTML\n")
+      }
       return(data.frame(
         url = character(0),
         text = character(0),
@@ -198,9 +253,16 @@ get_page_links <- function(html_content, base_url) {
         url_lower = str_to_lower(url)
       )
     
+    if (CONFIG$diagnostic_mode) {
+      cat("    [PARSE] After filtering:", nrow(df), "valid links\n")
+    }
+    
     return(df)
     
   }, error = function(e) {
+    if (CONFIG$diagnostic_mode) {
+      cat("    [PARSE ERROR]", e$message, "\n")
+    }
     return(data.frame(
       url = character(0),
       text = character(0),
@@ -239,6 +301,11 @@ is_pdf_url <- function(url) {
 search_for_strategy_page <- function(base_url) {
   cat("  Searching for strategic plan pages...\n")
   
+  if (CONFIG$diagnostic_mode) {
+    cat("  [DIAGNOSTIC MODE ENABLED]\n")
+    cat("  Target base URL:", base_url, "\n")
+  }
+  
   # Get main page
   response <- safe_get(base_url)
   
@@ -257,14 +324,27 @@ search_for_strategy_page <- function(base_url) {
   
   cat("  Found", nrow(main_links), "total links on main page\n")
   
+  # DIAGNOSTIC: Show first 20 links for debugging
+  if (CONFIG$diagnostic_mode) {
+    cat("\n  === DIAGNOSTIC: First 20 links on page ===\n")
+    for (i in 1:min(20, nrow(main_links))) {
+      link <- main_links[i, ]
+      cat("    ", i, ". URL:", substr(link$url, 1, 80), "\n")
+      cat("       Text:", substr(link$text, 1, 60), "\n")
+    }
+    cat("  === END DIAGNOSTIC ===\n\n")
+  }
+  
   # Find strategy-related links
+  # Apply keyword matching to each row
+  match_results <- lapply(1:nrow(main_links), function(i) {
+    matches_strategy_keywords(main_links$url[i], main_links$text[i])
+  })
+  
   strategy_links <- main_links %>%
-    rowwise() %>%
-    mutate(keyword_match = matches_strategy_keywords(url, text)) %>%
-    ungroup() %>%
     mutate(
-      is_match = sapply(keyword_match, function(x) x$match),
-      tier = sapply(keyword_match, function(x) x$tier)
+      is_match = sapply(match_results, function(x) x$match),
+      tier = sapply(match_results, function(x) x$tier)
     ) %>%
     filter(is_match == TRUE) %>%
     arrange(tier, url) %>%
@@ -272,10 +352,17 @@ search_for_strategy_page <- function(base_url) {
   
   if (nrow(strategy_links) == 0) {
     cat("  No strategic plan pages found\n")
+    cat("  DIAGNOSTIC: None of the", nrow(main_links), "links matched strategy keywords\n")
+    cat("  Current Tier 1 keywords:", paste(CONFIG$tier1_keywords, collapse=", "), "\n")
+    cat("  Current Tier 2 keywords:", paste(CONFIG$tier2_keywords, collapse=", "), "\n")
     return(list(found = FALSE, urls = NULL, error = "No strategy keywords found"))
   }
   
-  cat("  Found", nrow(strategy_links), "potential strategy pages\n")
+  cat("  Found", nrow(strategy_links), "potential strategy pages:\n")
+  for (i in 1:nrow(strategy_links)) {
+    cat("    ", i, ". (Tier", strategy_links$tier[i], ")", strategy_links$url[i], "\n")
+    cat("       Link text:", strategy_links$text[i], "\n")
+  }
   
   # Limit to max pages
   if (nrow(strategy_links) > CONFIG$max_pages_to_check) {
@@ -295,7 +382,7 @@ find_strategy_pdf <- function(strategy_url, base_url) {
   
   if (!response$success) {
     cat("    ERROR:", response$error, "\n")
-    return(list(found = FALSE, pdf_url = NULL, error = response$error))
+    return(list(found = FALSE, pdf_url = NULL, confidence = NULL, error = response$error))
   }
   
   # Get all links from strategy page
@@ -303,38 +390,43 @@ find_strategy_pdf <- function(strategy_url, base_url) {
   
   if (nrow(page_links) == 0) {
     cat("    No links found on page\n")
-    return(list(found = FALSE, pdf_url = NULL, error = "No links on page"))
+    return(list(found = FALSE, pdf_url = NULL, confidence = NULL, error = "No links on page"))
   }
   
-  # Find PDF links that also match strategy keywords
-  pdf_links <- page_links %>%
-    filter(is_pdf_url(url)) %>%
-    rowwise() %>%
-    mutate(keyword_match = matches_strategy_keywords(url, text)) %>%
-    ungroup() %>%
+  # Find all PDF links
+  all_pdfs <- page_links %>%
+    filter(is_pdf_url(url))
+  
+  if (nrow(all_pdfs) == 0) {
+    cat("    No PDFs found on page\n")
+    return(list(found = FALSE, pdf_url = NULL, confidence = NULL, error = "No PDF on page"))
+  }
+  
+  cat("    Found", nrow(all_pdfs), "PDF(s) on page\n")
+  
+  # TIER 1: Find PDF links that match strategy keywords (HIGH CONFIDENCE)
+  # Apply keyword matching to each PDF
+  match_results <- lapply(1:nrow(all_pdfs), function(i) {
+    matches_strategy_keywords(all_pdfs$url[i], all_pdfs$text[i])
+  })
+  
+  keyword_pdfs <- all_pdfs %>%
     mutate(
-      is_match = sapply(keyword_match, function(x) x$match),
-      tier = sapply(keyword_match, function(x) x$tier)
+      is_match = sapply(match_results, function(x) x$match),
+      tier = sapply(match_results, function(x) x$tier)
     ) %>%
     filter(is_match == TRUE) %>%
     arrange(tier, url)
   
-  if (nrow(pdf_links) > 0) {
-    cat("    ✓ PDF found:", basename(pdf_links$url[1]), "\n")
-    return(list(found = TRUE, pdf_url = pdf_links$url[1], error = NULL))
+  if (nrow(keyword_pdfs) > 0) {
+    cat("    ✓ PDF found with strategy keywords:", basename(keyword_pdfs$url[1]), "\n")
+    return(list(found = TRUE, pdf_url = keyword_pdfs$url[1], confidence = "high", error = NULL))
   }
   
-  # If no strategy PDF found, check for any PDFs
-  any_pdf <- page_links %>%
-    filter(is_pdf_url(url))
-  
-  if (nrow(any_pdf) > 0) {
-    cat("    Found PDF but no strategy keywords in filename\n")
-    return(list(found = TRUE, pdf_url = any_pdf$url[1], error = "PDF found but no strategy keywords"))
-  }
-  
-  cat("    No PDF found\n")
-  return(list(found = FALSE, pdf_url = NULL, error = "No PDF on page"))
+  # TIER 1 FALLBACK: No keyword match - take FIRST PDF on strategic plan page (MEDIUM CONFIDENCE)
+  cat("    No keyword match in PDFs, taking first PDF (medium confidence)\n")
+  cat("    ✓ PDF found:", basename(all_pdfs$url[1]), "\n")
+  return(list(found = TRUE, pdf_url = all_pdfs$url[1], confidence = "medium", error = NULL))
 }
 
 # Download PDF
@@ -409,22 +501,55 @@ process_hospital <- function(hospital) {
     pdf_found = FALSE,
     pdf_url = "",
     pdf_downloaded = FALSE,
+    download_confidence = "",
     local_folder = "",
     local_filename = "",
+    manual_pdf_url = "",
+    requires_manual_review = FALSE,
     strategy_notes = ""
   )
   
   # Check if validated and allowed
-  if (is.null(hospital$base_url_validated) || hospital$base_url_validated != "yes") {
+  if (is.null(hospital$base_url_validated) || 
+      !(hospital$base_url_validated == "yes" || hospital$base_url_validated == TRUE)) {
     cat("  SKIPPED: Base URL not validated\n")
     result$strategy_notes <- "Skipped - base URL not validated"
     return(result)
   }
   
-  if (is.null(hospital$robots_allowed) || hospital$robots_allowed != "yes") {
+  if (is.null(hospital$robots_allowed) || 
+      !(hospital$robots_allowed == "yes" || hospital$robots_allowed == TRUE)) {
     cat("  SKIPPED: Robots.txt does not allow scraping\n")
     result$strategy_notes <- "Skipped - robots.txt disallows scraping"
     return(result)
+  }
+  
+  # PRIORITY CHECK: If manual_pdf_url exists from previous manual review, use it
+  if (!is.null(hospital$strategy_search$manual_pdf_url) && 
+      hospital$strategy_search$manual_pdf_url != "") {
+    manual_pdf <- hospital$strategy_search$manual_pdf_url
+    cat("  Found manual PDF URL from previous review\n")
+    cat("  PDF URL:", manual_pdf, "\n")
+    
+    result$pdf_found <- TRUE
+    result$pdf_url <- manual_pdf
+    result$download_confidence <- "manual"
+    
+    # Download the manually specified PDF
+    download_result <- download_pdf(manual_pdf, fac, name)
+    
+    if (download_result$success) {
+      result$pdf_downloaded <- TRUE
+      result$local_folder <- download_result$folder
+      result$local_filename <- download_result$filename
+      result$requires_manual_review <- FALSE  # SUCCESS - no longer needs review
+      result$strategy_notes <- "Downloaded from manually provided URL"
+      return(result)
+    } else {
+      result$requires_manual_review <- TRUE  # FAILED - still needs review
+      result$strategy_notes <- paste("Manual PDF URL provided but download failed:", download_result$error)
+      return(result)
+    }
   }
   
   # Search for strategy pages
@@ -432,6 +557,7 @@ process_hospital <- function(hospital) {
   
   if (!search_result$found) {
     result$strategy_notes <- search_result$error
+    result$requires_manual_review <- TRUE
     return(result)
   }
   
@@ -448,6 +574,7 @@ process_hospital <- function(hospital) {
     if (pdf_result$found) {
       result$pdf_found <- TRUE
       result$pdf_url <- pdf_result$pdf_url
+      result$download_confidence <- pdf_result$confidence
       
       # Download PDF
       download_result <- download_pdf(pdf_result$pdf_url, fac, name)
@@ -456,18 +583,32 @@ process_hospital <- function(hospital) {
         result$pdf_downloaded <- TRUE
         result$local_folder <- download_result$folder
         result$local_filename <- download_result$filename
-        result$strategy_notes <- paste("Found on page:", strategy_url)
+        result$strategy_notes <- paste0("Found on page: ", strategy_url, 
+                                        " (confidence: ", pdf_result$confidence, ")")
+        
+        # Flag medium confidence downloads for manual verification
+        if (pdf_result$confidence == "medium") {
+          result$requires_manual_review <- TRUE
+          result$strategy_notes <- paste0(result$strategy_notes, 
+                                          " - Please verify this is the correct strategic plan")
+        }
+        
         return(result)
       } else {
-        result$strategy_notes <- paste("PDF found but download failed:", download_result$error)
+        # Download failed - capture URL for manual download
+        result$manual_pdf_url <- pdf_result$pdf_url
+        result$requires_manual_review <- TRUE
+        result$strategy_notes <- paste("PDF found but download failed:", download_result$error, 
+                                       "- PDF URL saved for manual review")
         return(result)
       }
     }
   }
   
-  # If we get here, no PDF was found on any strategy page
+  # If we get here, strategy page found but no PDF
+  result$requires_manual_review <- TRUE
   result$strategy_notes <- paste("Strategy page found but no PDF. Checked", 
-                                 nrow(search_result$urls), "pages")
+                                 nrow(search_result$urls), "pages. URL:", result$strategy_url)
   
   return(result)
 }
@@ -513,6 +654,12 @@ run_phase2 <- function() {
   # Final summary
   print_final_summary(hospitals)
   
+  # Close diagnostic log if enabled
+  if (CONFIG$diagnostic_mode) {
+    sink()  # Stop redirecting output
+    cat("\nDiagnostic log saved to:", CONFIG$log_file, "\n")
+  }
+  
   return(hospitals)
 }
 
@@ -530,8 +677,11 @@ create_summary_csv <- function(hospitals) {
         pdf_found = FALSE,
         pdf_url = "",
         pdf_downloaded = FALSE,
+        download_confidence = "",
         local_folder = "",
         local_filename = "",
+        manual_pdf_url = "",
+        requires_manual_review = FALSE,
         strategy_notes = "Not processed"
       )
     }
@@ -546,8 +696,11 @@ create_summary_csv <- function(hospitals) {
       PDF_Found = search$pdf_found,
       PDF_URL = search$pdf_url,
       PDF_Downloaded = search$pdf_downloaded,
+      Download_Confidence = ifelse(is.null(search$download_confidence), "", search$download_confidence),
       Local_Folder = search$local_folder,
       Local_Filename = search$local_filename,
+      Manual_PDF_URL = ifelse(is.null(search$manual_pdf_url), "", search$manual_pdf_url),
+      Requires_Manual_Review = ifelse(is.null(search$requires_manual_review), FALSE, search$requires_manual_review),
       Notes = search$strategy_notes,
       Search_Date = search$search_date,
       stringsAsFactors = FALSE
@@ -560,6 +713,17 @@ create_summary_csv <- function(hospitals) {
   write.csv(summary_data, csv_file, row.names = FALSE)
   
   cat("Summary CSV saved:", csv_file, "\n")
+  
+  # Create manual review subset
+  manual_review <- summary_data %>%
+    filter(Requires_Manual_Review == TRUE)
+  
+  if (nrow(manual_review) > 0) {
+    manual_file <- file.path(CONFIG$output_path, paste0("manual_review_needed_", timestamp, ".csv"))
+    write.csv(manual_review, manual_file, row.names = FALSE)
+    cat("Manual review CSV saved:", manual_file, "\n")
+    cat("  ->", nrow(manual_review), "hospitals require manual review\n")
+  }
   
   return(summary_data)
 }
@@ -577,6 +741,10 @@ print_final_summary <- function(hospitals) {
   url_found <- 0
   pdf_found <- 0
   downloaded <- 0
+  high_confidence <- 0
+  medium_confidence <- 0
+  manual_confidence <- 0
+  needs_review <- 0
   
   for (h in hospitals) {
     search <- h$strategy_search
@@ -592,6 +760,17 @@ print_final_summary <- function(hospitals) {
       }
       if (!is.null(search$pdf_downloaded) && (search$pdf_downloaded == TRUE || search$pdf_downloaded == "true")) {
         downloaded <- downloaded + 1
+        
+        # Count by confidence
+        conf <- search$download_confidence
+        if (!is.null(conf)) {
+          if (conf == "high") high_confidence <- high_confidence + 1
+          if (conf == "medium") medium_confidence <- medium_confidence + 1
+          if (conf == "manual") manual_confidence <- manual_confidence + 1
+        }
+      }
+      if (!is.null(search$requires_manual_review) && (search$requires_manual_review == TRUE || search$requires_manual_review == "true")) {
+        needs_review <- needs_review + 1
       }
     }
   }
@@ -603,7 +782,11 @@ print_final_summary <- function(hospitals) {
   cat("Strategy URL found:", url_found, "\n")
   cat("PDF found:", pdf_found, "\n")
   cat("PDF downloaded:", downloaded, "\n")
+  cat("  - High confidence:", high_confidence, "\n")
+  cat("  - Medium confidence:", medium_confidence, "(verify correct plan)\n")
+  cat("  - Manual URL provided:", manual_confidence, "\n")
   cat("Not found:", not_found, "\n")
+  cat("Requires manual review:", needs_review, "\n")
   cat("\n")
   if (attempted > 0) {
     cat("Success rate:", round(downloaded / attempted * 100, 1), "%\n")
