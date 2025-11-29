@@ -1,0 +1,250 @@
+- FAC: '592'
+  name: NAPANEE LENNOX & ADDINGTON
+  hospital_type: Small Hospital
+  base_url: https://web.lacgh.napanee.on.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://web.lacgh.napanee.on.ca/about/governance/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 3 high-value sections
+- FAC: '593'
+  name: Middlesex Hospital Alliance NEWBURY FOUR COUNTIES HEALTH SERV.
+  hospital_type: Small Hospital
+  base_url: https://mhalliance.on.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://mhalliance.on.ca/about/administration/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://mhalliance.on.ca/about/strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://mhalliance.on.ca/about/strategic-plan/'
+- FAC: '596'
+  name: Alliston Stevenson Memorial Hospital
+  hospital_type: Small Hospital
+  base_url: https://www.stevensonhospital.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.stevensonhospital.ca/senior-leadership
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.stevensonhospital.ca/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.stevensonhospital.ca/uploads/Stevenson%20HSP-PDF-Final-Novideos.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    local_folder: 596_Alliston_Stevenson_Memorial_Hospital
+    local_filename: Strategy_202511_596.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-1): https://www.stevensonhospital.ca/strategic-plan
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '597'
+  name: ALMONTE GENERAL
+  hospital_type: Small Hospital
+  base_url: https://www.mrha.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.mrha.ca/seniorteam
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.mrha.ca/strategicplan?t=1
+    pdf_found: yes
+    pdf_url: https://www.mrha.ca/uploads/Common/MHR%20Strategic%20Plan%20Draft%20V4%20January%202023.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    local_folder: 597_ALMONTE_GENERAL
+    local_filename: Strategy_202511_597.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.mrha.ca/strategicplan?t=1
+      (confidence: high)'
+- FAC: '599'
+  name: ARNPRIOR & DISTRICT MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.arnpriorregionalhealth.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.arnpriorregionalhealth.ca/about-us/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.arnpriorregionalhealth.ca/about-us/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.arnpriorregionalhealth.ca/wp-content/uploads/2023/04/Strategic-Plan-Snapshot_2023-26_WEBSITE_FINAL.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    local_folder: 599_ARNPRIOR_DISTRICT_MEMORIAL
+    local_filename: Strategy_202511_599.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.arnpriorregionalhealth.ca/about-us/strategic-plan/
+      (confidence: high)'
+- FAC: '601'
+  name: GUELPH HOMEWOOD
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://homewoodhealth.com
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://homewoodhealth.com/home/about-us/leadership/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 0 high-value sections
+- FAC: '606'
+  name: BARRIE ROYAL VICTORIA REG HC
+  hospital_type: Large Community Hospital
+  base_url: https://www.rvh.on.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.rvh.on.ca/about-rvh/senior-leadership-team/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.rvh.on.ca/wp-content/uploads/2024/06/RVH-Strategic-Plan-DOWNLOADABLE.pdf
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-2) but no PDF. Checked 1 pages. URL:
+      https://www.rvh.on.ca/wp-content/uploads/2024/06/RVH-Strategic-Plan-DOWNLOADABLE.pdf'
+- FAC: '611'
+  name: BLIND RIVER NORTH SHORE HN
+  hospital_type: Small Hospital
+  base_url: https://www.nshn.care
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.nshn.care/senior-leadership-team
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.nshn.care/strategicplan
+    pdf_found: yes
+    pdf_url: https://www.nshn.care/_files/ugd/329c84_8075469a4cd8486184bb720f83d7a02c.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    local_folder: 611_BLIND_RIVER_NORTH_SHORE_HN
+    local_filename: Strategy_202511_611.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.nshn.care/strategicplan
+      (confidence: high)'
+- FAC: '619'
+  name: BROCKVILLE GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.brockvillegeneralhospital.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://www.brockvillegeneralhospital.ca/who-we-are/executive-leadership-team/
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://www.brockvillegeneralhospital.ca/who-we-are/strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://www.brockvillegeneralhospital.ca/who-we-are/strategic-plan/'
+- FAC: '624'
+  name: Campbellford Memorial Hospital
+  hospital_type: Small Hospital
+  base_url: https://cmh.ca
+  base_url_validated: yes
+  robots_allowed: yes
+  last_validated: '2025-11-28'
+  leadership_url: https://cmh.ca/our-executive-leadership-team
+  notes: ''
+  status: ~
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-11-29'
+    strategy_url_found: yes
+    strategy_url: https://strategicplan.cmh.ca
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 5 pages. URL:
+      https://strategicplan.cmh.ca'

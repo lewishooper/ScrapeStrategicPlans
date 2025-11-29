@@ -12,6 +12,8 @@
 - [ ] Confirm 5 test hospitals in YAML file
 - [ ] Have this checklist open for reference
 - [] set parameters for "Claude"
+- [] Tell claude to stop created  backups for yaml code  I have them in file history
+
 
 ---
 

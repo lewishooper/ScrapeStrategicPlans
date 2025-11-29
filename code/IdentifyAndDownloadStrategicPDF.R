@@ -2,6 +2,7 @@
 # Purpose: Search validated hospital websites for strategic plan PDFs and download them
 # Author: Created for hospital strategic plan database project
 # Date: 2025-11-28
+# Enhanced: 2025-11-29 - Added depth-2 search for high-value sections
 
 # Required Libraries ----
 library(yaml)
@@ -17,9 +18,12 @@ library(urltools)
 CONFIG <- list(
   # Project paths
   base_dir = "E:/Hospital_Strategic_Plans",
-  yaml_file = "code/base_hospitals_validated.yaml",
   output_folder = "Outputs",
   pdf_folder = "strategic_plans",
+  
+  # File paths - INPUT and OUTPUT
+  input_yaml = "code/base_hospitals_validated.yaml",      # Read from here
+  output_yaml = "code/base_hospitals_validated_TEST.yaml", # Write to here (TEST MODE)
   
   # Search keywords (case-insensitive)
   tier1_keywords = c(
@@ -37,8 +41,44 @@ CONFIG <- list(
     "future planning"
   ),
   
+  # High-value sections worth searching deeper (depth-2)
+  high_value_sections = c(
+    "about",
+    "about-us",
+    "about us",
+    "who-we-are",
+    "who we are",
+    "our-organization",
+    "our organization",
+    "publications",
+    "reports",
+    "governance",
+    "corporate"
+  ),
+  
+  # Low-value sections to skip (don't search deeper)
+  skip_sections = c(
+    "contact",
+    "map",
+    "directions",
+    "location",
+    "careers",
+    "jobs",
+    "employment",
+    "news",
+    "media",
+    "events",
+    "patient",
+    "visitor",
+    "donate",
+    "donation",
+    "foundation",
+    "volunteer"
+  ),
+  
   # Search parameters
   max_pages_to_check = 5,
+  max_depth2_pages = 3,  # Max high-value pages to search at depth-2
   search_depth = 2,
   
   # Ethical scraping
@@ -48,7 +88,7 @@ CONFIG <- list(
   
   # Testing mode
   test_mode = TRUE,  # Set to FALSE for full run
-  test_sample_size = 5,
+  test_sample_size = 10,
   
   # Diagnostic mode - shows detailed link analysis
   diagnostic_mode = TRUE  # Set to FALSE to reduce console output
@@ -58,8 +98,13 @@ CONFIG <- list(
 initialize_project <- function() {
   cat("\n")
   cat(strrep("=", 70), "\n")
-  cat("Phase 2: Strategic Plan Discovery & PDF Download\n")
+  cat("Phase 2: Strategic Plan Discovery & Download\n")
+  cat("With Depth-2 Search for High-Value Sections\n")
   cat(strrep("=", 70), "\n\n")
+  
+  # Display file configuration
+  cat("[CONFIG] Input file:  ", CONFIG$input_yaml, "\n")
+  cat("[CONFIG] Output file: ", CONFIG$output_yaml, "\n")
   
   # Check base directory
   if (!dir.exists(CONFIG$base_dir)) {
@@ -79,6 +124,10 @@ initialize_project <- function() {
   
   if (CONFIG$test_mode) {
     cat("\n*** TEST MODE: Processing only", CONFIG$test_sample_size, "hospitals ***\n")
+    cat("*** Master file will NOT be overwritten - results go to TEST file ***\n")
+  } else {
+    cat("\n*** FULL RUN MODE: Processing all hospitals ***\n")
+    cat("*** WARNING: Master file WILL be updated ***\n")
   }
   
   if (CONFIG$diagnostic_mode) {
@@ -104,11 +153,14 @@ initialize_project <- function() {
 
 # Read YAML file
 read_yaml_hospitals <- function() {
-  yaml_path <- file.path(CONFIG$base_dir, CONFIG$yaml_file)
+  # Use input_yaml from CONFIG
+  yaml_path <- file.path(CONFIG$base_dir, CONFIG$input_yaml)
   
   if (!file.exists(yaml_path)) {
     stop("YAML file not found: ", yaml_path)
   }
+  
+  cat("[LOAD] Reading from: ", CONFIG$input_yaml, "\n")
   
   data <- read_yaml(yaml_path)
   
@@ -121,24 +173,37 @@ read_yaml_hospitals <- function() {
     hospitals <- data$hospitals
   }
   
-  cat("Loaded", length(hospitals), "hospitals from YAML\n\n")
+  cat("[LOAD] Total hospitals in file:", length(hospitals), "\n\n")
   
   return(hospitals)
 }
 
 # Write updated YAML file
 write_yaml_hospitals <- function(hospitals) {
-  yaml_path <- file.path(CONFIG$base_dir, CONFIG$yaml_file)
+  # Use output_yaml from CONFIG
+  yaml_path <- file.path(CONFIG$base_dir, CONFIG$output_yaml)
   
   # Create backup
-  backup_path <- paste0(yaml_path, ".backup.", format(Sys.time(), "%Y%m%d_%H%M%S"))
-  file.copy(yaml_path, backup_path)
-  cat("Created backup:", backup_path, "\n")
+  backup_dir <- file.path(CONFIG$base_dir, "Backups")
+  if (!dir.exists(backup_dir)) {
+    dir.create(backup_dir, recursive = TRUE)
+  }
+  
+  timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+  output_filename <- basename(CONFIG$output_yaml)
+  backup_path <- file.path(backup_dir, paste0(output_filename, ".backup.", timestamp))
+  
+  # Only backup if output file already exists
+  if (file.exists(yaml_path)) {
+    file.copy(yaml_path, backup_path)
+    cat("[BACKUP] Created:", backup_path, "\n")
+  }
   
   # Write updated YAML - maintain original structure (list without 'hospitals:' key)
   write_yaml(hospitals, yaml_path)
   
-  cat("Updated YAML file:", yaml_path, "\n")
+  cat("[SAVE] Updated YAML to:", CONFIG$output_yaml, "\n")
+  cat("[SAVE] Total hospitals written:", length(hospitals), "\n")
 }
 
 # Clean hospital name for folder/file names
@@ -292,14 +357,32 @@ matches_strategy_keywords <- function(url, text) {
   return(list(match = FALSE, tier = NA))
 }
 
+# NEW: Check if link is a high-value section worth searching
+is_high_value_section <- function(url, text) {
+  combined <- str_to_lower(paste(url, text))
+  
+  # Check if matches high-value keywords
+  is_high_value <- any(sapply(CONFIG$high_value_sections, function(kw) {
+    str_detect(combined, fixed(kw, ignore_case = TRUE))
+  }))
+  
+  # Check if matches skip keywords (exclude these)
+  should_skip <- any(sapply(CONFIG$skip_sections, function(kw) {
+    str_detect(combined, fixed(kw, ignore_case = TRUE))
+  }))
+  
+  # Return TRUE only if high-value AND NOT in skip list
+  return(is_high_value && !should_skip)
+}
+
 # Check if URL is a PDF
 is_pdf_url <- function(url) {
   str_detect(str_to_lower(url), "\\.pdf($|\\?)")
 }
 
-# Search for strategy page URLs
+# Search for strategy page URLs (DEPTH 1 - Main Page)
 search_for_strategy_page <- function(base_url) {
-  cat("  Searching for strategic plan pages...\n")
+  cat("  [DEPTH-1] Searching main page for strategic plan links...\n")
   
   if (CONFIG$diagnostic_mode) {
     cat("  [DIAGNOSTIC MODE ENABLED]\n")
@@ -311,7 +394,7 @@ search_for_strategy_page <- function(base_url) {
   
   if (!response$success) {
     cat("  ERROR: Could not access base URL -", response$error, "\n")
-    return(list(found = FALSE, urls = NULL, error = response$error))
+    return(list(found = FALSE, urls = NULL, high_value_links = NULL, error = response$error))
   }
   
   # Get all links from main page
@@ -319,7 +402,7 @@ search_for_strategy_page <- function(base_url) {
   
   if (nrow(main_links) == 0) {
     cat("  WARNING: No links found on main page\n")
-    return(list(found = FALSE, urls = NULL, error = "No links found"))
+    return(list(found = FALSE, urls = NULL, high_value_links = NULL, error = "No links found"))
   }
   
   cat("  Found", nrow(main_links), "total links on main page\n")
@@ -350,15 +433,30 @@ search_for_strategy_page <- function(base_url) {
     arrange(tier, url) %>%
     select(url, text, tier)
   
-  if (nrow(strategy_links) == 0) {
-    cat("  No strategic plan pages found\n")
-    cat("  DIAGNOSTIC: None of the", nrow(main_links), "links matched strategy keywords\n")
-    cat("  Current Tier 1 keywords:", paste(CONFIG$tier1_keywords, collapse=", "), "\n")
-    cat("  Current Tier 2 keywords:", paste(CONFIG$tier2_keywords, collapse=", "), "\n")
-    return(list(found = FALSE, urls = NULL, error = "No strategy keywords found"))
+  # ALSO identify high-value section links for potential depth-2 search
+  high_value_results <- lapply(1:nrow(main_links), function(i) {
+    is_high_value_section(main_links$url[i], main_links$text[i])
+  })
+  
+  high_value_links <- main_links %>%
+    mutate(is_high_value = unlist(high_value_results)) %>%
+    filter(is_high_value == TRUE) %>%
+    select(url, text)
+  
+  if (CONFIG$diagnostic_mode && nrow(high_value_links) > 0) {
+    cat("  [DEPTH-2 PREP] Found", nrow(high_value_links), "high-value sections for potential depth-2 search:\n")
+    for (i in 1:min(3, nrow(high_value_links))) {
+      cat("    ", i, ".", high_value_links$url[i], "\n")
+    }
   }
   
-  cat("  Found", nrow(strategy_links), "potential strategy pages:\n")
+  if (nrow(strategy_links) == 0) {
+    cat("  [DEPTH-1] No strategic plan pages found on main page\n")
+    # Return high-value links for depth-2 search
+    return(list(found = FALSE, urls = NULL, high_value_links = high_value_links, error = "No strategy keywords on main page"))
+  }
+  
+  cat("  [DEPTH-1] Found", nrow(strategy_links), "potential strategy pages:\n")
   for (i in 1:nrow(strategy_links)) {
     cat("    ", i, ". (Tier", strategy_links$tier[i], ")", strategy_links$url[i], "\n")
     cat("       Link text:", strategy_links$text[i], "\n")
@@ -370,7 +468,89 @@ search_for_strategy_page <- function(base_url) {
     cat("  Limiting to first", CONFIG$max_pages_to_check, "pages\n")
   }
   
-  return(list(found = TRUE, urls = strategy_links, error = NULL))
+  return(list(found = TRUE, urls = strategy_links, high_value_links = high_value_links, error = NULL))
+}
+
+# NEW: Search high-value sections at depth-2
+search_depth_2 <- function(high_value_links, base_url) {
+  cat("  [DEPTH-2] Searching high-value sections for strategic plan links...\n")
+  
+  if (is.null(high_value_links) || nrow(high_value_links) == 0) {
+    cat("  [DEPTH-2] No high-value sections to search\n")
+    return(list(found = FALSE, urls = NULL, error = "No high-value sections"))
+  }
+  
+  # Limit number of pages to check
+  pages_to_check <- min(nrow(high_value_links), CONFIG$max_depth2_pages)
+  high_value_links <- high_value_links[1:pages_to_check, ]
+  
+  cat("  [DEPTH-2] Checking", pages_to_check, "high-value section(s):\n")
+  
+  all_strategy_links <- data.frame()
+  
+  for (i in 1:nrow(high_value_links)) {
+    section_url <- high_value_links$url[i]
+    cat("    ", i, ". Checking:", section_url, "\n")
+    
+    # Get the section page
+    response <- safe_get(section_url)
+    
+    if (!response$success) {
+      cat("       ERROR:", response$error, "\n")
+      next
+    }
+    
+    # Get links from this section page
+    section_links <- get_page_links(content(response$response), base_url)
+    
+    if (nrow(section_links) == 0) {
+      cat("       No links found\n")
+      next
+    }
+    
+    # Find strategy-related links on this page
+    match_results <- lapply(1:nrow(section_links), function(j) {
+      matches_strategy_keywords(section_links$url[j], section_links$text[j])
+    })
+    
+    strategy_matches <- section_links %>%
+      mutate(
+        is_match = sapply(match_results, function(x) x$match),
+        tier = sapply(match_results, function(x) x$tier)
+      ) %>%
+      filter(is_match == TRUE) %>%
+      arrange(tier, url) %>%
+      select(url, text, tier)
+    
+    if (nrow(strategy_matches) > 0) {
+      cat("       ✓ Found", nrow(strategy_matches), "strategic plan link(s)!\n")
+      all_strategy_links <- bind_rows(all_strategy_links, strategy_matches)
+    } else {
+      cat("       No strategic plan links found\n")
+    }
+  }
+  
+  if (nrow(all_strategy_links) == 0) {
+    cat("  [DEPTH-2] No strategic plan pages found in high-value sections\n")
+    return(list(found = FALSE, urls = NULL, error = "No strategy keywords in depth-2 search"))
+  }
+  
+  # Remove duplicates and sort
+  all_strategy_links <- all_strategy_links %>%
+    distinct(url, .keep_all = TRUE) %>%
+    arrange(tier, url)
+  
+  cat("  [DEPTH-2] Total unique strategy pages found:", nrow(all_strategy_links), "\n")
+  for (i in 1:min(3, nrow(all_strategy_links))) {
+    cat("    ", i, ". (Tier", all_strategy_links$tier[i], ")", all_strategy_links$url[i], "\n")
+  }
+  
+  # Limit to max pages
+  if (nrow(all_strategy_links) > CONFIG$max_pages_to_check) {
+    all_strategy_links <- all_strategy_links[1:CONFIG$max_pages_to_check, ]
+  }
+  
+  return(list(found = TRUE, urls = all_strategy_links, error = NULL))
 }
 
 # Find PDF on a strategy page
@@ -552,20 +732,82 @@ process_hospital <- function(hospital) {
     }
   }
   
-  # Search for strategy pages
+  # DEPTH-1: Search main page for strategy pages
   search_result <- search_for_strategy_page(base_url)
   
-  if (!search_result$found) {
-    result$strategy_notes <- search_result$error
+  # If found at depth-1, process those URLs
+  if (search_result$found) {
+    result$strategy_url_found <- TRUE
+    
+    # Try each strategy page
+    for (i in 1:nrow(search_result$urls)) {
+      strategy_url <- search_result$urls$url[i]
+      result$strategy_url <- strategy_url
+      
+      # Look for PDF
+      pdf_result <- find_strategy_pdf(strategy_url, base_url)
+      
+      if (pdf_result$found) {
+        result$pdf_found <- TRUE
+        result$pdf_url <- pdf_result$pdf_url
+        result$download_confidence <- pdf_result$confidence
+        
+        # Download PDF
+        download_result <- download_pdf(pdf_result$pdf_url, fac, name)
+        
+        if (download_result$success) {
+          result$pdf_downloaded <- TRUE
+          result$local_folder <- download_result$folder
+          result$local_filename <- download_result$filename
+          result$strategy_notes <- paste0("Found on page (depth-1): ", strategy_url, 
+                                          " (confidence: ", pdf_result$confidence, ")")
+          
+          # Flag medium confidence downloads for manual verification
+          if (pdf_result$confidence == "medium") {
+            result$requires_manual_review <- TRUE
+            result$strategy_notes <- paste0(result$strategy_notes, 
+                                            " - Please verify this is the correct strategic plan")
+          }
+          
+          return(result)
+        } else {
+          # Download failed - capture URL for manual download
+          result$manual_pdf_url <- pdf_result$pdf_url
+          result$requires_manual_review <- TRUE
+          result$strategy_notes <- paste("PDF found but download failed:", download_result$error, 
+                                         "- PDF URL saved for manual review")
+          return(result)
+        }
+      }
+    }
+    
+    # Strategy page found but no PDF
+    result$requires_manual_review <- TRUE
+    result$strategy_notes <- paste("Strategy page found (depth-1) but no PDF. Checked", 
+                                   nrow(search_result$urls), "pages. URL:", result$strategy_url)
+    return(result)
+  }
+  
+  # DEPTH-2: Not found at depth-1, try searching high-value sections
+  cat("  [DEPTH-1] No strategy pages found, trying depth-2 search...\n")
+  
+  depth2_result <- search_depth_2(search_result$high_value_links, base_url)
+  
+  if (!depth2_result$found) {
+    result$strategy_notes <- paste("No strategy pages found after depth-1 and depth-2 search.", 
+                                   "Checked main page and", 
+                                   ifelse(is.null(search_result$high_value_links), 0, nrow(search_result$high_value_links)),
+                                   "high-value sections")
     result$requires_manual_review <- TRUE
     return(result)
   }
   
+  # Found at depth-2!
   result$strategy_url_found <- TRUE
   
-  # Try each strategy page
-  for (i in 1:nrow(search_result$urls)) {
-    strategy_url <- search_result$urls$url[i]
+  # Try each depth-2 strategy page
+  for (i in 1:nrow(depth2_result$urls)) {
+    strategy_url <- depth2_result$urls$url[i]
     result$strategy_url <- strategy_url
     
     # Look for PDF
@@ -583,7 +825,7 @@ process_hospital <- function(hospital) {
         result$pdf_downloaded <- TRUE
         result$local_folder <- download_result$folder
         result$local_filename <- download_result$filename
-        result$strategy_notes <- paste0("Found on page: ", strategy_url, 
+        result$strategy_notes <- paste0("Found on page (depth-2): ", strategy_url, 
                                         " (confidence: ", pdf_result$confidence, ")")
         
         # Flag medium confidence downloads for manual verification
@@ -598,17 +840,17 @@ process_hospital <- function(hospital) {
         # Download failed - capture URL for manual download
         result$manual_pdf_url <- pdf_result$pdf_url
         result$requires_manual_review <- TRUE
-        result$strategy_notes <- paste("PDF found but download failed:", download_result$error, 
+        result$strategy_notes <- paste("PDF found (depth-2) but download failed:", download_result$error, 
                                        "- PDF URL saved for manual review")
         return(result)
       }
     }
   }
   
-  # If we get here, strategy page found but no PDF
+  # Strategy page found at depth-2 but no PDF
   result$requires_manual_review <- TRUE
-  result$strategy_notes <- paste("Strategy page found but no PDF. Checked", 
-                                 nrow(search_result$urls), "pages. URL:", result$strategy_url)
+  result$strategy_notes <- paste("Strategy page found (depth-2) but no PDF. Checked", 
+                                 nrow(depth2_result$urls), "pages. URL:", result$strategy_url)
   
   return(result)
 }
@@ -623,7 +865,9 @@ run_phase2 <- function() {
   # Test mode - limit sample
   if (CONFIG$test_mode) {
     hospitals <- hospitals[1:min(CONFIG$test_sample_size, length(hospitals))]
-    cat("TEST MODE: Processing", length(hospitals), "hospitals\n\n")
+    cat("[FILTER] Processing", length(hospitals), "of total hospitals\n\n")
+  } else {
+    cat("[FULL RUN] Processing all", length(hospitals), "hospitals\n\n")
   }
   
   # Process each hospital
@@ -789,7 +1033,18 @@ print_final_summary <- function(hospitals) {
   cat("Requires manual review:", needs_review, "\n")
   cat("\n")
   if (attempted > 0) {
-    cat("Success rate:", round(downloaded / attempted * 100, 1), "%\n")
+    success_rate <- round(downloaded / attempted * 100, 0)
+    cat("Success rate:", success_rate, "%\n")
+    cat("\nActions:\n")
+    if (success_rate >= 80) {
+      cat("✓ Excellent! Ready for full deployment or expand to 25+ hospitals\n")
+    } else if (success_rate >= 60) {
+      cat("✓ Good progress! Consider expanding to 25 hospitals\n")
+    } else if (success_rate >= 40) {
+      cat("→ Review diagnostic logs and adjust keywords/search depth\n")
+    } else {
+      cat("→ Review failures and refine search strategy\n")
+    }
   } else {
     cat("Success rate: N/A (no searches attempted)\n")
   }
@@ -801,5 +1056,6 @@ if (!interactive()) {
   results <- run_phase2()
 } else {
   cat("\nScript loaded. Run with: results <- run_phase2()\n")
-  cat("To change test mode: CONFIG$test_mode <- FALSE\n\n")
+  cat("To change test mode: CONFIG$test_mode <- FALSE\n")
+  cat("To process all hospitals: CONFIG$output_yaml <- 'code/base_hospitals_validated.yaml'\n\n")
 }

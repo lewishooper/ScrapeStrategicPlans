@@ -11,5 +11,8 @@ setwd("E:/Hospital_Strategic_Plans/code") if necessary in thecode
   
 3) using the "base_hospital_validated.yaml" file we will add the link where a pdf
     labled stratetgic plan is located. and add it to the base_hospital_validated.yaml file
-    The file for this is "IdentifyAndDownloadStrategicPDF.R""
+    The file for this is "IdentifyAndDownloadStrategicPDF.R"
+    This process updates the base_hospitals_validated.yaml file with the location of a stratetgic url
+    it then attempts to identify a pdf with the strategic plan and download it.
+    
     
