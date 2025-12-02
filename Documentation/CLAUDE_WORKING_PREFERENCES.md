@@ -79,10 +79,12 @@ When outputting YAML for hospital cards:
 
 Quick reminders for new sessions:
 - "Debug in my R environment"
-- "YAML needs 2-space indent"
-- Reference this document for full context
-
+- "our working directory is E:/Hospital_Strategic_Plans"
+- Reference this document Claude_working_preferences.MD for full context
+- pls review these files:
+      identifyAndDownloadStratetgicPDF.R and the
+      Hospital_strategy.yaml 
 ---
 
-*Last Updated: November 2024*
+*Last Updated: December 1 2025*
 *This document should be uploaded to the Project Knowledge for persistent reference*
