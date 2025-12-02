@@ -56,17 +56,6 @@ hospitals:
 
 
 
-  - FAC: '601'
-    name: GUELPH HOMEWOOD
-    hospital_type: Specialty Mental Health Hospital
-    base_url: https://homewoodhealth.com
-    base_url_validated: yes
-    robots_allowed: yes
-    last_validated: '2025-11-28'
-    leadership_url: https://homewoodhealth.com/home/about-us/leadership/
-    notes: ''
-    status:
-
   - FAC: '606'
     name: BARRIE ROYAL VICTORIA REG HC
     hospital_type: Large Community Hospital
