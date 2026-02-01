@@ -164,6 +164,7 @@ streamline_hospital <- function(hospital) {
         pdf_url = "",
         pdf_downloaded = FALSE,
         download_confidence = "",
+        content_type = "",
         local_folder = "",
         local_filename = "",
         manual_pdf_url = "",
@@ -694,6 +695,7 @@ process_hospital <- function(hospital) {
     pdf_url = "",
     pdf_downloaded = FALSE,
     download_confidence = "",
+    content_type = "",
     local_folder = "",
     local_filename = "",
     manual_pdf_url = "",
@@ -759,6 +761,29 @@ process_hospital <- function(hospital) {
     for (i in 1:nrow(search_result$urls)) {
       strategy_url <- search_result$urls$url[i]
       result$strategy_url <- strategy_url
+      # NEW: Check if the strategy URL itself is a direct PDF link
+      if (is_pdf_url(strategy_url)) {
+        cat("  [PDF] Strategy URL is a direct PDF link!\n")
+        result$pdf_found <- TRUE
+        result$pdf_url <- strategy_url
+        result$download_confidence <- "high"
+        
+        download_result <- download_pdf(strategy_url, fac, name)
+        
+        if (download_result$success) {
+          result$pdf_downloaded <- TRUE
+          result$local_folder <- download_result$folder
+          result$local_filename <- download_result$filename
+          result$strategy_notes <- paste0("Direct PDF link found (depth-1): ", strategy_url, " (confidence: high)")
+          result$requires_manual_review <- FALSE
+          return(result)
+        } else {
+          result$manual_pdf_url <- strategy_url
+          result$requires_manual_review <- TRUE
+          result$strategy_notes <- paste("Direct PDF URL found but download failed:", download_result$error, "- PDF URL saved for manual review")
+          return(result)
+        }
+      }
       
       pdf_result <- find_strategy_pdf(strategy_url, base_url)
       
@@ -818,6 +843,34 @@ process_hospital <- function(hospital) {
   for (i in 1:nrow(depth2_result$urls)) {
     strategy_url <- depth2_result$urls$url[i]
     result$strategy_url <- strategy_url
+    
+    # NEW: Check if the strategy URL itself is a direct PDF link (DEPTH-2)
+    if (is_pdf_url(strategy_url)) {
+      cat("  [PDF] Strategy URL is a direct PDF link (depth-2)!\n")
+      result$pdf_found <- TRUE
+      result$pdf_url <- strategy_url
+      result$download_confidence <- "high"
+      
+      download_result <- download_pdf(strategy_url, fac, name)
+      
+      if (download_result$success) {
+        result$pdf_downloaded <- TRUE
+        result$local_folder <- download_result$folder
+        result$local_filename <- download_result$filename
+        result$strategy_notes <- paste0("Direct PDF link found (depth-2): ", strategy_url, " (confidence: high)")
+        result$requires_manual_review <- FALSE
+        return(result)
+      } else {
+        result$manual_pdf_url <- strategy_url
+        result$requires_manual_review <- TRUE
+        result$strategy_notes <- paste("Direct PDF URL found (depth-2) but download failed:", download_result$error, "- PDF URL saved for manual review")
+        return(result)
+      }
+    }
+    
+    # Continue with existing logic
+    pdf_result <- find_strategy_pdf(strategy_url, base_url)
+    
     
     pdf_result <- find_strategy_pdf(strategy_url, base_url)
     
