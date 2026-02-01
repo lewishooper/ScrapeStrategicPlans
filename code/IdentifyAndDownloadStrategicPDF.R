@@ -3,6 +3,7 @@
 # Author: Created for hospital strategic plan database project
 # Date: 2025-11-28
 # Enhanced: 2025-12-01 - Single output file, streamlined structure, enhanced manual review
+# Fixed: 2025-12-04 - Data preservation, safe test mode, HTML tracking
 
 # Required Libraries ----
 library(yaml)
@@ -13,6 +14,7 @@ library(stringr)
 library(purrr)
 library(lubridate)
 library(urltools)
+library(tibble)
 
 # Configuration ----
 CONFIG <- list(
@@ -88,10 +90,10 @@ CONFIG <- list(
   
   # Testing mode
   test_mode = TRUE,  # Set to FALSE for full run
-  test_sample_size = 70,
+  test_sample_size =3,
   
   # Diagnostic mode
-  diagnostic_mode = TRUE
+  diagnostic_mode = FALSE
 )
 
 # Initialize ----
@@ -99,8 +101,8 @@ initialize_project <- function() {
   cat("\n")
   cat(strrep("=", 70), "\n")
   cat("Phase 2: Strategic Plan Discovery & Download\n")
-  cat("Single Working File Approach\n")
-  cat(strrep("=", 70), "\n\n")
+  cat("FIXED VERSION - Data Preservation & Safe Test Mode\n")
+  cat(strrep("=", 75), "\n\n")
   
   # Display file configuration
   cat("[CONFIG] Master source: ", CONFIG$master_yaml, "\n")
@@ -124,6 +126,7 @@ initialize_project <- function() {
   
   if (CONFIG$test_mode) {
     cat("\n*** TEST MODE: Processing only", CONFIG$test_sample_size, "hospitals ***\n")
+    cat("*** All other hospitals will be preserved unchanged ***\n")
   } else {
     cat("\n*** FULL RUN MODE: Processing all hospitals ***\n")
   }
@@ -145,7 +148,7 @@ initialize_project <- function() {
 
 # Helper Functions ----
 
-# NEW: Streamline hospital data for output file
+# Streamline hospital data for output file
 streamline_hospital <- function(hospital) {
   list(
     FAC = hospital$FAC,
@@ -175,7 +178,8 @@ streamline_hospital <- function(hospital) {
   )
 }
 
-# NEW: Read hospitals with first-run detection
+#read_yaml_hospitals()
+# Read hospitals with first-run detection
 read_yaml_hospitals <- function() {
   working_path <- file.path(CONFIG$base_dir, CONFIG$working_yaml)
   master_path <- file.path(CONFIG$base_dir, CONFIG$master_yaml)
@@ -674,7 +678,7 @@ download_pdf <- function(pdf_url, fac, hospital_name) {
   })
 }
 
-# Process single hospital
+# Process single hospital ----
 process_hospital <- function(hospital) {
   fac <- hospital$FAC
   name <- hospital$name
@@ -685,7 +689,20 @@ process_hospital <- function(hospital) {
   cat("Base URL:", base_url, "\n")
   cat(strrep("=", 70), "\n")
   
-  # Initialize result structure
+  # SKIP if already successfully downloaded (unless manual_pdf_url is present for update)
+  if (!is.null(hospital$strategy_search$pdf_downloaded) && 
+      hospital$strategy_search$pdf_downloaded == TRUE &&
+      (is.null(hospital$strategy_search$manual_pdf_url) || 
+       hospital$strategy_search$manual_pdf_url == "")) {
+    
+    cat("  [SKIP] PDF already downloaded. Preserving existing data.\n")
+    cat(strrep("=", 70), "\n")
+    
+    # Return existing data unchanged
+    return(hospital$strategy_search)
+  }
+  
+  # Initialize result structure - PRESERVE EXISTING MANUAL DATA
   result <- list(
     search_attempted = TRUE,
     search_date = as.character(Sys.Date()),
@@ -695,10 +712,26 @@ process_hospital <- function(hospital) {
     pdf_url = "",
     pdf_downloaded = FALSE,
     download_confidence = "",
-    content_type = "",
+    
+    # PRESERVE content_type from previous run if it exists
+    content_type = if (!is.null(hospital$strategy_search$content_type) && 
+                       hospital$strategy_search$content_type != "") {
+      hospital$strategy_search$content_type
+    } else {
+      ""
+    },
+    
     local_folder = "",
     local_filename = "",
-    manual_pdf_url = "",
+    
+    # PRESERVE manual_pdf_url from previous run if it exists
+    manual_pdf_url = if (!is.null(hospital$strategy_search$manual_pdf_url) && 
+                         hospital$strategy_search$manual_pdf_url != "") {
+      hospital$strategy_search$manual_pdf_url
+    } else {
+      ""
+    },
+    
     requires_manual_review = FALSE,
     strategy_notes = ""
   )
@@ -741,10 +774,12 @@ process_hospital <- function(hospital) {
       result$pdf_downloaded <- TRUE
       result$local_folder <- download_result$folder
       result$local_filename <- download_result$filename
+      result$manual_pdf_url <- manual_pdf  # PRESERVE manual URL
       result$requires_manual_review <- FALSE
       result$strategy_notes <- "Downloaded from manually provided URL"
       return(result)
     } else {
+      result$manual_pdf_url <- manual_pdf  # PRESERVE manual URL even if download failed
       result$requires_manual_review <- TRUE
       result$strategy_notes <- paste("Manual PDF URL provided but download failed:", download_result$error)
       return(result)
@@ -761,7 +796,8 @@ process_hospital <- function(hospital) {
     for (i in 1:nrow(search_result$urls)) {
       strategy_url <- search_result$urls$url[i]
       result$strategy_url <- strategy_url
-      # NEW: Check if the strategy URL itself is a direct PDF link
+      
+      # Check if the strategy URL itself is a direct PDF link
       if (is_pdf_url(strategy_url)) {
         cat("  [PDF] Strategy URL is a direct PDF link!\n")
         result$pdf_found <- TRUE
@@ -844,7 +880,7 @@ process_hospital <- function(hospital) {
     strategy_url <- depth2_result$urls$url[i]
     result$strategy_url <- strategy_url
     
-    # NEW: Check if the strategy URL itself is a direct PDF link (DEPTH-2)
+    # Check if the strategy URL itself is a direct PDF link (DEPTH-2)
     if (is_pdf_url(strategy_url)) {
       cat("  [PDF] Strategy URL is a direct PDF link (depth-2)!\n")
       result$pdf_found <- TRUE
@@ -867,10 +903,6 @@ process_hospital <- function(hospital) {
         return(result)
       }
     }
-    
-    # Continue with existing logic
-    pdf_result <- find_strategy_pdf(strategy_url, base_url)
-    
     
     pdf_result <- find_strategy_pdf(strategy_url, base_url)
     
@@ -912,52 +944,75 @@ process_hospital <- function(hospital) {
   return(result)
 }
 
-# Main Processing Function ----
+# Main Processing Function ---- FIXED VERSION
 run_phase2 <- function() {
   initialize_project()
   
-  # Read hospitals (handles first-run automatically)
-  hospitals <- read_yaml_hospitals()
+  # Read ALL hospitals (never lose data)
+  all_hospitals <- read_yaml_hospitals()
   
-  # Test mode - limit sample
+  cat("[LOAD] Total hospitals in file:", length(all_hospitals), "\n")
+  
+  # Determine which hospitals to process
   if (CONFIG$test_mode) {
-    hospitals <- hospitals[1:min(CONFIG$test_sample_size, length(hospitals))]
-    cat("[FILTER] Processing", length(hospitals), "of total hospitals\n\n")
+    # Test mode - process only a subset
+    hospitals_to_process <- all_hospitals[1:min(CONFIG$test_sample_size, length(all_hospitals))]
+    cat("[TEST MODE] Processing only first", length(hospitals_to_process), "hospitals\n")
+    cat("[TEST MODE] Remaining", length(all_hospitals) - length(hospitals_to_process), 
+        "hospitals will be preserved unchanged\n\n")
   } else {
-    cat("[FULL RUN] Processing all", length(hospitals), "hospitals\n\n")
+    # Full run - process all hospitals
+    hospitals_to_process <- all_hospitals
+    cat("[FULL RUN] Processing all", length(hospitals_to_process), "hospitals\n\n")
   }
   
-  # Process each hospital
+  # Process the selected hospitals
   cat("Starting processing...\n")
   
-  for (i in seq_along(hospitals)) {
-    hospital <- hospitals[[i]]
+  for (i in seq_along(hospitals_to_process)) {
+    hospital <- hospitals_to_process[[i]]
     
     result <- process_hospital(hospital)
     
-    hospitals[[i]]$strategy_search <- result
+    # Update the processed hospital
+    hospitals_to_process[[i]]$strategy_search <- result
     
-    cat("\nProgress:", i, "/", length(hospitals), "hospitals processed\n")
+    cat("\nProgress:", i, "/", length(hospitals_to_process), "hospitals processed\n")
   }
   
-  # Write updated YAML
+  # Merge processed hospitals back into full list
+  if (CONFIG$test_mode) {
+    cat("\n[TEST MODE] Merging results back into full hospital list...\n")
+    # Replace only the processed hospitals in the full list
+    all_hospitals[1:length(hospitals_to_process)] <- hospitals_to_process
+    hospitals_to_save <- all_hospitals
+    cat("[TEST MODE] Preserving", length(all_hospitals) - length(hospitals_to_process), 
+        "unprocessed hospitals\n")
+  } else {
+    # Full run - save all processed hospitals
+    hospitals_to_save <- hospitals_to_process
+  }
+  
+  # Write updated YAML (includes ALL hospitals, not just processed ones)
   cat("\n", strrep("=", 70), "\n")
   cat("Writing updated YAML file...\n")
-  write_yaml_hospitals(hospitals)
+  cat("Hospitals being written:", length(hospitals_to_save), "\n")
+  write_yaml_hospitals(hospitals_to_save)
   
-  # Create summary CSV
+  # Create summary CSV (only for processed hospitals)
   cat("\nCreating summary CSV...\n")
-  create_summary_csv(hospitals)
+  create_summary_csv(hospitals_to_process)
   
-  # Final summary
-  print_final_summary(hospitals)
+  # Final summary (only for processed hospitals)
+  print_final_summary(hospitals_to_process)
   
   if (CONFIG$diagnostic_mode) {
     sink()
     cat("\nDiagnostic log saved to:", CONFIG$log_file, "\n")
   }
   
-  return(hospitals)
+  # Return only processed hospitals (for inspection)
+  return(hospitals_to_process)
 }
 
 # Create summary CSV
@@ -975,6 +1030,7 @@ create_summary_csv <- function(hospitals) {
         pdf_url = "",
         pdf_downloaded = FALSE,
         download_confidence = "",
+        content_type = "",
         local_folder = "",
         local_filename = "",
         manual_pdf_url = "",
@@ -994,6 +1050,7 @@ create_summary_csv <- function(hospitals) {
       PDF_URL = search$pdf_url,
       PDF_Downloaded = search$pdf_downloaded,
       Download_Confidence = ifelse(is.null(search$download_confidence), "", search$download_confidence),
+      Content_Type = ifelse(is.null(search$content_type), "", search$content_type),
       Local_Folder = search$local_folder,
       Local_Filename = search$local_filename,
       Manual_PDF_URL = ifelse(is.null(search$manual_pdf_url), "", search$manual_pdf_url),
@@ -1023,7 +1080,94 @@ create_summary_csv <- function(hospitals) {
   return(summary_data)
 }
 
-# Print final summary
+# Convert YAML to Tibble and save as .rds ----
+convert_yaml_to_tibble <- function(yaml_file = NULL, output_dir = NULL) {
+  # Set defaults from CONFIG if not provided
+  if (is.null(yaml_file)) {
+    yaml_file <- file.path(CONFIG$base_dir, CONFIG$working_yaml)
+  }
+  if (is.null(output_dir)) {
+    output_dir <- CONFIG$output_path
+  }
+  
+  cat("\n", strrep("=", 70), "\n")
+  cat("Converting YAML to Tibble\n")
+  cat(strrep("=", 70), "\n")
+  
+  # Read YAML file
+  cat("Reading YAML file:", yaml_file, "\n")
+  data <- read_yaml(yaml_file)
+  
+  # Handle both structures
+  if (is.null(data$hospitals)) {
+    hospitals <- data
+  } else {
+    hospitals <- data$hospitals
+  }
+  
+  cat("Total hospitals in YAML:", length(hospitals), "\n")
+  
+  # Convert to tibble
+  hospitals_tibble <- map_dfr(hospitals, function(h) {
+    search <- h$strategy_search
+    
+    if (is.null(search)) {
+      search <- list(
+        search_attempted = FALSE,
+        search_date = NA,
+        strategy_url_found = FALSE,
+        strategy_url = "",
+        pdf_found = FALSE,
+        pdf_url = "",
+        pdf_downloaded = FALSE,
+        download_confidence = "",
+        content_type = "",
+        local_folder = "",
+        local_filename = "",
+        manual_pdf_url = "",
+        requires_manual_review = FALSE,
+        strategy_notes = "Not processed"
+      )
+    }
+    
+    tibble(
+      FAC = h$FAC,
+      Hospital_Name = h$name,
+      Hospital_Type = h$hospital_type,
+      Base_URL = h$base_url,
+      Search_Attempted = search$search_attempted,
+      Search_Date = search$search_date,
+      Strategy_URL_Found = search$strategy_url_found,
+      Strategy_URL = search$strategy_url,
+      PDF_Found = search$pdf_found,
+      PDF_URL = search$pdf_url,
+      PDF_Downloaded = search$pdf_downloaded,
+      Download_Confidence = ifelse(is.null(search$download_confidence), "", search$download_confidence),
+      Content_Type = ifelse(is.null(search$content_type), "", search$content_type),
+      Local_Folder = search$local_folder,
+      Local_Filename = search$local_filename,
+      Manual_PDF_URL = ifelse(is.null(search$manual_pdf_url), "", search$manual_pdf_url),
+      Requires_Manual_Review = ifelse(is.null(search$requires_manual_review), FALSE, search$requires_manual_review),
+      Strategy_Notes = search$strategy_notes
+    )
+  })
+  
+  # Create timestamped filename
+  timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+  rds_file <- file.path(output_dir, paste0("hospitals_tibble_", timestamp, ".rds"))
+  
+  # Save tibble as .rds file
+  saveRDS(hospitals_tibble, rds_file)
+  
+  cat("Tibble saved:", rds_file, "\n")
+  cat("Rows:", nrow(hospitals_tibble), "\n")
+  cat("Columns:", ncol(hospitals_tibble), "\n")
+  cat(strrep("=", 70), "\n\n")
+  
+  return(hospitals_tibble)
+}
+
+# Print final summary - FIXED VERSION with HTML tracking
 print_final_summary <- function(hospitals) {
   cat("\n", strrep("=", 70), "\n")
   cat("FINAL SUMMARY\n")
@@ -1039,6 +1183,7 @@ print_final_summary <- function(hospitals) {
   medium_confidence <- 0
   manual_confidence <- 0
   needs_review <- 0
+  html_only <- 0  # NEW: Counter for HTML-only strategic plans
   
   for (h in hospitals) {
     search <- h$strategy_search
@@ -1065,12 +1210,16 @@ print_final_summary <- function(hospitals) {
       if (!is.null(search$requires_manual_review) && (search$requires_manual_review == TRUE || search$requires_manual_review == "true")) {
         needs_review <- needs_review + 1
       }
+      # NEW: Count HTML-only strategic plans
+      if (!is.null(search$content_type) && search$content_type == "html") {
+        html_only <- html_only + 1
+      }
     }
   }
   
   not_found <- attempted - url_found
   
-  cat("Total hospitals:", total, "\n")
+  cat("Total hospitals processed:", total, "\n")
   cat("Search attempted:", attempted, "\n")
   cat("Strategy URL found:", url_found, "\n")
   cat("PDF found:", pdf_found, "\n")
@@ -1078,6 +1227,7 @@ print_final_summary <- function(hospitals) {
   cat("  - High confidence:", high_confidence, "\n")
   cat("  - Medium confidence:", medium_confidence, "(verify correct plan)\n")
   cat("  - Manual URL provided:", manual_confidence, "\n")
+  cat("HTML-only strategic plans:", html_only, "\n")  # NEW LINE
   cat("Not found:", not_found, "\n")
   cat("Requires manual review:", needs_review, "\n")
   cat("\n")
@@ -1086,9 +1236,9 @@ print_final_summary <- function(hospitals) {
     cat("Success rate:", success_rate, "%\n")
     cat("\nActions:\n")
     if (success_rate >= 80) {
-      cat("✓ Excellent! Ready for full deployment or expand to 25+ hospitals\n")
+      cat("✓ Excellent! Ready for full deployment or expand to larger samples\n")
     } else if (success_rate >= 60) {
-      cat("✓ Good progress! Consider expanding to 25 hospitals\n")
+      cat("✓ Good progress! Consider expanding sample size\n")
     } else if (success_rate >= 40) {
       cat("→ Review diagnostic logs and adjust keywords/search depth\n")
     } else {
@@ -1104,6 +1254,17 @@ print_final_summary <- function(hospitals) {
 if (!interactive()) {
   results <- run_phase2()
 } else {
-  cat("\nScript loaded. Run with: results <- run_phase2()\n")
-  cat("To change test mode: CONFIG$test_mode <- FALSE\n\n")
+  cat("\n============================================================\n")
+  cat("FIXED SCRIPT LOADED - Data Preservation & Safe Test Mode\n")
+  cat("============================================================\n\n")
+  cat("Script loaded. Run with: results <- run_phase2()\n")
+  cat("To change test mode: CONFIG$test_mode <- FALSE\n")
+  cat("To change sample size: CONFIG$test_sample_size <- 10\n")
+  cat("To convert to tibble: tbl <- convert_yaml_to_tibble()\n\n")
+  cat("FIXES APPLIED:\n")
+  cat("  ✓ Preserves content_type on every run\n")
+  cat("  ✓ Preserves manual_pdf_url on every run\n")
+  cat("  ✓ Safe test mode (doesn't delete unprocessed hospitals)\n")
+  cat("  ✓ Skips already-downloaded hospitals\n")
+  cat("  ✓ HTML tracking in summary\n\n")
 }

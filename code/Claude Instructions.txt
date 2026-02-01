@@ -1,46 +1,215 @@
-
-
-I have updated the SESSION_LOG.MD,next_batch_template.yaml, and the enhanced_hospitals.yaml These are now in the Knowledge repository
-An updated version of the QuickReferenceUpdated.docx is now in the knowledge repository. 
-Also there is the newly created "Project Plan November 1 2025.docx" that outlines the next few steps
-Please review the above documents.
-
-Note:  The working copy of enhance_hospitals.yaml is in my R environment.
-I would like to follow this process for todays work. 
-1) I will pick and attempt to debug hospitals. using the following tools which are in  the knowledge repository including:
-	* The quick_test()
-	* helper$analyze_hospital_structure(FAC, Name, url)
-	* patternQuickReferrence.html and 
-	* the resources we have created and are in the knowledge repository. 
+Please review the following files:
+1) identifyAndDownloadStrategicPDF.R
+2) Hospital_strategy.yaml
+3) CLAUDE_WORKING_PREFERRENCES.MD
+4) copy_pdfs_to_processed.r
 
 
 
-2) I will use Claude when those tools aren't helping. At which point if relevant I will give you:
-	a sample code element for the CEO,
-	the current Yaml card for the hospital
-	the results of the quick_test, 
-	the results of the analyze_hospital_structure and,
+Today’s objectives are:
+to redo the copy_pdfs_to_processed.r
+The output of the file moved to the processed folder needs to follow the following naming 
+structure made up of two elements
+the FAC, from the folder, the HosptialName from the folder
+
+Please check and only move the most current PDF file. any other file type should be ignored.
 
 
-3) If you need additional R code run to help debug please create the code and ask me to run it. 
 
-4) if you believe the pattern_based_scraper.R needs to be changed please create the necessary changes and tell me where to put it. 
 
-5) Do not create additional documentation without asking if I want that documentation created. 
+I would like to create a prompt that asks an AI to read a PDF file that I provide and analyze it as a strategic plan looking for the following content to be output as a csv file
 
-6) our focus is on using and or amending existing patterns where possible. adding new patterns is a last resort
+1) from the file name gather the following elements
+  a) the FAC which is a unique identifier and is the first 3 digits of the file
+  b) the Hospital Name which is the characters from the first "_" to the "." before the file type (pdf)
+  c) the date modified from the file properties
+2) from the data in the PDf determine the following:
+  a) the hospital name (which may be different from the file name)
+  b) the date of the strategic plan This may be a from date to Date, but is usually near the begining of the plan, Some plans maybe evergreen and have one date or no dates Please signfy this a "nf" for not found if not found
+  c) the high level stratgic objectives of the plan These may be labled as strategies, directions priorities etc and usually number between 3 and 5 but sometimes there are many more
+  d) If they exist, please include the secondary objectives which are part of each higher level objective, These are usually represented in text under each objectve
+  e) there may be a third level to the plan, please add it if there is 
+  g) note the number of levels to the plan. 1,2,or 3. 
+  h) I dont need to see measurement data. 
 
-7) when passing a  yaml card for a hospital for trial the status should marked as follows:
-    A) status: Needs Testing. 
-    B) status:  missing_people.  only if we have added people through a missing people add on
-8) based on the project plan "Project Plan November 1 2025.docx" we will provide less emphasis on solving Missing people problems assuming:
-    A) the pattern based scrapper process finds a significant majority of 4/5 of the executives
-    B) This is based on the idea that we will be working on creating a  signle source of truth for names and titles in the next phase
-9) I have created a log of   missing people that we can use when we start working on the single source of truth: see example below
-FAC	Hospital	Name	Title	Pattern
+Please review the above and identify  any issues or potential problems and write the prompt as an AI expert would
 
-All hospitals have now been processed. There are 7 hospitals who are blocked or closed
+Please review the attached PDF file and do the following if possible
 
-There are 123 hospitals where the pattern is working but some of those will need to be reviewed for missing people.
-These can be dealt with as a part of the process of developing a single source of truth for exectuive names and titles
-There are 9 hospitals that required debugging. This will be our focus for today
+
+
+Jan 21 2025
+We have began to refactor the "IdentifyAndDownloadStrategicPDFs.R" which is in  
+your knowedge repository
+The resultant code is the download_Strategic_pdfs.R
+
+Please review the following files:
+1) download_strategic_pdfs.R
+2) Hospital_strategy.yaml
+3) CLAUDE_WORKING_PREFERRENCES.MD
+
+
+We are currently in the middle that re fracturing. 
+The portion that downloads PDFs has been significantly improved and seems to be functioning well
+however we need processes in that code to successfully download The HTML files and recognize when a manual download was required or is required. 
+The monthly review process should indicate which hospitals require a manual review To determine if the HTML code has changed
+The code to look for HTML based content is included in the current script and the yaml file 
+has flags for content_type: hmtl which are intended to tell the script that there is no PDF.
+ I am going to rerun the Download_strategic_pdf.R 
+ I would like it to run in change detection mode. so 
+ I will use the following settings:
+ # Load the download script
+setwd("E:/Hospital_Strategic_Plans/code/")  # Or wherever script is saved
+source("download_strategic_pdfs.R")
+CONFIG$test_mode <- FALSE
+CONFIG$baseline_mode<-FALSE
+results<-main()
+
+After the run we will review the log and idnetify discrepceis and determine what if anything needs to be done with the HTML and Manual hospitals
+
+
+Jan 22 2025
+Ok
+
+Please review the following files:
+1) download_strategic_pdfs.R
+2) Hospital_strategy.yaml
+3) CLAUDE_WORKING_PREFERRENCES.MD
+
+I have converted the blank spaces to pdf, 
+I have also replaced the HTML_converted to pdf
+however there may be a discrepency in our processes.
+there are 133 hospitals in the Yaml file. but after running the download_stratetgic_pdfs.R 
+we only find 116 hosptials in the strategic plans folder. 
+It looks like there are 17 missing.
+Based on the log from the 20th 
+=========================================================================== 
+STRATEGIC PDF DOWNLOAD & COMPARISON SUMMARY
+BASELINE MODE: Fresh Download (No Comparison)
+Run Date: 2026-01-20 08:43:43 
+=========================================================================== 
+
+Configuration:
+  Base Directory: E:/Hospital_Strategic_Plans 
+  Mode: Baseline 
+  Comparison Method: text 
+  Test Mode: FALSE 
+
+Results:
+  Total Hospitals: 115 
+  Download Attempts: 104 
+    - Successful: 102 
+    - Failed: 2 
+
+  Text Extraction:
+    - Successful: 99 
+    - Failed: 0 
+
+  Baseline Results:
+    - Files Saved: 99 
+
+Processing Time: 1530 seconds
+Average per Hospital: 13.3 seconds
+=========================================================================== 
+The following hospitals were skipped by the Download_strategic_pdfs.r
+ FAC                       Hospital_Name content_type
+1  627   CHAPLEAU SER DE SANTÉ DE CHAPLEAU          pdf
+2  632         North York General Hospital          pdf
+3  640 COLLINGWOOD GENERAL AND MARINE HOSP          pdf
+4  682                HORNEPAYNE COMMUNITY          pdf
+5  695   KINGSTON PROVIDENCE CARE HOSPITAL          pdf
+6  704              Erie Shores Leamington          pdf
+7  714                   LONDON ST JOSEPHS          pdf
+8  719     MANITOUWADGE SANTE MANITOUWADGE          pdf
+9  763                   PEMBROKE REGIONAL         html
+10 827 TORONTO BAYCREST CTR GERIATRIC CARE          pdf
+11 910                 TORONTO CASEY HOUSE          pdf
+12 932          Elizabeth Bruyere Hospital         html
+13 936              LONDON HEALTH SCIENCES          pdf
+14 946         KINCARDINE SOUTH BRUCE GREY          pdf
+15 950                   HALTON HEALTHCARE          pdf
+16 969 WHITBY ONT SHORES CENTRE MH SCIENCE          pdf
+17 975 MISSISSAUGA TRILLIUM HEALTH PARTNER          pdf
+
+Nor are they listed in the log files.
+Bottom Line
+1) we need to discover why they are skipped
+2) we need to make sure the log file has entries for skipped hosptials in the yaml file
+
+
+Jan 24 2026
+
+
+Please review the following files:
+1) download_strategic_pdfs.R
+2) Hospital_strategy.yaml
+3) CLAUDE_WORKING_PREFERRENCES.MD
+
+Quick update.
+We have run the download_strategic_pdfs.R file 
+
+I have reviewed the output from the Download Strategic_pdfs.r we "found", 102 hospitals out of the 133 in the  yaml file,
+
+I have reviewed the 31 skipped or no URL found and have populated the strategic_plans folders for all but 2-3.
+
+I would like to accomplish a couple of things today 
+1) a simple review to ensure that we have a folder in the strategic_plans folder and that folder has content  for all the hospitals in the hospital_strategy.yaml file.
+
+2) undertake a review of what components of hospital_strategy.yaml are used by the download_strategic_pdfs. This will become part of review of the yaml file once we have completed the February extraction of hospital Strategic plans using the Claude api.   
+
+Regarding point 1)
+I would like a simple audit tool written in R that checks that each FAC listed in the Hospital_strategy.yaml file located E:/Hospital_Strategic_Plans/code at has a corresponding folder in the strategic_plans folder at E:/Hospital_Strategic_Plans/strategic_plans
+The script should list in a single column the contents of each folder found in the strategic_plans. A list of the file names is sufficient at this point in time.
+The output of this should be in an rds file. stored in E:/Hospital_Strategic_Plans/outputs and called Yaml_strategicPlansReview.rds 
+The contents of the file should include:
+FAC,Hospitalname, the value of the content_type:, A flag noting the folder exists, a list of the files(names And type) in that folder.
+The first three components are sourced from the Yaml file. The remainder from a search of the strategic_plans folder.
+This should be a non destructive process
+
+Regarding point 2)
+ I would like to create a baseline document which will be enhanced when we do the API based retrievals. I would appreciate advice on the best way to create that document. 
+ The ultimate purpose will be to reorganize the yaml file and eliminate components that are no longer useful. This will be completed as a secondary task after we run the API in February. 
+The document should be in a table format, for easy lookup and comparisions.
+
+
+Jan 24 2026
+
+
+Ok, I have refreshed my knowledge  of the current API exctraction process and tools somewhat.  and realize we failed to create a  clear docummented process. 
+
+Can you review the files to get an understanding of the process? If you encounter requests for  source(XXX) that you feel you need please ask and I will give the file to you and add it to the knowledge repository.
+
+I have updated the repository with the files I believe are most relevant, which are:
+Clean_api_output_enhance.R
+Clean_api_output/R
+Extraction_workflow.R
+api_functions_with_images.R
+PDF_Image_processor.R
+Verify_configuration.R
+Test_image.api.r
+complete_startup_checklist.txt
+
+
+
+Jan 25, 2026
+
+I have added the following files to the knowledge repository
+config.r The old version
+config_v2.r  The new version
+Phase3ExtractionProtocolv4_1.rmd Which I believe replaces the older Phase3_l1_extraction_protocol_v4.1md
+extraction_workflow_v3_no_batching.R
+Hospital_discovery.R files
+CLAUDE_WORKING_PREFERRENCES.MD
+
+
+I beleive that Phase3ExtractionProtocolv4_1.rmd is the most recent/correct version. Its the one used by the old config.r file
+Please confirm.
+I beleive this is one line of code change in the config_v2.R file which I can do. 
+The important issue is ensuring its the right protocol file
+
+Once that is done we will proceed with the test of the revised workflow as discusse from  yesterday
+using the following:
+setwd("E:/Hospital_Strategic_Plans/code")
+source("extraction_workflow_v3_no_batching.R")
+test_extraction(filter_facs = c("592", "593", "597"))
+
