@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 77
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 77 OF BATCH 0
+
+=====================================
+
+FAC: 916
+HOSPITAL_NAME_FILE: Headwaters Health Care Centre
+HOSPITAL_NAME_TEXT: Headwaters Health Care Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic directions (Empower Our People, Get Even Better, Deliver Patient Centred Quality Care, Connect Through Partnerships) supported by organizational values (Kindness, Accountability, Respect, Teamwork) and three fundamentals (Diversity Equity & Inclusion, Safe & Healthy Environment, Technology & Innovation)
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Empower Our People
+L1.1_TEXT:
+Our team is invaluable. Empowering and investing in the development, well-being, safety, and support of our people is paramount to ensure a high performing and sustainable workplace environment that delivers the best care for our patients and communities.
+
+---
+
+L1.2_TITLE: Get Even Better
+L1.2_TEXT:
+Continually improving systems, processes and our facility is fundamental to achieving our commitments, delivering consistent patient experience, and ensuring operational excellence. We have a responsibility to ensure our performance meets the needs of our patients and community.
+
+---
+
+L1.3_TITLE: Deliver Patient Centred Quality Care
+L1.3_TEXT:
+Pursuing continuous quality improvement is fundamental to achieving our commitments and delivering excellent patient care and experiences. Through a relentless focus on quality and safety, we will deliver quality care to be proud of.
+
+---
+
+L1.4_TITLE: Connect Through Partnerships
+L1.4_TEXT:
+Ongoing success and innovation includes collaboration and support from and with system partners. Together, we can achieve more to support delivery of the best care to our communities.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear visual identity and consistent formatting. The document demonstrates strong organizational clarity with four strategic directions supported by clearly articulated values (Kindness, Accountability, Respect, Teamwork) presented in an attractive circular diagram. Each strategic direction includes both descriptive text and detailed "By 2029 we will" goals that provide specific, measurable targets. The plan shows sophisticated strategic thinking with three supporting fundamentals that cross-cut all strategic directions. Document includes meaningful stakeholder engagement context (nearly 3,000 stakeholders consulted) and demonstrates commitment to Indigenous land acknowledgment. The vision "One Community, Caring Together" and purpose "Provide Excellent Care, Close to Home" are clearly integrated throughout. Strong emphasis on partnerships, quality improvement, and people development as core strategic themes.
+=====================================
+END OF EXTRACTION - HOSPITAL 77
+=====================================
+```

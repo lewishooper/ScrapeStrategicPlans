@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 43
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 43 OF BATCH 0
+
+=====================================
+
+FAC: 734
+HOSPITAL_NAME_FILE: West Haldimand General Hospital
+HOSPITAL_NAME_TEXT: West Haldimand General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around five Strategic Directions with Vision, Mission, and Values framework. Plan titled "Healthier Communities, Close to Home" with comprehensive stakeholder engagement process documented.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Exceptional Patient Care
+L1.1_TEXT:
+Every patient we serve will receive personalized, compassionate, and high-quality care. Supporting their healing, well-being and satisfaction throughout their healthcare journey.
+
+---
+
+L1.2_TITLE: Outstanding Team
+L1.2_TEXT:
+We strive to cultivate a skilled, engaged, and empowered workforce, fostering a culture of collaboration, professional development, and excellence to deliver the best possible outcomes for our patients and community.
+
+---
+
+L1.3_TITLE: Operational Excellence
+L1.3_TEXT:
+Our aim is to optimize efficiency, effectiveness, and safety in all aspects of our operations. Leveraging best practices, technology, and continuous improvement initiatives to achieve the highest standards of service delivery and resource management.
+
+---
+
+L1.4_TITLE: Community Partnerships and Connection
+L1.4_TEXT:
+We are committed to building strong partnerships and meaningful connections with our community stakeholders, collaborating to address local health needs, promote wellness, and enhance access to care through outreach, education, and advocacy.
+
+---
+
+L1.5_TITLE: Innovation and Digital Enablement
+L1.5_TEXT:
+Embracing innovation and leveraging digital technologies, we seek to drive transformative change in healthcare delivery, enhancing accessibility, efficiency, and quality of care through the adoption of cutting-edge solutions and data-driven approaches.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured and professionally presented three-year strategic plan with clear vision "to foster healthier communities through exceptional rural health care, close to home" and mission "to deliver high-quality, integrated and innovative care, together with our partners." The document demonstrates thoughtful strategic planning with comprehensive stakeholder engagement including 406 survey responses, 10 focus groups, and multiple interviews. Each of the five Strategic Directions is consistently formatted with clear descriptive text followed by specific commitments and outcomes. The plan includes detailed demographic analysis showing significant population growth projections (25% increase in 65+ population by 2024, 41% growth by 2046) and addresses cultural diversity including Indigenous communities. Strong emphasis on rural healthcare delivery and community partnerships. The plan acknowledges land acknowledgment for Indigenous peoples and demonstrates cultural sensitivity. Document quality is high with clear organization, professional presentation, and evidence-based strategic thinking.
+=====================================
+END OF EXTRACTION - HOSPITAL 43
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 43
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

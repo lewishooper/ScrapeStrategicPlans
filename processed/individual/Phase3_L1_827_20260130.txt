@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 62
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 62 OF BATCH 0
+
+=====================================
+
+FAC: 827
+HOSPITAL_NAME_FILE: Baycrest Strategic Plan 2024-2029
+HOSPITAL_NAME_TEXT: Baycrest
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan titled "Exceptional Aging, powered by Baycrest" with four strategic goals supported by four strategic drivers, includes Heritage Statement, Vision, Mission, and Values
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Deliver Innovative Health Care for Older Persons in the Community
+L1.1_TEXT:
+Design, test and introduce specialized health care and wellness services through innovative approaches and strategic partnerships in the local community and across the province.
+
+---
+
+L1.2_TITLE: Provide Global Leadership in Dementia
+L1.2_TEXT:
+Provide new insights that advance dementia prevention, detection, treatments and care approaches through research, innovation and education.
+
+---
+
+L1.3_TITLE: Redefine the Residential Living Experience for Older Persons
+L1.3_TEXT:
+Provide sector leadership through the introduction of transformative social, recreational and wellness programs and best-in-class health care services in all Baycrest congregate residential settings locally, nationally and globally.
+
+---
+
+L1.4_TITLE: Be a Leading Voice in Advancing the Lives of Older Persons
+L1.4_TEXT:
+Raise societal awareness and influence public policies that enhance the well-being of the world's aging population, enabling older persons to explore their possibilities and live with purpose, fulfilment and dignity.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan document with professional presentation and clear organizational structure. The plan demonstrates thoughtful strategic thinking with a compelling central theme "Exceptional Aging, powered by Baycrest" that unifies all elements. Document includes comprehensive foundational elements including Heritage Statement acknowledging 100+ year history and Jewish community origins, clear Vision/Mission/Values framework with the ICARE acronym (Inclusive, Collaborative, Ambitious, Respectful, Excellent), and four strategic drivers (Strong Culture, Digital Transformation, Financial Strength, Innovation). The four strategic goals are consistently formatted with brief but clear descriptive text. Plan shows sophisticated understanding of aging sector challenges and Baycrest's positioning as a global leader. Document quality is high with good use of visual elements and clear typography. Strategic goals are appropriately high-level with more detailed implementation content available at L2 level.
+=====================================
+END OF EXTRACTION - HOSPITAL 62
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 15
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 15 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 648
+HOSPITAL_NAME_FILE: nf
+HOSPITAL_NAME_TEXT: Hôpital Montfort
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan (2023-2028) organized around four strategic orientations with specific objectives and actions under each orientation. Document is bilingual (French/English) with French as primary language.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Offrir des soins et services de qualité supérieure, sécuritaires et centrés sur la personne
+L1.1_TEXT:
+Nous nous engageons à offrir des soins et services de qualité supérieure, sécuritaires et centrés sur la personne dans un environnement bienveillant qui favorise la guérison et le mieux-être.
+
+---
+
+L1.2_TITLE: Être un employeur de choix qui favorise l'épanouissement professionnel
+L1.2_TEXT:
+Nous nous engageons à être un employeur de choix qui favorise l'épanouissement professionnel de notre personnel dans un milieu de travail sain, sécuritaire et inclusif.
+
+---
+
+L1.3_TITLE: Assurer la viabilité et la croissance de l'organisation
+L1.3_TEXT:
+Nous nous engageons à assurer la viabilité et la croissance de l'organisation par une saine gestion de nos ressources et le développement de partenariats stratégiques.
+
+---
+
+L1.4_TITLE: Être un leader dans la prestation de services de santé en français
+L1.4_TEXT:
+Nous nous engageons à être un leader dans la prestation de services de santé en français et à contribuer au rayonnement de la francophonie ontarienne.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured bilingual strategic plan with French as the primary language and English translations provided. The document demonstrates strong organizational commitment to francophone healthcare services in Ontario. Each of the four strategic orientations includes detailed objectives and specific actions, showing sophisticated strategic planning. The plan covers all major operational areas including quality care, human resources, organizational sustainability, and the unique mission of French-language healthcare leadership. Professional presentation with clear formatting and comprehensive coverage of strategic domains. The bilingual nature adds complexity but demonstrates cultural competency and accessibility. Strong emphasis on the hospital's role as a leader in francophone healthcare services, which distinguishes it from other hospital strategic plans.
+=====================================
+END OF EXTRACTION - HOSPITAL 15
+=====================================
+```

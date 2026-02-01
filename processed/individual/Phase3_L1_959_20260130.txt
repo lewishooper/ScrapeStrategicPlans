@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 96 OF 1
+
+=====================================
+
+FAC: 959
+HOSPITAL_NAME_FILE: Health Sciences North
+HOSPITAL_NAME_TEXT: Health Sciences North
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan organized around five key goals with 18 outcomes, presented as "Together for You 2030" with mission, vision, and values framework
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Providing Quality People-Centred Care
+L1.1_TEXT:
+Putting patients and families at the centre of all we do and working together to provide exceptional care.
+
+---
+
+L1.2_TITLE: Empowering Human Potential
+L1.2_TEXT:
+Creating an environment where the talented and dedicated people of Team HSN can thrive and be celebrated.
+
+---
+
+L1.3_TITLE: Advancing Equity Through Social Accountability
+L1.3_TEXT:
+Addressing health equity gaps by promoting an inclusive environment free of racism, discrimination and all forms of bias.
+
+---
+
+L1.4_TITLE: Achieving Healthcare Excellence Through Education and Research
+L1.4_TEXT:
+Impactful research and education enables us to develop collaborative healthcare solutions, paving the way for a healthier North.
+
+---
+
+L1.5_TITLE: Strengthening Organizational Sustainability
+L1.5_TEXT:
+A focus on sustainability will enable us to be here when people need us the most – now and into the future.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan document with professional presentation and clear visual branding. The plan is structured around five key goals with brief but clear descriptive text for each strategic priority. Document includes strong contextual elements including land acknowledgement, leadership messages, mission/vision/values, and regional impact information. The plan demonstrates comprehensive scope covering patient care, human resources, equity, research/education, and sustainability. Each strategic priority includes specific numbered commitments and actions at the L2 level. The document effectively balances high-level strategic direction with actionable commitments. Notable features include emphasis on Indigenous reconciliation, bilingual services, and regional healthcare hub role serving 23 community hospitals. The plan shows evidence of broad stakeholder engagement (over 2,800 people consulted) and includes both current state assessment and future vision elements.
+=====================================
+END OF EXTRACTION - HOSPITAL 96
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

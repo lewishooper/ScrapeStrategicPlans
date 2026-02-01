@@ -1,0 +1,223 @@
+PHASE 3 - LEVEL 1 EXTRACTION
+Extraction Date: 2026-01-26
+Hospitals Extracted: 3
+Protocol Version: V4.1
+Extraction Mode: Force All - Extract all hospitals regardless of status
+============================================================
+
+HOSPITAL 1 OF 3
+FAC: 640
+
+============================================================
+
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITALS
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 1 OF 1
+
+=====================================
+
+FAC: 640
+HOSPITAL_NAME_FILE: Collingwood General and Marine Hospital
+HOSPITAL_NAME_TEXT: Collingwood General and Marine Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three strategic directions with foundational commitments and vision/mission/values framework
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Elevate Quality Through Best Practices
+L1.1_TEXT:
+Focusing on best practices will enable CGMH to elevate care and experience to new levels. Through continuous improvement and a focus on high-quality, person-centred care, we will implement innovative care models and streamline processes, enhancing patient outcomes and overall patient and family experience.
+
+---
+
+L1.2_TITLE: Develop a High-Performing and Inspired Team
+L1.2_TEXT:
+We are committed to building a high-performing and inspired team by promoting collaboration, continuous learning, and shared goals. Through professional development programs, open dialogue, and a supportive work environment where every team member feels valued, we'll empower our team to work together effectively, driving excellence and ensuring the best possible experience for our community – today and in the future.
+
+---
+
+L1.3_TITLE: Create Capacity to Serve Our Growing Population
+L1.3_TEXT:
+As South Georgian Bay continues to grow at one of the fastest rates in Canada, we must ensure our hospital can keep pace – both now and in the future. By balancing proactive planning for our future hospital with immediate steps to optimize our existing space, we will act strategically to effectively address the evolving infrastructure and service needs of patients within our community.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear vision ("Outstanding Care For Life") and strong visual presentation including architectural renderings of the future hospital. The document effectively balances current operations with future planning, particularly around the new hospital construction. Each strategic direction includes clear descriptive text followed by specific sub-goals and initiatives. The plan demonstrates thoughtful strategic thinking with detailed foundational commitments covering health analytics/technology, partnerships, inclusion/diversity/equity/accessibility, and financial/environmental sustainability. Strong emphasis on community growth and the need for expanded capacity. The document includes comprehensive statistics about current operations and clear success metrics for each strategic direction. Notable for its integration of immediate operational needs with long-term facility planning.
+=====================================
+END OF EXTRACTION - HOSPITAL 1
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```
+
+============================================================
+============================================================
+
+HOSPITAL 2 OF 3
+FAC: 907
+
+============================================================
+
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 2
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 2 OF BATCH 0
+
+=====================================
+
+FAC: 907
+HOSPITAL_NAME_FILE: Timmins and District Hospital
+HOSPITAL_NAME_TEXT: Timmins and District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic dimensions aligned with the Quadruple Aim framework: Patient Experience, Provider Experience, Population Health, and Financial Health, plus a fifth dimension on Equity and Social Accountability
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: We Will Improve the Experience of Our Patients
+L1.1_TEXT:
+We value the health and wellness of all Northerners and aim to make a positive difference in their lives. Together with our community and district partners we will work to improve the experience and health of Northerners.
+
+Making sure that our program and service delivery is developed for and by the populations we serve is vital. The work that we do will be reflective of the diverse population we serve in Timmins and the Cochrane District.
+
+---
+
+L1.2_TITLE: We Will Improve the Experience and Wellbeing of Our Health Providers
+L1.2_TEXT:
+Together we are stronger. Through collaboration with our staff, physicians, partners, patients and families we will help create a health care system that promotes equity, wellness and attracts health care workers to the North.
+
+We are going to seek and value the diverse expertise, experiences and stories of our staff, physicians, volunteers and partners to create an organizational culture that supports wellness and equity.
+
+---
+
+L1.3_TITLE: We Will Improve Population Health
+L1.3_TEXT:
+We all have a part to play in helping to improve the health of our Northern population. This dimension allows us to improve the quality of clinical care and treatment through the promotion of better patient outcomes. We want to see a healthier Northern Ontario.
+
+We are driven to ensure that those living in our community and district have fair access to the health services they need, when and where they need them. Collaboratively, we will focus on ensuring that our health system provides everyone what they need to be their healthiest selves.
+
+---
+
+L1.4_TITLE: We Will Sustain the Financial Health of Our Hospital
+L1.4_TEXT:
+Ensuring that our hospital is financially sustainable to meet the current and future needs of our community and district is vital. Our hospital will continue to be leaders in the creation of sustainable health care system transformation.
+
+Through the creation of sustainable health care system transformation, we aim to ensure that the program and service delivery reflects the needs of our community.
+
+---
+
+L1.5_TITLE: We Will Focus on Equity and Social Accountability
+L1.5_TEXT:
+Creating a health system that is equitable for all those accessing it is incredibly important. In addition to embedding equity within all aspects of our plan, we have outlined specific, measurable goals relating to diversity, equity and social accountability.
+
+We are going to seek and value the diverse expertise, experiences and stories of our staff, physicians, volunteers and partners to create an organizational culture that supports wellness and equity.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan that clearly aligns with the Quadruple Aim healthcare framework plus equity as a fifth dimension. The document demonstrates strong strategic thinking with consistent formatting across all five dimensions. Each strategic dimension includes both descriptive text explaining the priority and detailed strategic goals underneath. The plan shows sophisticated understanding of Northern Ontario healthcare challenges and emphasizes collaboration, equity, and community partnership throughout. Strong emphasis on serving diverse populations in Timmins and the Cochrane District. The document includes extensive stakeholder engagement data (184 community surveys, 17 staff sessions, 12 partner sessions, etc.) indicating robust planning process. Professional presentation with clear mission, vision, and values statements. The strategic goals under each dimension provide good specificity for implementation.
+=====================================
+END OF EXTRACTION - HOSPITAL 2
+=====================================
+```
+
+============================================================
+============================================================
+
+HOSPITAL 3 OF 3
+FAC: 947
+
+============================================================
+
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 3
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 3 OF BATCH 0
+
+=====================================
+
+FAC: 947
+HOSPITAL_NAME_FILE: UHN Strategic Plan
+HOSPITAL_NAME_TEXT: University Health Network (UHN)
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan organized around three Strategic Directions (Transformative Experiences, Solutions Beyond Boundaries, Alignment for Impact) supported by three Foundational Commitments and three Key Enablers, unified under the vision "A Healthier World"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Transformative Experiences
+L1.1_TEXT:
+We will create extraordinary, integrated health care experiences that are seamless, compassionate and centered around the patient, family and TeamUHN members. Every individual – whether receiving care or delivering it – deserves an environment that supports their needs. Our aspiration is to create a system that puts people first, empowers our staff, and delivers on our promises at every touchpoint.
+
+---
+
+L1.2_TITLE: Solutions Beyond Boundaries
+L1.2_TEXT:
+UHN is leading the charge for radical innovation. That means investing in discovery like never before. New opportunities and solutions abound, and UHN must nurture and convert those.
+
+---
+
+L1.3_TITLE: Alignment for Impact
+L1.3_TEXT:
+To create lasting change, we will align our resources, partnerships and technologies where they will have the greatest impact. UHN is called to drive real, transformative solutions that leverage the privilege of caring for patients, educating the health care providers and students of tomorrow, pursuing discovery and adoption. The future is here – and UHN is bringing it to life.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professionally designed strategic plan document with strong visual branding and clear organizational structure. The plan is built around the central theme "Bold Resolve, for A Healthier World" and demonstrates sophisticated strategic thinking. Each of the three Strategic Directions includes both descriptive text and detailed commitments/goals underneath. The document effectively integrates three Foundational Commitments (Patient & Staff Declarations of Shared Values, Indigenous rights, Inclusive and Sustainable Health Impact) as cross-cutting themes. Three Key Enablers (Philanthropy, Advocacy & Investment, Infrastructure Renewal) are clearly distinguished as supporting elements. The plan includes extensive organizational statistics and emphasizes UHN's role as Canada's leading academic health sciences network. Strong emphasis on innovation, global impact, and transformative change. Document demonstrates high production values with consistent formatting and clear hierarchy between strategic directions and implementation elements.
+=====================================
+END OF EXTRACTION - HOSPITAL 3
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 3
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

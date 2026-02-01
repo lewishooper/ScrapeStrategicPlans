@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 66
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 66 OF BATCH 0
+
+=====================================
+
+FAC: 862
+HOSPITAL_NAME_FILE: Women's College Hospital Strategic Plan
+HOSPITAL_NAME_TEXT: Women's College Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan titled "Healthcare Revolutionized 2030" organized around three Strategic Directions with supporting priorities under each direction, guided by six core values and unified under vision and mission statements
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Lead the New Era of Sex and Gender in Health
+L1.1_TEXT:
+Closing gender gaps and supporting well-being across the life span.
+
+Gender bias creates significant barriers and impacts to health and well-being across the life span and in the context of increasingly prevalent chronic conditions.
+
+---
+
+L1.2_TITLE: Move the Needle on Health Equity
+L1.2_TEXT:
+Creating a just and equitable health system with better health outcomes.
+
+Population health outcomes are influenced by social determinants of health. Significant inequities exist in education, training, delivery, access and incidence.
+
+---
+
+L1.3_TITLE: Reimagine the Health System with and for Patients
+L1.3_TEXT:
+Creating a better integrated system of care and better patient experience across the care continuum.
+
+The Ontario health system faces many challenges with healthcare journeys often lacking access and connectivity – both within and across care settings. WCH's ambulatory care model is uniquely positioned to address this.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with strong visual presentation and clear organizational structure. The plan demonstrates sophisticated strategic thinking with three focused Strategic Directions, each supported by specific priorities (1.1-1.3, 2.1-2.3, 3.1). Document includes extensive community input through Community Voices Survey with over 3,000 participants and focus groups. Strong emphasis on sex and gender in health, health equity, and system integration as core strategic themes. The plan is powered by five enablers (Our People, Academics, Data & Technology, Finance, Communications) and grounded in six well-defined values (Equity, Quality, People, Courage, Partnership, Curiosity). Each strategic direction includes context statements and detailed success metrics. The document effectively balances aspirational vision with specific, measurable outcomes and demonstrates clear understanding of WCH's unique positioning in the healthcare landscape.
+=====================================
+END OF EXTRACTION - HOSPITAL 66
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 22
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 22 OF BATCH 0
+
+=====================================
+
+FAC: 661
+HOSPITAL_NAME_FILE: Cambridge Memorial Hospital
+HOSPITAL_NAME_TEXT: Cambridge Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five Strategic Pillars (Advance Health Equity, Elevate Partnerships in Care, Reimagine Community Health, Increase Joy in Work, Sustain Financial Health) with Vision "Creating healthier communities, together" and Mission "An exceptional healthcare organization keeping people at the heart of all we do"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Advance Health Equity
+L1.1_TEXT:
+Advance Health Equity promotes the need for diversity, equity, and inclusion to increase equitable access to healthcare and support a work culture where every individual can reach their full potential.
+
+---
+
+L1.2_TITLE: Elevate Partnerships in Care
+L1.2_TEXT:
+Elevate Partnerships in Care highlights the importance of collaboration across all levels to ensure the highest quality and safest care experience.
+
+---
+
+L1.3_TITLE: Reimagine Community Health
+L1.3_TEXT:
+Reimagine Community health demonstrates how we will use innovation and embrace transformation to improve the way we deliver healthcare.
+
+---
+
+L1.4_TITLE: Increase Joy in Work
+L1.4_TEXT:
+Increase Joy in Work reflects our commitment to improving the well-being of our team by creating meaningful and enabling work environments.
+
+---
+
+L1.5_TITLE: Sustain Financial Health
+L1.5_TEXT:
+Sustain Financial Health shows our dedication to not only keeping a balanced budget but also building a strong foundation for investment and growth.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear branding ("reimagineCMH") and strong visual design. The document demonstrates sophisticated strategic thinking with extensive community consultation (over 1400 people consulted). Each of the five Strategic Pillars includes both descriptive text and detailed implementation plans with specific goals, timelines, and action items. The plan shows strong community focus with territorial acknowledgment of Indigenous Peoples and emphasis on collaboration. Document includes comprehensive "About Us" section with hospital history dating to 1888, current statistics (1440 staff, 250 physicians, 500 volunteers, 190 beds), and recent achievements including awards and accreditations. The strategic framework is clearly articulated with Vision, Mission, and Values well-integrated throughout. Strong emphasis on community partnership and inclusive healthcare delivery.
+=====================================
+END OF EXTRACTION - HOSPITAL 22
+=====================================
+```

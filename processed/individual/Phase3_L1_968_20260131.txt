@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 103
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 103 OF BATCH 0
+
+=====================================
+
+FAC: 968
+HOSPITAL_NAME_FILE: Muskoka Algonquin Healthcare
+HOSPITAL_NAME_TEXT: Muskoka Algonquin Healthcare
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic initiatives with supporting goals and actions under each initiative
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality Care and Safety
+L1.1_TEXT:
+A high-performing organization that listens to our patients and their families to drive a culture of patient safety and quality care.
+
+---
+
+L1.2_TITLE: Partnerships and Collaboration
+L1.2_TEXT:
+Cultivate trusting relationships with internal and external partners to realize the Made-in-Muskoka Healthcare model.
+
+---
+
+L1.3_TITLE: Innovative Future
+L1.3_TEXT:
+Build a responsive and innovative future that supports enhanced efficiency and effectiveness.
+
+---
+
+L1.4_TITLE: Our Team is Our Strength
+L1.4_TEXT:
+Create a dynamic and unified workplace where people feel valued, connected, and proud to be members of the MAHC team.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear organizational structure. The document demonstrates strong strategic thinking with a clear vision ("Transforming Healthcare Together!") and mission statement. The four strategic initiatives are consistently formatted with brief but clear descriptive statements at L1 level. Each initiative includes detailed goals and actions at L2 level. The plan shows evidence of comprehensive planning with core values (Compassion, Respect, Trust, Innovation, Optimism) clearly articulated. Document includes strong contextual information about the organization's dual-site model (Bracebridge and Huntsville) and service area. The plan demonstrates forward-thinking with emphasis on redevelopment of hospital sites and the "Made-in-Muskoka Healthcare" branding. Quality presentation with good use of imagery and clear typography. The strategic initiatives cover expected domains comprehensively while maintaining focus on the organization's unique regional context.
+=====================================
+END OF EXTRACTION - HOSPITAL 103
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

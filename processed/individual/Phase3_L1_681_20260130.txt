@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 29
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 29 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 681
+HOSPITAL_NAME_FILE: Hôpital Notre-Dame Hospital (Hearst)
+HOSPITAL_NAME_TEXT: Hôpital Notre-Dame Hospital (Hearst)
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four main objectives with mission, vision, and values clearly stated. Each objective includes descriptive text and bullet points for implementation.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Our patients
+L1.1_TEXT:
+Providing exceptional and safe care
+
+---
+
+L1.2_TITLE: Our people
+L1.2_TEXT:
+Creating a healthy and safe work environment focused on well-being
+
+---
+
+L1.3_TITLE: Our partners
+L1.3_TEXT:
+Working in partnership to ensure the best healthcare
+
+---
+
+L1.4_TITLE: Our growth
+L1.4_TEXT:
+Grow sustainably and creatively to meet future needs
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear visual presentation and professional formatting. The document presents mission, vision, and values prominently, followed by four strategic objectives represented by distinctive icons and color coding. Each objective has a brief descriptive title and bullet points outlining specific implementation areas. The plan demonstrates comprehensive coverage of key hospital domains (patients, staff, partnerships, growth) but provides minimal descriptive text at the L1 level - most content is structured as actionable bullet points that constitute L2 goals and initiatives. The visual design is particularly strong with consistent iconography and layout. The plan shows evidence of stakeholder input and systematic strategic thinking across all major operational areas.
+=====================================
+END OF EXTRACTION - HOSPITAL 29
+=====================================
+```

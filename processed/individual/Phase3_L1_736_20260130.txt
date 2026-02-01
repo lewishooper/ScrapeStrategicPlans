@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 44
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 44 OF BATCH 0
+
+=====================================
+
+FAC: 736
+HOSPITAL_NAME_FILE: Southlake Foundation
+HOSPITAL_NAME_TEXT: Southlake Foundation
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2019
+PLAN_END: 2023
+PLAN_CLASSIFICATION: Historical
+DOCUMENT_STRUCTURE: Foundation strategic plan organized around four strategic pillars (Engage, Inspire, Deliver, Grow) all centered on "Shape the Future of Healthcare"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Engage
+L1.1_TEXT:
+We will be first in the hearts and minds of the communities we serve. We will significantly raise our profile in the communities we serve and will be the first choice for both quality care and philanthropy.
+
+---
+
+L1.2_TITLE: Inspire
+L1.2_TEXT:
+We will inspire philanthropic investments that advance leading-edge care. We will demonstrate to our communities how donor support drives a culture of exemplary care and clinical excellence for patients and families today and in the years to come.
+
+---
+
+L1.3_TITLE: Deliver
+L1.3_TEXT:
+We will support innovative solutions to Southlake's most pressing challenges. We will partner with our supporters and investors to deliver on our shared promise to improve the health of our communities and shape the future of healthcare.
+
+---
+
+L1.4_TITLE: Grow
+L1.4_TEXT:
+We will develop our fundraising capacity to attract new donors from our growing communities to cultivate long-term relationships with current investors. We will lead and nurture a culture of philanthropy and fundraising in our communities to support exemplary care and clinical excellence for our communities.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Professional foundation strategic plan with clear visual design and consistent structure. The plan is specifically focused on philanthropic and fundraising activities rather than clinical operations, which is appropriate for a foundation document. Each of the four strategic pillars has descriptive text explaining the strategic direction, followed by specific key outcomes that would be Level 2 content. The central organizing concept of "Shape the Future of Healthcare" effectively unifies the four pillars. The plan includes mission, vision, values, and shared purpose statements that provide good organizational context. The document demonstrates solid strategic thinking for a healthcare foundation with clear differentiation between community engagement, donor inspiration, partnership delivery, and capacity building. Quality presentation with professional graphics and layout.
+=====================================
+END OF EXTRACTION - HOSPITAL 44
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 44
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

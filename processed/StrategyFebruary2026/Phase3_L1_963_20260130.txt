@@ -1,0 +1,67 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 99 OF 1
+
+=====================================
+
+FAC: 963
+HOSPITAL_NAME_FILE: Wellington Health Care Alliance
+HOSPITAL_NAME_TEXT: Wellington Health Care Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic pillars (Together empowering a meaningful patient journey, Together advancing a culture of team wellness, Together nurturing our Alliance ecosystem, Together enriching partnerships and growing community relationships) with a cross-cutting commitment to champion diversity, equity, and inclusion in everything we do
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Together, empowering a meaningful patient journey
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Together, advancing a culture of team wellness
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Together, nurturing our Alliance ecosystem
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Together, enriching partnerships and growing community relationships
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Champion diversity, equity, and inclusion in everything we do
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear organizational structure. The document presents a unified vision ("Rooted in Wellness - Growing Together - Cultivating Health") and mission statement with five core values (Teamwork, Respect, Accountability, Compassion, Kindness). The four main strategic pillars are consistently formatted with clear "WE WILL DO THIS BY:" sections that provide specific goals and initiatives under each pillar. The cross-cutting DEI commitment is appropriately highlighted as foundational to all strategic work. Document demonstrates thoughtful strategic planning process with extensive community engagement (100+ staff touchpoints, 140 survey responses, 80+ patient/community touchpoints, 22 working sessions). However, the strategic priorities themselves lack descriptive text - each pillar title is followed immediately by specific goals and initiatives without conceptual explanation of what each priority area encompasses. The plan shows evidence of environmental scanning with key discoveries about population growth, aging demographics, staffing challenges, and technology needs. Strong emphasis on collaboration and partnership as evidenced by the "Together" theme throughout all pillars.
+=====================================
+END OF EXTRACTION - HOSPITAL 99
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,81 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 16
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 16 OF 16
+
+=====================================
+
+FAC: 650
+HOSPITAL_NAME_FILE: St. Joseph's General Hospital Elliot Lake
+HOSPITAL_NAME_TEXT: St. Joseph's General Hospital Elliot Lake
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic goals (Our Focus, Our Culture, Our Approach, Our Commitment) with specific focus areas under each goal
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Our Focus - The Patient Experience
+L1.1_TEXT:
+Treated like family
+
+Quality, safe, compassionate, patient and senior-centred care
+
+Access and Equity for all
+
+---
+
+L1.2_TITLE: Our Culture - Inspired Employees
+L1.2_TEXT:
+Ensuring employee safety in a just culture with a focus on Health Human Resources (HHR) challenges and opportunities
+
+Setting the standard of Civility and promoting cultural diversity
+
+Creating an environment of staff appreciation
+
+---
+
+L1.3_TITLE: Our Approach - Unity
+L1.3_TEXT:
+Fostering collaboration and partnership
+
+Coordination with Regional services
+
+Transformation of service delivery—"One stop shop"
+
+---
+
+L1.4_TITLE: Our Commitment - Demonstrated Leadership
+L1.4_TEXT:
+Upholding the legacy of Catholic Health Care Services
+
+Through all communications
+
+To provide First Class Services as a Centre of Excellence
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Very brief, high-level strategic plan presented as a single-page overview with minimal detail. The four strategic goals are presented with short bullet-point descriptions rather than narrative text. The document emphasizes the hospital's Catholic healthcare mission and commitment to serving as a Centre of Excellence. The plan structure is clear but lacks the detailed strategic thinking, environmental analysis, and specific initiatives typically found in comprehensive strategic plans. The brevity suggests this may be a summary document rather than a full strategic plan. The focus on patient experience, employee culture, collaboration, and leadership demonstrates standard healthcare strategic domains but with very limited elaboration.
+=====================================
+END OF EXTRACTION - HOSPITAL 16
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 16
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 110 OF 1
+
+=====================================
+
+FAC: 977
+HOSPITAL_NAME_FILE: North of Superior Healthcare Group
+HOSPITAL_NAME_TEXT: North of Superior Healthcare Group
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around three main pillars (People, Providers, Partners) with Place as infrastructure support, all unified under vision of Healthy Communities
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People
+L1.1_TEXT:
+Dedicate our efforts and resources to the provision of care to our patients, residents, tenants, clients and their families, that is respectful of their preferences, needs and values.
+
+---
+
+L1.2_TITLE: Providers
+L1.2_TEXT:
+Ensure a supportive work environment that attracts and retains the highest quality staff, physician, student and volunteer care team.
+
+---
+
+L1.3_TITLE: Partners
+L1.3_TEXT:
+Offer leadership and active participation in the collaborative efforts of our local and regional health and services partners, with a focus on developing solutions that improve the health of our communities.
+
+---
+
+L1.4_TITLE: Place
+L1.4_TEXT:
+Continually enhance our buildings, equipment and technology infrastructure to assure ongoing organizational sustainability.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear visual presentation and professional formatting. The plan uses a four-pillar framework (People, Providers, Partners, Place) that provides comprehensive coverage of strategic domains. Each pillar has a clear descriptive statement followed by detailed "We will..." action items that demonstrate good L1/L2 distinction. The mission statement emphasizes collaboration and learning environment, while values focus on accountability, quality care, respect for diversity, and core values of compassion, fairness, integrity and teamwork. The plan shows evidence of community engagement through acknowledgment of various stakeholder groups who provided input. Document includes facility photos and maintains consistent formatting throughout. The strategic framework is simple but effective, with Place serving as the infrastructure foundation supporting the other three pillars focused on stakeholders.
+=====================================
+END OF EXTRACTION - HOSPITAL 110
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

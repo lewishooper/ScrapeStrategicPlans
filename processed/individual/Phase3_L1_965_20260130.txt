@@ -1,0 +1,53 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 1 OF 1
+
+=====================================
+
+FAC: 965
+HOSPITAL_NAME_FILE: Sault Area Hospital
+HOSPITAL_NAME_TEXT: Sault Area Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around two main Strategic Directions with supporting priority initiatives, unified under the vision "Trusted Partner. Outstanding Care."
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Compassionate Person-Centred Care
+L1.1_TEXT:
+We will ensure our patients and their families feel heard and empowered to be active participants in their care.
+
+---
+
+L1.2_TITLE: Healthy and Supportive Organization
+L1.2_TEXT:
+Our leaders will enable their teams to do their best and ensure staff, physicians, and volunteers are healthy, well and safe at work.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear vision and mission statements aligned with iCare values (Integrity, Compassion, Collaboration & Partnership, Accountability, Respect, Excellence). The document demonstrates thoughtful strategic planning with two focused Strategic Directions supported by seven detailed Priority Initiatives including Diversity/Equity/Inclusion, Integrated Health Care, Supportive Environment, Safe Workplace, High Quality Care, Financial Health, and Pandemic Recovery. Each priority initiative includes specific approaches and planned actions for 2023-2024, showing strong operational detail. The plan includes a unique Patient, Family & Caregiver Perspective section developed by patient and family advisors, demonstrating genuine stakeholder engagement. Document provides good context about the hospital's history, services, and role in the Algoma District. Strong emphasis on post-pandemic recovery and organizational resilience. The strategic directions are concise but well-supported by detailed implementation priorities.
+=====================================
+END OF EXTRACTION - HOSPITAL 1
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

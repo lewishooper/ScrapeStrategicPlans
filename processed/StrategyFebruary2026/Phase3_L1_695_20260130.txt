@@ -1,0 +1,107 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 32
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 32 OF BATCH 0
+
+=====================================
+
+FAC: 695
+HOSPITAL_NAME_FILE: Providence Care Hospital
+HOSPITAL_NAME_TEXT: Providence Care
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around six strategic priorities with supporting values framework (Respect & Dignity, Compassion, Stewardship, Inclusion) and mission statement emphasizing "more than healthcare"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality
+L1.1_TEXT:
+Providence Care enhances the quality of life for the people we serve, demonstrating that:
+
+Our people foster meaningful partnerships with the people we serve to achieve the best possible outcomes and experiences.
+
+Our teams strive to exceed standards of excellence through a commitment to equity and accountability.
+
+We embrace quality improvement, driven by collaboration and a shared vision for better care and services.
+
+---
+
+L1.2_TITLE: Research & Innovation
+L1.2_TEXT:
+Providence Care drives meaningful improvement through innovation, guided by research and learning, demonstrating that:
+
+A culture of curiosity and transformation is nurtured.
+
+Our teams actively seek, generate, and apply best practices to deliver equitable, person-centred care.
+
+Research is advanced by fostering discovery and encouraging diverse perspectives.
+
+We share our knowledge openly to inspire progress and benefit the broader community.
+
+---
+
+L1.3_TITLE: Sustainability
+L1.3_TEXT:
+Providence Care manages our resources thoughtfully and sustainably, demonstrating that:
+
+Our resources are maximized to meet the diverse needs of our people and the communities we serve.
+
+Our services are strategically integrated to create lasting value and equitable access.
+
+Our investments prioritize improvements that enhance the well-being of individuals, care of the earth, and long-term community health.
+
+A culture of generosity, collaboration and shared responsibility thrives.
+
+---
+
+L1.4_TITLE: Access
+L1.4_TEXT:
+Providence Care partners across the continuum of care to improve equitable access for all, demonstrating that:
+
+Our services are widely recognized and adapt to emerging needs.
+
+Our services are inclusive, trusted, and accessible to individuals of all identities, abilities, and backgrounds—free from discrimination and system inequities.
+
+Our services support reconciliation and respect for Indigenous identities, histories, and cultures.
+
+Our teams build respectful partnerships to optimize transitions in care and enhance the experience of those we serve.
+
+---
+
+L1.5_TITLE: Inclusive & Healthy workplace
+L1.5_TEXT:
+Providence Care fosters the health, well-being, and belonging of everyone who works, learns, or volunteers with us, demonstrating that:
+
+Our workplaces are inclusive, safe and promote overall well-being free from discrimination and systemic inequities.
+
+Our people are encouraged to pursue lifelong learning, continuous growth and development.
+
+Our people feel valued and appreciated through recognition of their contributions and perspectives.
+
+Our communication is dynamic and effective.
+
+---
+
+L1.6_TITLE: nf
+L1.6_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan brochure with professional presentation and clear organizational identity. The document emphasizes Providence Care's Catholic health organization identity and specialization in aging, mental health, palliative care, and rehabilitation services. The six strategic priorities are consistently formatted with descriptive text followed by "demonstrating that:" statements that bridge into specific goals/initiatives. Strong emphasis on values-based care with clear articulation of organizational values (Respect & Dignity, Compassion, Stewardship, Inclusion). The plan includes comprehensive service listings across multiple sites (Providence Care Hospital, Providence Manor, community locations, and transitional care centre). Document shows good strategic thinking with focus on equity, reconciliation, and person-centered care. The tagline "more than healthcare" and emphasis on "more innovation, more compassion, more heart" reflects organizational culture. Note that the sixth strategic priority appears to be missing from this document version, as the structure suggests six priorities but only five are detailed.
+=====================================
+END OF EXTRACTION - HOSPITAL 32
+=====================================
+```

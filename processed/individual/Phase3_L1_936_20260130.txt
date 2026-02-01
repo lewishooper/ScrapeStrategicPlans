@@ -1,0 +1,63 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 81
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 81 OF BATCH 0
+
+=====================================
+
+FAC: 936
+HOSPITAL_NAME_FILE: London Health Sciences Centre
+HOSPITAL_NAME_TEXT: London Health Sciences Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three strategic priorities (Team LHSC, Integrated care, Advancing excellence) supported by three transformation catalysts (Organizational optimization, Redesigning care, Digital transformation), unified under the vision "Transforming health, together"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Team LHSC
+L1.1_TEXT:
+At the heart of our new vision – 'Transforming health, together' – lies the belief that through collaboration and innovation, we can make a lasting impact in the lives of patients and communities. We will achieve this goal through three strategic priorities that will support transformative change:
+
+Team LHSC
+
+Becoming a workplace of choice by:
+
+---
+
+L1.2_TITLE: Integrated care
+L1.2_TEXT:
+nf
+
+---
+
+L1.3_TITLE: Advancing excellence
+L1.3_TEXT:
+nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear visual design and consistent formatting. The plan is organized around three main strategic priorities with supporting transformation catalysts. However, the document structure shows minimal descriptive text at the L1 level - most priorities jump directly into implementation goals and tactics. The strategic priorities are well-organized with detailed sub-goals and initiatives (L2 content), but lack substantial narrative description of what each priority area encompasses conceptually. The transformation catalysts section provides more descriptive content about organizational optimization, care redesign, and digital transformation approaches. The plan demonstrates strategic thinking with clear vision statement and tagline "Great people. Great care." The document includes good visual elements and professional presentation, though the L1 descriptive content is quite limited compared to the extensive L2 implementation details.
+=====================================
+END OF EXTRACTION - HOSPITAL 81
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

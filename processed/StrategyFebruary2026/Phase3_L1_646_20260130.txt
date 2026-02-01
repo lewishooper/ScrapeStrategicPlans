@@ -1,0 +1,60 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 13
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 13 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 646
+HOSPITAL_NAME_FILE: Deep River & District Health
+HOSPITAL_NAME_TEXT: Deep River & District Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three strategic priorities (People, Growth, Community) unified under Vision "An excellent, compassionate care experience, every time" and Purpose "Caring for every person like a loved one, within a connected system"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People
+L1.1_TEXT:
+We will retain, recruit and grow our team to provide care for today and tomorrow.
+
+People are at the core of all we do. Our DRDH team of staff, physicians and volunteers are committed to caring for patients, residents and our community. We will support our people to grow and develop at DRDH, while also bringing in new team members to care for our community.
+
+---
+
+L1.2_TITLE: Growth
+L1.2_TEXT:
+We will responsibly build and advance our capabilities to provide safe, quality care and services.
+
+We are committed to continuing to provide quality care and services while we expand our facilities, services and teams. As we grow, we will be fiscally responsible to ensure we can serve our community for today and tomorrow.
+
+---
+
+L1.3_TITLE: Community
+L1.3_TEXT:
+We will foster partnerships and opportunities for engagement to improve the health of our community.
+
+We will strive to better understand our community's changing needs and adapt our services to build a healthier community.
+
+It is important to us to embed evidence into future planning and work towards impactful and sustainable program development and delivery. We will continue to build an environment where everyone feels welcome and safe at DRDH.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear visual presentation and professional formatting. The document demonstrates organizational maturity with a name change from Deep River and District Hospital to Deep River & District Health, reflecting evolution to a connected health campus including hospital, long-term care, and family health team. Strong emphasis on territorial acknowledgment and Indigenous reconciliation. The three strategic priorities are consistently formatted with clear descriptive text and detailed commitments underneath. Document includes comprehensive background on accomplishments (2018-2022), stakeholder engagement process (314 individuals consulted), and quality metrics showing high satisfaction rates (97.9% patient satisfaction, 88.9% partner satisfaction). The plan shows evidence of thoughtful strategic planning with clear vision/purpose statements and organizational values. Includes specific upcoming projects like 96-bed long-term care home by 2026 and new family health building.
+=====================================
+END OF EXTRACTION - HOSPITAL 13
+=====================================
+```

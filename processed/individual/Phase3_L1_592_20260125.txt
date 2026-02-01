@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 1 OF 1
+
+=====================================
+
+FAC: nf
+HOSPITAL_NAME_FILE: Lennox & Addington County General Hospital
+HOSPITAL_NAME_TEXT: Lennox & Addington County General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around Mission, Vision, Values and three Strategic Focus areas (Exceptional Care, Trusted Relationships, Relentless Communications) with six Priority Objectives and ten Operational Imperatives
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Exceptional Care
+L1.1_TEXT:
+LACGH will invest in a Quality Improvement transformation, annually identifying 1-2 areas or units that require special focus.
+
+---
+
+L1.2_TITLE: Trusted Relationships
+L1.2_TEXT:
+LACGH actively fosters inclusion and respect through a systemic anti-racism framework, including Indigenous Peoples.
+
+---
+
+L1.3_TITLE: Relentless Communications
+L1.3_TEXT:
+LACGH will pursue a robust multi-channel communications/engagement strategy to enhance patient experiences, improve patient care, enhance teamwork, help attract staff, and maintain our strong reputation in the community.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear visual identity. The document demonstrates thoughtful strategic planning with comprehensive stakeholder engagement process detailed in appendix. Strong emphasis on Indigenous acknowledgment and reconciliation throughout. The plan includes detailed situational analysis referencing Dalla Lana School study on Ontario healthcare challenges. Three strategic focus areas are clearly defined with specific Priority Objectives providing measurable targets (reduce wait times, advocate for services, workforce development, health equity, team-based primary care, supportive living expansion). Ten Operational Imperatives provide detailed implementation framework covering systems, processes, and infrastructure improvements. Document shows sophisticated understanding of rural healthcare challenges and integration with broader health system through partnerships and the Quintuple Aim framework. The mission emphasizes partnership approach and community health hub concept.
+=====================================
+END OF EXTRACTION - HOSPITAL 1
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

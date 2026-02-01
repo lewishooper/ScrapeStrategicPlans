@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 5
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 5 OF 5
+
+=====================================
+
+FAC: 599
+HOSPITAL_NAME_FILE: Arnprior Regional Health
+HOSPITAL_NAME_TEXT: Arnprior Regional Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around five Strategic Directions with detailed Strategic Priorities under each direction
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Person Centred Care
+L1.1_TEXT:
+Emphasizing our existing areas of exceptional clinical care today and continually advancing our care for tomorrow.
+
+---
+
+L1.2_TITLE: Our People
+L1.2_TEXT:
+Our investment in, and the development of our people, so our healthcare team can grow and thrive, and encompassing a network of support for staff, volunteers, and services providers.
+
+---
+
+L1.3_TITLE: Our Infrastructure
+L1.3_TEXT:
+Developing a future oriented plan and the development of our infrastructure to advance our journey as a health hub that provides the next generation care within our community.
+
+---
+
+L1.4_TITLE: Our Partners
+L1.4_TEXT:
+Fostering productive relationships to create an integrated health care system within our community and surrounding region.
+
+---
+
+L1.5_TITLE: Financial Stewardship
+L1.5_TEXT:
+Ensuring ARH has the requisite resources to enable continued service excellence, enhance experiences and build upon the strategic priority for the community.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear vision, mission, values and commitment statements prominently displayed. The five Strategic Directions are consistently formatted with descriptive text followed by detailed Strategic Priorities that provide specific, actionable goals. The document demonstrates good strategic thinking with comprehensive coverage of key organizational domains including patient care, workforce, infrastructure, partnerships, and financial sustainability. Each Strategic Direction includes multiple specific priorities with clear action-oriented language. The plan shows evidence of thoughtful planning with realistic timelines and measurable objectives at the L2 level. Professional presentation with consistent formatting throughout. The strategic priorities are well-balanced between operational excellence and future-oriented development.
+=====================================
+END OF EXTRACTION - HOSPITAL 5
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 5
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

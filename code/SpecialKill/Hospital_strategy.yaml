@@ -1,0 +1,2592 @@
+- FAC: '592'
+  name: NAPANEE LENNOX & ADDINGTON
+  hospital_type: Small Hospital
+  base_url: https://web.lacgh.napanee.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://web.lacgh.napanee.on.ca/wp-content/uploads/2025/06/LAH0004-Strat-Plan-Layout-and-Design-DIGITAL.pdf
+    pdf_found: yes
+    pdf_url: https://web.lacgh.napanee.on.ca/wp-content/uploads/2025/06/LAH0004-Strat-Plan-Layout-and-Design-DIGITAL.pdf
+    pdf_downloaded: yes
+    download_confidence: manual
+    content_type: ''
+    local_folder: 592_NAPANEE_LENNOX_ADDINGTON
+    local_filename: Strategy_202512_592.pdf
+    manual_pdf_url: https://web.lacgh.napanee.on.ca/wp-content/uploads/2025/06/LAH0004-Strat-Plan-Layout-and-Design-DIGITAL.pdf
+    requires_manual_review: no
+    strategy_notes: Downloaded from manually provided URL
+- FAC: '593'
+  name: Middlesex Hospital Alliance NEWBURY FOUR COUNTIES HEALTH SERV.
+  hospital_type: Small Hospital
+  base_url: https://mhalliance.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://mhalliance.on.ca/about/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://mhalliance.on.ca/wp-content/uploads/2024/07/MHA-Strategic-Plan-2024-Onward.pdf
+    pdf_downloaded: yes
+    download_confidence: manual
+    content_type: ''
+    local_folder: 593_Middlesex_Hospital_Alliance_NEWBURY_FOUR_COUNTIES_HEALTH_SERV
+    local_filename: Strategy_202512_593.pdf
+    manual_pdf_url: https://mhalliance.on.ca/wp-content/uploads/2024/07/MHA-Strategic-Plan-2024-Onward.pdf
+    requires_manual_review: no
+    strategy_notes: Downloaded from manually provided URL
+- FAC: '596'
+  name: Alliston Stevenson Memorial Hospital
+  hospital_type: Small Hospital
+  base_url: https://www.stevensonhospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.stevensonhospital.ca/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.stevensonhospital.ca/uploads/Stevenson%20HSP-PDF-Final-Novideos.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    content_type: ''
+    local_folder: 596_Alliston_Stevenson_Memorial_Hospital
+    local_filename: Strategy_202512_596.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-1): https://www.stevensonhospital.ca/strategic-plan
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '597'
+  name: ALMONTE GENERAL
+  hospital_type: Small Hospital
+  base_url: https://www.mrha.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.mrha.ca/strategicplan?t=1
+    pdf_found: yes
+    pdf_url: https://www.mrha.ca/uploads/Common/MHR%20Strategic%20Plan%20Draft%20V4%20January%202023.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 597_ALMONTE_GENERAL
+    local_filename: Strategy_202512_597.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.mrha.ca/strategicplan?t=1
+      (confidence: high)'
+- FAC: '599'
+  name: ARNPRIOR & DISTRICT MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.arnpriorregionalhealth.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.arnpriorregionalhealth.ca/about-us/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.arnpriorregionalhealth.ca/wp-content/uploads/2023/04/Strategic-Plan-Snapshot_2023-26_WEBSITE_FINAL.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 599_ARNPRIOR_DISTRICT_MEMORIAL
+    local_filename: Strategy_202512_599.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.arnpriorregionalhealth.ca/about-us/strategic-plan/
+      (confidence: high)'
+- FAC: '606'
+  name: BARRIE ROYAL VICTORIA REG HC
+  hospital_type: Large Community Hospital
+  base_url: https://www.rvh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.rvh.on.ca/wp-content/uploads/2024/06/RVH-Strategic-Plan-DOWNLOADABLE.pdf
+    pdf_found: yes
+    pdf_url: https://www.rvh.on.ca/wp-content/uploads/2024/06/RVH-Strategic-Plan-DOWNLOADABLE.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 606_BARRIE_ROYAL_VICTORIA_REG_HC
+    local_filename: Strategy_202512_606.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.rvh.on.ca/wp-content/uploads/2024/06/RVH-Strategic-Plan-DOWNLOADABLE.pdf
+      (confidence: high)'
+- FAC: '611'
+  name: BLIND RIVER NORTH SHORE HN
+  hospital_type: Small Hospital
+  base_url: https://www.nshn.care
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.nshn.care/strategicplan
+    pdf_found: yes
+    pdf_url: https://www.nshn.care/_files/ugd/329c84_8075469a4cd8486184bb720f83d7a02c.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: html
+    local_folder: 611_BLIND_RIVER_NORTH_SHORE_HN
+    local_filename: Strategy_202512_611.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.nshn.care/strategicplan
+      (confidence: high)'
+- FAC: '619'
+  name: BROCKVILLE GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.brockvillegeneralhospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.brockvillegeneralhospital.ca/who-we-are/strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://www.brockvillegeneralhospital.ca/who-we-are/strategic-plan/'
+- FAC: '624'
+  name: Campbellford Memorial Hospital
+  hospital_type: Small Hospital
+  base_url: https://cmh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://strategicplan.cmh.ca
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 5 pages. URL:
+      https://strategicplan.cmh.ca'
+- FAC: '626'
+  name: 'MRHA CARLETON PLACE & DISTRICT '
+  hospital_type: Small Hospital
+  base_url: https://www.mrha.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.mrha.ca/strategicplan?t=1
+    pdf_found: yes
+    pdf_url: https://www.mrha.ca/uploads/Common/MHR%20Strategic%20Plan%20Draft%20V4%20January%202023.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 626_MRHA_CARLETON_PLACE_DISTRICT
+    local_filename: Strategy_202512_626.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.mrha.ca/strategicplan?t=1
+      (confidence: high)'
+- FAC: '627'
+  name: CHAPLEAU SER DE SANTÉ DE CHAPLEAU
+  hospital_type: Small Hospital
+  base_url: https://www.sschs.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 0 high-value sections
+- FAC: '632'
+  name: North York General Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://www.nygh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://strategicplan.nygh.on.ca/#download
+    pdf_found: yes
+    pdf_url: https://www.nygh.on.ca/wp-content/uploads/2025/05/NYGH_StrategicPlan_2025_05_28_v24.pdf
+    pdf_downloaded: no
+    download_confidence: manual
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: https://www.nygh.on.ca/wp-content/uploads/2025/05/NYGH_StrategicPlan_2025_05_28_v24.pdf
+    requires_manual_review: yes
+    strategy_notes: 'Manual PDF URL provided but download failed: HTTP 404'
+- FAC: '638'
+  name: MICS GROUP COCHRANE LADY MINTO
+  hospital_type: Small Hospital
+  base_url: https://www.micsgroup.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 57 high-value sections
+- FAC: '640'
+  name: COLLINGWOOD GENERAL AND MARINE HOSP
+  hospital_type: Large Community Hospital
+  base_url: https://cgmh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://cgmh.on.ca/who-we-are/strategic-plan
+    pdf_found: yes
+    pdf_url: https://cgmh.on.ca/uploads/files/CGMH Strategic Plan 2025-2030.pdf
+    pdf_downloaded: no
+    download_confidence: manual
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: https://cgmh.on.ca/uploads/files/CGMH Strategic Plan 2025-2030.pdf
+    requires_manual_review: yes
+    strategy_notes: |-
+      Manual PDF URL provided but download failed: URL using bad/illegal format or missing URL:
+      URL rejected: Malformed input to a URL function
+- FAC: '644'
+  name: Cornwall Hospital  CORNWALL HOTEL DIEU
+  hospital_type: Small Hospital
+  base_url: https://www.cornwallhospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.cornwallhospital.ca/en/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.cornwallhospital.ca/uploads/CCH%20Strategic%20Plan%202022-2027_Leading%20Innovative%20Transformation.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    content_type: ''
+    local_folder: 644_Cornwall_Hospital_CORNWALL_HOTEL_DIEU
+    local_filename: Strategy_202512_644.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-1): https://www.cornwallhospital.ca/en/strategic-plan
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '646'
+  name: DEEP RIVER AND DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://www.drdh.org
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.drdh.org/uploads/Common/2023-2027-DRDH%20Strategic%20Plan.pdf
+    pdf_found: yes
+    pdf_url: https://www.drdh.org/uploads/Common/2023-2027-DRDH%20Strategic%20Plan.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 646_DEEP_RIVER_AND_DISTRICT
+    local_filename: Strategy_202512_646.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.drdh.org/uploads/Common/2023-2027-DRDH%20Strategic%20Plan.pdf
+      (confidence: high)'
+- FAC: '647'
+  name: DRYDEN REGIONAL HEALTH CENTRE
+  hospital_type: Small Hospital
+  base_url: https://www.drhc.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.drhc.on.ca/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.drhc.on.ca/wcm-docs/docs/about_section/drhc_stratplan_final.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 647_DRYDEN_REGIONAL_HEALTH_CENTRE
+    local_filename: Strategy_202512_647.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.drhc.on.ca/strategic-plan
+      (confidence: high)'
+- FAC: '648'
+  name: DUNNVILLE HALDIMAND WAR MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.hwmh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.hwmh.ca/about-us/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.hwmh.ca/wp-content/uploads/2024/07/Strat-Plan-Page-2.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 648_DUNNVILLE_HALDIMAND_WAR_MEMORIAL
+    local_filename: Strategy_202512_648.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.hwmh.ca/about-us/strategic-plan/
+      (confidence: high)'
+- FAC: '650'
+  name: ELLIOT LAKE ST JOSEPH'S
+  hospital_type: Small Hospital
+  base_url: https://sjghel.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://sjghel.ca/wp-content/uploads/2022/11/SJGHEL-Strategic-Plan.pdf
+    pdf_found: yes
+    pdf_url: https://sjghel.ca/wp-content/uploads/2022/11/SJGHEL-Strategic-Plan.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 650_ELLIOT_LAKE_ST_JOSEPH_S
+    local_filename: Strategy_202512_650.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://sjghel.ca/wp-content/uploads/2022/11/SJGHEL-Strategic-Plan.pdf
+      (confidence: high)'
+- FAC: '651'
+  name: OTTAWA ROYAL OTTAWA (PSYCH)
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.theroyal.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.theroyal.ca/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.theroyal.ca/wp-content/uploads/2025/10/SPARQ-Light-the-Way_EN.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    content_type: ''
+    local_folder: 651_OTTAWA_ROYAL_OTTAWA_PSYCH
+    local_filename: Strategy_202512_651.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-1): https://www.theroyal.ca/strategic-plan/
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '653'
+  name: Blanche River ENGLEHART & DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://www.blancheriverhealth.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+    pdf_found: yes
+    pdf_url: https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 653_Blanche_River_ENGLEHART_DISTRICT
+    local_filename: Strategy_202512_653.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+      (confidence: high)'
+- FAC: '654'
+  name: ESPANOLA GENERAL
+  hospital_type: Small Hospital
+  base_url: https://espanolaregionalhospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 16 high-value sections
+- FAC: '655'
+  name: Huron Health EXETER SOUTH HURON
+  hospital_type: Small Hospital
+  base_url: https://www.huronhealthsystem.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.huronhealthsystem.ca/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.huronhealthsystem.ca/uploads/HHS%20Strategic%20Plan%202023-2026.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 655_Huron_Health_EXETER_SOUTH_HURON
+    local_filename: Strategy_202512_655.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-2): https://www.huronhealthsystem.ca/strategic-plan
+      (confidence: high)'
+- FAC: '656'
+  name: 'WHCA Grove community hospital '
+  hospital_type: Small Hospital
+  base_url: https://gmch.whca.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 2 high-value sections
+- FAC: '661'
+  name: Cambridge Memorial Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://www.cmh.org
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.cmh.org/hospital#stratplan
+    pdf_found: yes
+    pdf_url: https://www.cmh.org/sites/default/files/2023-09/cmh%202022%20strategic%20plan.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 661_Cambridge_Memorial_Hospital
+    local_filename: Strategy_202512_661.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.cmh.org/hospital#stratplan
+      (confidence: high)'
+- FAC: '662'
+  name: GERALDTON DISTRICT HOSPITAL
+  hospital_type: Small Hospital
+  base_url: https://www.geraldtondh.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.geraldtondh.com/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.geraldtondh.com/upload/documents/gdh-strategic-plan-2024-2028-english.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 662_GERALDTON_DISTRICT_HOSPITAL
+    local_filename: Strategy_202512_662.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.geraldtondh.com/strategic-plan
+      (confidence: high)'
+- FAC: '663'
+  name: Huron HealthGODERICH ALEXANDRA MARINE & GEN
+  hospital_type: Small Hospital
+  base_url: https://www.huronhealthsystem.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.huronhealthsystem.ca/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.huronhealthsystem.ca/uploads/HHS%20Strategic%20Plan%202023-2026.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 663_Huron_HealthGODERICH_ALEXANDRA_MARINE_GEN
+    local_filename: Strategy_202512_663.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-2): https://www.huronhealthsystem.ca/strategic-plan
+      (confidence: high)'
+- FAC: '665'
+  name: GUELPH GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.gghorg.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.gghorg.ca/achieving-our-goals/strategic-plan-2022-2027/
+    pdf_found: yes
+    pdf_url: https://www.gghorg.ca/wp-content/uploads/2023/07/GGH_StratPlan_Assets_OnePager_v2-NoCrops.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 665_GUELPH_GENERAL
+    local_filename: Strategy_202512_665.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.gghorg.ca/achieving-our-goals/strategic-plan-2022-2027/
+      (confidence: high)'
+- FAC: '666'
+  name: GUELPH ST JOSEPH'S HEALTH CENTRE
+  hospital_type: Small Hospital
+  base_url: https://www.sjhcg.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 3 high-value sections
+- FAC: '674'
+  name: HAMILTON ST JOSEPH'S
+  hospital_type: Teaching Hospital
+  base_url: https://www.stjoes.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.stjoes.ca/quality-performance/strategic-plan
+    pdf_found: yes
+    pdf_url: https://sjhs.ca/wp-content/uploads/2023/12/SJHS-Strategic-Plan_Care-Redefined.-Teams-Reimagined.pdf
+    pdf_downloaded: yes
+    download_confidence: manual
+    content_type: ''
+    local_folder: 674_HAMILTON_ST_JOSEPH_S
+    local_filename: Strategy_202512_674.pdf
+    manual_pdf_url: https://sjhs.ca/wp-content/uploads/2023/12/SJHS-Strategic-Plan_Care-Redefined.-Teams-Reimagined.pdf
+    requires_manual_review: no
+    strategy_notes: Downloaded from manually provided URL
+- FAC: '676'
+  name: HANOVER & DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://www.hanoverhospital.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.hanoverhospital.on.ca/uploads/Common/Strategic%20Plan%20-%20Detailed%20Version.pdf
+    pdf_found: yes
+    pdf_url: https://www.hanoverhospital.on.ca/uploads/Common/Strategic%20Plan%20-%20Detailed%20Version.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 676_HANOVER_DISTRICT
+    local_filename: Strategy_202512_676.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.hanoverhospital.on.ca/uploads/Common/Strategic%20Plan%20-%20Detailed%20Version.pdf
+      (confidence: high)'
+- FAC: '681'
+  name: HEARST NOTRE DAME
+  hospital_type: Small Hospital
+  base_url: https://www.ndh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.ndh.on.ca/#strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.ndh.on.ca/wp-content/uploads/2025/07/NON-OHIP-Billable-Test-2025.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    content_type: ''
+    local_folder: 681_HEARST_NOTRE_DAME
+    local_filename: Strategy_202512_681.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-2): https://www.ndh.on.ca/#strategic-plan
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '682'
+  name: HORNEPAYNE COMMUNITY
+  hospital_type: Small Hospital
+  base_url: https://www.hornepaynecommunityhospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 3 high-value sections
+- FAC: '684'
+  name: Rural Roads Health servcies INGERSOLL ALEXANDRA
+  hospital_type: Small Hospital
+  base_url: https://www.ruralroadshealthservices.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.ruralroadshealthservices.ca/about/strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://www.ruralroadshealthservices.ca/about/strategic-plan/'
+- FAC: '685'
+  name: MICS Group IROQUOIS FALLS ANSON GENERAL
+  hospital_type: Small Hospital
+  base_url: https://www.micsgroup.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 57 high-value sections
+- FAC: '686'
+  name: WAWA LADY DUNN HC
+  hospital_type: Small Hospital
+  base_url: https://ldhc.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://ldhc.com/About-Us/Strategic-Plan
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://ldhc.com/About-Us/Strategic-Plan'
+- FAC: '695'
+  name: KINGSTON PROVIDENCE CARE HOSPITAL
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://providencecare.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 0 high-value sections
+- FAC: '696'
+  name: KIRKLAND & DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://www.blancheriverhealth.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+    pdf_found: yes
+    pdf_url: https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 696_KIRKLAND_DISTRICT
+    local_filename: Strategy_202512_696.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.blancheriverhealth.ca/about-us/our-organization/brh-operations-plan-vision-mission-values-strategic-directions.pdf
+      (confidence: high)'
+- FAC: '699'
+  name: WRHN-KITCHENER ST MARY'S
+  hospital_type: Large Community Hospital
+  base_url: https://www.smgh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.smgh.ca/about-us/who-we-are/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.smgh.ca/about-us/who-we-are/strategic-plan/smgh-strat-plan-refresh-2024-final.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 699_WRHN_KITCHENER_ST_MARY_S
+    local_filename: Strategy_202512_699.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.smgh.ca/about-us/who-we-are/strategic-plan
+      (confidence: high)'
+- FAC: '701'
+  name: RICHMOND HILL MACKENZIE HEALTH
+  hospital_type: Large Community Hospital
+  base_url: https://www.mackenziehealth.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.mackenziehealth.ca/about-us/reports-performance-and-plans/strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.mackenziehealth.ca/about-us/reports-performance-and-plans/strategic-plan/mackenzie-health-strategic-plan-2025-28-booklet-final.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 701_RICHMOND_HILL_MACKENZIE_HEALTH
+    local_filename: Strategy_202512_701.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.mackenziehealth.ca/about-us/reports-performance-and-plans/strategic-plan
+      (confidence: high)'
+- FAC: '704'
+  name: Erie Shores Leamington
+  hospital_type: Small Hospital
+  base_url: https://erie.bluelemonmedia.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 0 high-value sections
+- FAC: '707'
+  name: Ross Memorial Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://rmh.org
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://rmh.org/about-ross-memorial/strategic-planning-at-rmh
+    pdf_found: yes
+    pdf_url: https://rmh.org/document/rmh-strategic-plan-brief-2023-final-web
+    pdf_downloaded: yes
+    download_confidence: manual
+    content_type: ''
+    local_folder: 707_Ross_Memorial_Hospital
+    local_filename: Strategy_202512_707.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: Downloaded from manually provided URL
+- FAC: '709'
+  name: Listowel Wingham LISTOWEL MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://lwha.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://lwha.ca/news/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://lwha.ca/wp-content/uploads/2025/06/LWHA-Strategic-Refresh-Final-June-2025-1.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 709_Listowel_Wingham_LISTOWEL_MEMORIAL
+    local_filename: Strategy_202512_709.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://lwha.ca/news/strategic-plan/
+      (confidence: high)'
+- FAC: '714'
+  name: LONDON ST JOSEPHS
+  hospital_type: Teaching Hospital
+  base_url: https://www.sjhc.london.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.sjhc.london.on.ca/lawson-research-strategic-plan
+    pdf_found: yes
+    pdf_url: file:///C:/Users/lewis/Downloads/StJosephStrategicPlan_2025-2030-final.pdf
+    pdf_downloaded: no
+    download_confidence: manual
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: file:///C:/Users/lewis/Downloads/StJosephStrategicPlan_2025-2030-final.pdf
+    requires_manual_review: yes
+    strategy_notes: 'Manual PDF URL provided but download failed: HTTP 0'
+- FAC: '718'
+  name: BURLINGTON JOSEPH BRANT HOSPITAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.josephbranthospital.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.josephbranthospital.ca/about-us/about-our-hospital/JBH-Strategic-Plan-2023-2026.pdf
+    pdf_found: yes
+    pdf_url: https://www.josephbranthospital.ca/about-us/about-our-hospital/JBH-Strategic-Plan-2023-2026.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 718_BURLINGTON_JOSEPH_BRANT_HOSPITAL
+    local_filename: Strategy_202512_718.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-1): https://www.josephbranthospital.ca/about-us/about-our-hospital/JBH-Strategic-Plan-2023-2026.pdf
+      (confidence: high)'
+- FAC: '719'
+  name: MANITOUWADGE SANTE MANITOUWADGE
+  hospital_type: Small Hospital
+  base_url: https://www.mh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 7 high-value sections
+- FAC: '723'
+  name: MATHESON BINGHAM MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.micsgroup.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 57 high-value sections
+- FAC: '724'
+  name: MATTAWA GENERAL
+  hospital_type: Small Hospital
+  base_url: https://www.mattawahealth.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.mattawahealth.ca/Mattawa-Hospital/Strategic-Plan
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://www.mattawahealth.ca/Mattawa-Hospital/Strategic-Plan'
+- FAC: '726'
+  name: MIDLAND GEORGIAN BAY
+  hospital_type: Large Community Hospital
+  base_url: https://gbgh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://gbgh.on.ca/our-strategic-plan/
+    pdf_found: yes
+    pdf_url: https://gbgh.on.ca/gbghmedia/Strategic-Plan-Booklet-23-30-ENG-s.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 726_MIDLAND_GEORGIAN_BAY
+    local_filename: Strategy_202512_726.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://gbgh.on.ca/our-strategic-plan/
+      (confidence: high)'
+- FAC: '732'
+  name: KEMPTVILLE DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://kdh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.kdh.on.ca/about-kemptville-district-hospital/our-strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://www.kdh.on.ca/about-kemptville-district-hospital/our-strategic-plan/'
+- FAC: '734'
+  name: HALDIMAND WEST HALDIMAND GENERAL
+  hospital_type: Small Hospital
+  base_url: https://www.whgh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.whgh.ca/west-haldimand-general-hospital-unveils-2025-2028-strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.whgh.ca/wp-content/uploads/2025/02/WHGH-Strategic-Plan-2024-2028_FA_Digital.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 734_HALDIMAND_WEST_HALDIMAND_GENERAL
+    local_filename: Strategy_202512_734.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.whgh.ca/west-haldimand-general-hospital-unveils-2025-2028-strategic-plan/
+      (confidence: high)'
+- FAC: '736'
+  name: NEWMARKET SOUTHLAKE REGIONAL
+  hospital_type: Large Community Hospital
+  base_url: https://southlake.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://southlake.ca/foundation/about/strategic-plan-2019-2023/
+    pdf_found: yes
+    pdf_url: https://southlake.ca/wp-content/uploads/2019/02/slf_strat-plan_fa_web.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 736_NEWMARKET_SOUTHLAKE_REGIONAL
+    local_filename: Strategy_202512_736.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://southlake.ca/foundation/about/strategic-plan-2019-2023/
+      (confidence: high)'
+- FAC: '739'
+  name: NIPIGON DISTRICT MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.ndmh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.ndmh.ca/care-2030-strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.ndmh.ca/upload/documents/2025-10-30-ndmh-strategic-plan-2030-launch.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 739_NIPIGON_DISTRICT_MEMORIAL
+    local_filename: Strategy_202512_739.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.ndmh.ca/care-2030-strategic-plan
+      (confidence: high)'
+- FAC: '745'
+  name: ORILLIA SOLDIERS' MEMORIAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.osmh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.osmh.on.ca/ourplan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://www.osmh.on.ca/ourplan/'
+- FAC: '751'
+  name: OTTAWA CHEO CTC
+  hospital_type: Specialty Children Hospital
+  base_url: https://www.cheo.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 15 high-value sections
+- FAC: '753'
+  name: OTTAWA MONTFORT
+  hospital_type: Teaching Hospital
+  base_url: https://hopitalmontfort.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+      main page and 2 high-value sections
+- FAC: '763'
+  name: PEMBROKE REGIONAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.pemreghos.org
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.pemreghos.org/strategicplan/index.html?m=1
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://www.pemreghos.org/strategicplan/index.html?m=1'
+- FAC: '768'
+  name: BARRYS BAY ST FRANCIS
+  hospital_type: Small Hospital
+  base_url: https://www.sfmhosp.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.sfmhosp.com/download.php?dl=YToyOntzOjI6ImlkIjtzOjI6IjQxIjtzOjM6ImtleSI7aTozO30=
+    pdf_found: yes
+    pdf_url: https://www.sfmhosp.com/download.php?dl=YToyOntzOjI6ImlkIjtzOjI6IjQxIjtzOjM6ImtleSI7aTozO30=
+    pdf_downloaded: yes
+    download_confidence: manual
+    content_type: ''
+    local_folder: 768_BARRYS_BAY_ST_FRANCIS
+    local_filename: Strategy_202512_768.pdf
+    manual_pdf_url: https://www.sfmhosp.com/download.php?dl=YToyOntzOjI6ImlkIjtzOjI6IjQxIjtzOjM6ImtleSI7aTozO30=
+    requires_manual_review: no
+    strategy_notes: Downloaded from manually provided URL
+- FAC: '771'
+  name: PETERBOROUGH REGIONAL HEALTH CENTRE
+  hospital_type: Large Community Hospital
+  base_url: https://www.prhc.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.prhc.on.ca/about-us/strategic-planning/
+    pdf_found: yes
+    pdf_url: https://www.prhc.on.ca/wp-content/uploads/2024/09/PRHC-Strat-Plan-Report-2024-Singles.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 771_PETERBOROUGH_REGIONAL_HEALTH_CENTRE
+    local_filename: Strategy_202512_771.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.prhc.on.ca/about-us/strategic-planning/
+      (confidence: high)'
+- FAC: '777'
+  name: Queensway Carleton Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://www.qch.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.qch.on.ca/TrueNorth
+    pdf_found: yes
+    pdf_url: https://www.qch.on.ca/uploads/QCH_Strategic_Plan_October_2022.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 777_Queensway_Carleton_Hospital
+    local_filename: Strategy_202512_777.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.qch.on.ca/TrueNorth (confidence:
+      high)'
+- FAC: '781'
+  name: THUNDER BAY ST. JOSEPH'S
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://sjcg.net
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://sjcg.net/strategic-plan/teaching-research/main.aspx
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://sjcg.net/strategic-plan/teaching-research/main.aspx'
+- FAC: '784'
+  name: LITTLE CURRENT MANITOULIN
+  hospital_type: Small Hospital
+  base_url: https://www.mhc.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://www.mhc.on.ca/strategic-plan
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 2 pages. URL:
+      https://www.mhc.on.ca/strategic-plan'
+- FAC: '788'
+  name: RENFREW VICTORIA
+  hospital_type: Small Hospital
+  base_url: https://www.renfrewhosp.com
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.renfrewhosp.com/strategic
+    pdf_found: yes
+    pdf_url: https://www.renfrewhosp.com/uploads/RVH%20Strategic%20Plan%202021-2026.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 788_RENFREW_VICTORIA
+    local_filename: Strategy_202512_788.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.renfrewhosp.com/strategic
+      (confidence: high)'
+- FAC: '790'
+  name: ST CATHARINES HOTEL DIEU
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://www.hoteldieushaver.org
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.hoteldieushaver.org/site/blog/2025/07/22/launching-our-20252030-strategic-plan
+    pdf_found: yes
+    pdf_url: https://www.hoteldieushaver.org/files/InpatientBuilding-Map.pdf
+    pdf_downloaded: yes
+    download_confidence: medium
+    content_type: ''
+    local_folder: 790_ST_CATHARINES_HOTEL_DIEU
+    local_filename: Strategy_202512_790.pdf
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Found on page (depth-1): https://www.hoteldieushaver.org/site/blog/2025/07/22/launching-our-20252030-strategic-plan
+      (confidence: medium) - Please verify this is the correct strategic plan'
+- FAC: '793'
+  name: ST THOMAS ELGIN GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.stegh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.stegh.on.ca/about-us/strategic-plan/
+    pdf_found: yes
+    pdf_url: https://www.stegh.on.ca/wp-content/uploads/2024/11/Strategic-Plan-2024-2027-FINAL-1.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 793_ST_THOMAS_ELGIN_GENERAL
+    local_filename: Strategy_202512_793.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.stegh.on.ca/about-us/strategic-plan/
+      (confidence: high)'
+- FAC: '800'
+  name: HAWKESBURY & DISTRICT GENERAL
+  hospital_type: Small Hospital
+  base_url: https://hgh.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: yes
+    strategy_url: https://hgh.ca/about-hgh/strategic-plan/
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: html
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: 'Strategy page found (depth-1) but no PDF. Checked 1 pages. URL:
+      https://hgh.ca/about-hgh/strategic-plan/'
+- FAC: '802'
+  name: ALEXANDRIA GLENGARRY
+  hospital_type: Small Hospital
+  base_url: https://www.hgmh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.hgmh.on.ca/en/about-us-key/strategic-plan-leadership-and-board-of-directors
+    pdf_found: yes
+    pdf_url: https://cdn.prod.website-files.com/665e0a9e9b4be3573cfbf851/6660432796030021a551c490_HGMH%20Strategic%20Plan%20-%202023-2028.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 802_ALEXANDRIA_GLENGARRY
+    local_filename: Strategy_202512_802.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Found on page (depth-1): https://www.hgmh.on.ca/en/about-us-key/strategic-plan-leadership-and-board-of-directors
+      (confidence: high)'
+- FAC: '804'
+  name: SIMCOE NORFOLK GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.ngh.on.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.ngh.on.ca/wp-content/uploads/2025/02/NGH-Strategic-Plan-2024-2028_FA_Digital.pdf
+    pdf_found: yes
+    pdf_url: https://www.ngh.on.ca/wp-content/uploads/2025/02/NGH-Strategic-Plan-2024-2028_FA_Digital.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 804_SIMCOE_NORFOLK_GENERAL
+    local_filename: Strategy_202512_804.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.ngh.on.ca/wp-content/uploads/2025/02/NGH-Strategic-Plan-2024-2028_FA_Digital.pdf
+      (confidence: high)'
+- FAC: '809'
+  name: SMOOTH ROCK FALLS
+  hospital_type: Small Hospital
+  base_url: https://www.srfhosp.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-03'
+    strategy_url_found: yes
+    strategy_url: https://www.srfhosp.ca/wp-content/uploads/2021/09/Strategic_Energy_Management_Plan_EN_2020-2023.pdf
+    pdf_found: yes
+    pdf_url: https://www.srfhosp.ca/wp-content/uploads/2021/09/Strategic_Energy_Management_Plan_EN_2020-2023.pdf
+    pdf_downloaded: yes
+    download_confidence: high
+    content_type: ''
+    local_folder: 809_SMOOTH_ROCK_FALLS
+    local_filename: Strategy_202512_809.pdf
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: 'Direct PDF link found (depth-2): https://www.srfhosp.ca/wp-content/uploads/2021/09/Strategic_Energy_Management_Plan_EN_2020-2023.pdf
+      (confidence: high)'
+- FAC: '813'
+  name: HPHA STRATFORD GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.hpha.ca
+  strategy_search:
+    search_attempted: yes
+    search_date: '2025-12-04'
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: yes
+    strategy_notes: No strategy pages found after depth-1 and depth-2 search. Checked
+
+
+- FAC: '814'
+  name: Middlesex Hosptial Alliance  STRATHROY MIDDLESEX GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://mhalliance.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '824'
+  name: Rural Roads Health Services TILLSONBURG DISTRICT MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.ruralroadshealthservices.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '826'
+  name: KENORA LAKE OF THE WOODS
+  hospital_type: Medium Hospital
+  base_url: http://www.lwdh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '827'
+  name: TORONTO BAYCREST CTR GERIATRIC CARE
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://www.baycrest.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '837'
+  name: TORONTO HOSPITAL FOR SICK CHILDREN
+  hospital_type: Specialty Children Hospital
+  base_url: https://www.sickkids.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '850'
+  name: TORONTO RUNNYMEDE HC
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://runnymedehc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '854'
+  name: TORONTO SA GRACE
+  hospital_type: Small Hospital
+  base_url: https://www.torontograce.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '858'
+  name: Michael Garron TORONTO EAST GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.tehn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '862'
+  name: TORONTO WOMENS COLLEGE
+  hospital_type: Teaching Hospital
+  base_url: https://www.womenscollegehospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '881'
+  name: STURGEON FALLS WEST NIPISSING
+  hospital_type: Small Hospital
+  base_url: https://www.wngh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '882'
+  name: WINCHESTER DISTRICT MEMORIAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.wdmh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '888'
+  name: NEW LISKEARD TEMISKAMING HOSPITAL
+  hospital_type: Small Hospital
+  base_url: https://www.temiskaming-hospital.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '889'
+  name: WINGHAM & DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://lwha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '890'
+  name: WOODSTOCK WOODSTOCK HOSPITAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.woodstockhospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '896'
+  name: RED LAKE MARG COCHENOUR MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.redlakehospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '900'
+  name: FORT FRANCES RIVERSIDE HEALTH CARE
+  hospital_type: Small Hospital
+  base_url: https://riversidehealthcare.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '905'
+  name: OAK VALLEY HEALTH
+  hospital_type: Large Community Hospital
+  base_url: https://www.oakvalleyhealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '907'
+  name: TIMMINS & DISTRICT GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://tadh.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '910'
+  name: TORONTO CASEY HOUSE
+  hospital_type: Small Hospital
+  base_url: https://caseyhouse.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '916'
+  name: HEADWATERS
+  hospital_type: Large Community Hospital
+  base_url: https://www.headwatershealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '928'
+  name: PERTH SMITHS FALLS
+  hospital_type: Large Community Hospital
+  base_url: https://psfdh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '930'
+  name: WRHN-KITCHENER GRAND RIVER
+  hospital_type: Large Community Hospital
+  base_url: https://www.grhosp.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '931'
+  name: PARRY SOUND WEST PARRY SOUND
+  hospital_type: Large Community Hospital
+  base_url: https://www.wpshc.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '932'
+  name: Elizabeth Bruyere Hospital
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://www.bruyere.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '935'
+  name: Thunder Bay Regional Health Sciences Centre
+  hospital_type: Teaching Hospital
+  base_url: https://tbrhsc.net
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '936'
+  name: LONDON HEALTH SCIENCES
+  hospital_type: Teaching Hospital
+  base_url: https://www.lhsc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '938'
+  name: DYSART ET AL HALIBURTON HEALTH SER
+  hospital_type: Small Hospital
+  base_url: https://www.hhhs.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '939'
+  name: TORONTO HOLLAND BLOORVIEW KIDS
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://hollandbloorview.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '940'
+  name: COBOURG NORTHUMBERLAND HILLS
+  hospital_type: Large Community Hospital
+  base_url: https://nhh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '941'
+  name: Humber River Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://www.hrh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '942'
+  name: HAMILTON HEALTH SCIENCES CORP
+  hospital_type: Teaching Hospital
+  base_url: https://www.hamiltonhealthsciences.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '946'
+  name: KINCARDINE SOUTH BRUCE GREY
+  hospital_type: Small Hospital
+  base_url: https://www.sbghc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '947'
+  name: TORONTO UNIVERSITY HEALTH NETWORK
+  hospital_type: Teaching Hospital
+  base_url: https://www.uhn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '948'
+  name: TORONTO ADDICTION & MENTAL HEALTH
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.camh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '950'
+  name: HALTON HEALTHCARE
+  hospital_type: Large Community Hospital
+  base_url: https://www.haltonhealthcare.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '951'
+  name: BRAMPTON WILLIAM OSLER
+  hospital_type: Large Community Hospital
+  base_url: https://www.williamoslerhs.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '952'
+  name: Lakeridge Health
+  hospital_type: Large Community Hospital
+  base_url: https://www.lh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '953'
+  name: Sunnybrook Health Sciences Centre
+  hospital_type: Teaching Hospital
+  base_url: https://sunnybrook.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '955'
+  name: GREY BRUCE HEALTH SERVICES  Brightshores
+  hospital_type: Large Community Hospital
+  base_url: https://www.brightshores.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '957'
+  name: BELLEVILLE QUINTE HEALTH CARE
+  hospital_type: Large Community Hospital
+  base_url: https://quintehealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '958'
+  name: OTTAWA THE OTTAWA HOSPITAL
+  hospital_type: Teaching Hospital
+  base_url: https://www.ottawahospital.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '959'
+  name: SUDBURY HEALTH SCIENCES NORTH
+  hospital_type: Teaching Hospital
+  base_url: https://hsnsudbury.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '961'
+  name: OTTAWA HEART INSTITUTE
+  hospital_type: Teaching Hospital
+  base_url: https://www.ottawaheart.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '962'
+  name: ST CATHARINES NIAGARA HEALTH SYSTEM
+  hospital_type: Large Community Hospital
+  base_url: https://www.niagarahealth.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '963'
+  name: MOUNT FOREST NORTH WELLINGTON HC
+  hospital_type: Small Hospital
+  base_url: https://gmch.whca.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '964'
+  name: SIOUX LOOKOUT MENO-YA-WIN HC
+  hospital_type: Small Hospital
+  base_url: https://slmhc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '965'
+  name: SAULT STE MARIE SAULT AREA
+  hospital_type: Large Community Hospital
+  base_url: https://sah.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '967'
+  name: CORNWALL COMMUNITY
+  hospital_type: Large Community Hospital
+  base_url: https://www.cornwallhospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '968'
+  name: HUNTSVILLE MUSKOKA ALGONQUIN HC
+  hospital_type: Large Community Hospital
+  base_url: https://www.mahc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '969'
+  name: WHITBY ONT SHORES CENTRE MH SCIENCE
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.ontarioshores.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '970'
+  name: Brantford Brant Community
+  hospital_type: Large Community Hospital
+  base_url: https://www.bchsys.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '971'
+  name: SUDBURY ST.JOSEPHS CONTINUING CARE
+  hospital_type: Small Hospital
+  base_url: https://www.sjsudbury.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '972'
+  name: PENETANGUISHENE WAYPOINT
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.waypointcentre.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '973'
+  name: MOOSE FACTORY WEENEEBAYKO AREA
+  hospital_type: Small Hospital
+  base_url: https://www.waha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '974'
+  name: NORTH BAY NORTH BAY REGIONAL HC
+  hospital_type: Large Community Hospital
+  base_url: https://nbrhc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '975'
+  name: MISSISSAUGA TRILLIUM HEALTH PARTNER
+  hospital_type: Large Community Hospital
+  base_url: https://www.thp.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '976'
+  name: TORONTO SINAI HEALTH SYSTEM
+  hospital_type: Teaching Hospital
+  base_url: https://www.sinaihealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '977'
+  name: TERRACE BAY NORTH OF SUPERIOR HC
+  hospital_type: Small Hospital
+  base_url: https://www.nosh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '978'
+  name: KINGSTON KINGSTON HEALTH SCIENCES
+  hospital_type: Teaching Hospital
+  base_url: https://kingstonhsc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '979'
+  name: TORONTO SCARBOROUGH HEALTH NETWORK
+  hospital_type: Large Community Hospital
+  base_url: https://www.shn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '980'
+  name: TORONTO UNITY HEALTH TORONTO
+  hospital_type: Teaching Hospital
+  base_url: https://unityhealth.to
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '982'
+  name: Blanche River Health
+  hospital_type: Large Community Hospital
+  base_url: https://www.blancheriverhealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '983'
+  name: HURON PERTH HEALTHCARE ALLIANCE
+  hospital_type: Large Community Hospital
+  base_url: https://www.hpha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''

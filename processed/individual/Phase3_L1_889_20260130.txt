@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 70
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 70 OF BATCH 0
+
+=====================================
+
+FAC: 889
+HOSPITAL_NAME_FILE: Listowel Wingham Hospitals Alliance
+HOSPITAL_NAME_TEXT: Listowel Wingham Hospitals Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan refresh presentation with mission, vision, values, and strategic goals organized around Services, Quality & Risk, Human Resources, Finance & Resources, and Stewardship & Partnerships
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Services
+L1.1_TEXT:
+Transform and grow our services to meet the needs of the community and greater catchment area.
+
+---
+
+L1.2_TITLE: Quality (&Risk)
+L1.2_TEXT:
+Provide Quality Care that is patient centered, timely, efficient, effective, equitable and safe
+
+---
+
+L1.3_TITLE: Human Resources
+L1.3_TEXT:
+A Workplace that nurtures accountability, individual and collective potential and a culture of kindness and inclusion.
+
+---
+
+L1.4_TITLE: Finance (& Resources)
+L1.4_TEXT:
+A sustainable and resilient Health Organization that is here for future generations.
+
+---
+
+L1.5_TITLE: Stewardship & Partnerships
+L1.5_TEXT:
+Harness Innovation and Partnerships to deliver a quality, expanded, integrated network of sustainable regional care, demonstrating responsible use of public funds.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: This is a strategic plan refresh presentation document with clear organizational structure. The plan includes updated mission statement emphasizing innovation and leading practices, refined vision focusing on exceptional patient and staff experience, and expanded values including new elements like Safety, Transparency, Integrity, Innovation, and Professionalism alongside original values. The five strategic goals are consistently formatted with specific, measurable objectives including targets and timelines (OR utilization increases, diagnostic imaging volume growth, accreditation achievement, electronic documentation implementation, budget balance targets, supply chain reductions, physician recruitment). The document demonstrates good strategic thinking with environmental scan considerations and clear scope for implementation over 12-18 months. Professional presentation quality with consistent branding and clear visual organization.
+=====================================
+END OF EXTRACTION - HOSPITAL 70
+=====================================
+```

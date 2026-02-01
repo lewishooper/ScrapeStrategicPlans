@@ -1,0 +1,51 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 45
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 45 OF BATCH 0
+
+=====================================
+
+FAC: 745
+HOSPITAL_NAME_FILE: Soldiers' Memorial Hospital Orillia
+HOSPITAL_NAME_TEXT: Orillia Soldiers' Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2021
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around Vision, Mission, Shared Purpose, and Values, followed by three strategic themes with key priorities and detailed implementation approaches
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: We Are Connected
+L1.1_TEXT:
+As partners in the Couchiching OHT, OSMH will champion the health and well-being of the populations we serve based on the population health needs, ensuring that the patient and caregiver are active partners.
+
+---
+
+L1.2_TITLE: We are Soldiers'
+L1.2_TEXT:
+The OSMH team is inspired and fully engaged in our shared purpose, embrace our OSMH values and support a culture of inclusivity. The OSMH team's professional aspirations are fulfilled with opportunities for development to be driven by empowerment of staff and industry best standards.
+
+---
+
+L1.3_TITLE: We Adapt and Advance
+L1.3_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-structured strategic plan document with clear organizational identity and values framework. The plan demonstrates thoughtful strategic planning process involving over 670 team members, patients, families, caregivers and partners from over 40 agencies. Document shows strong emphasis on community partnership through the Couchiching Ontario Health Team. The three strategic themes are clearly articulated, though the third theme "We Adapt and Advance" lacks descriptive text at the L1 level, moving directly to specific priorities. The plan includes comprehensive background on the strategic planning process and lessons learned from COVID-19 pandemic response. Strong integration of Indigenous perspectives with inclusion of "All my relations – Toutes mes relations – Mitakuye-Oyasin" in the shared purpose section. Document quality is professional with good visual design and clear organizational structure.
+=====================================
+END OF EXTRACTION - HOSPITAL 45
+=====================================
+```

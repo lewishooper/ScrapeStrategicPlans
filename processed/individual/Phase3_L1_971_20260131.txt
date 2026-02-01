@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 105
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 105 OF BATCH 0
+
+=====================================
+
+FAC: 971
+HOSPITAL_NAME_FILE: St. Joseph's Health Centre Of Sudbury
+HOSPITAL_NAME_TEXT: St. Joseph's Health Centre Of Sudbury
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four Strategic Directions with supporting bullet points under each direction
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Care with Purpose and Compassion
+L1.1_TEXT:
+nf
+
+---
+
+L1.2_TITLE: Cultivate a Thriving Workforce
+L1.2_TEXT:
+nf
+
+---
+
+L1.3_TITLE: Advance our Excellence in Care
+L1.3_TEXT:
+nf
+
+---
+
+L1.4_TITLE: Amplify our Impact Across the Sector
+L1.4_TEXT:
+nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional single-page strategic plan document with clear organizational branding and visual design. The plan presents four Strategic Directions in a clean, structured format with each direction supported by 2-3 specific bullet points that represent goals and initiatives. The document includes the hospital's mission, vision, and four core values (Dignity, Excellence, Service, Integrity) prominently displayed. While the strategic directions have clear titles, there is no descriptive text explaining what each direction means - the document moves directly from titles to specific action items/goals. The bullet points under each direction are clearly L2 content (specific initiatives like "Embrace our Mission by championing compassionate care," "Become the leading workplace by prioritizing effective retention strategies," etc.). The plan demonstrates good strategic thinking with comprehensive coverage of key hospital operational areas, though the format prioritizes conciseness over detailed strategic narrative. The visual presentation is excellent with consistent formatting and professional design elements.
+=====================================
+END OF EXTRACTION - HOSPITAL 105
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

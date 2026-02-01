@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 88 OF 1
+
+=====================================
+
+FAC: 948
+HOSPITAL_NAME_FILE: CAMH
+HOSPITAL_NAME_TEXT: Centre for Addiction and Mental Health (CAMH)
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Six-year strategic plan titled "Connected CAMH" organized around three strategic directions (Advance Care, Get Upstream, Lift Societal Health) powered by three strategic drivers (People and Culture, System-building and Partnerships, Data and Technology)
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Advance care with patients and families through discovery and learning
+L1.1_TEXT:
+Transform how patients and families experience care. Create new models of care. Improve health outcomes by learning from all that we do and by applying the evidence from our work with patients, partners and communities. Adopt and adapt the evidence created by others. Share our discoveries and learnings with the world.
+
+---
+
+L1.2_TITLE: Get upstream to prevent and change the course of mental illness
+L1.2_TEXT:
+Build pathways for early interventions during critical moments across the lifespan to change the trajectory of illness and improve quality of life.
+
+---
+
+L1.3_TITLE: Lift societal health through action in mental health justice
+L1.3_TEXT:
+Do our part to create a healthy and just Canadian society by addressing health disparities and ensuring mental and physical health outcomes are equitable for people living with mental illness.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professionally designed strategic plan with sophisticated visual presentation and clear organizational structure. The plan demonstrates mature strategic thinking with a lifespan approach to mental health and strong emphasis on health equity and social determinants. The three strategic directions are well-articulated with supporting narrative context about mental health challenges and the need for upstream intervention. The document includes compelling patient stories and research highlights that illustrate the strategic directions in practice. Strong integration of Indigenous perspectives through Shkkaabe Makwa program. The plan shows evidence of extensive stakeholder engagement (over 700 people consulted) and is grounded in the Haudenosaunee seventh-generation principle. Each strategic direction includes detailed "We will" statements providing substantial L2 content. The vision of "Health redefined" and mission statement are clearly articulated with supporting values. Document quality is enhanced by architectural renderings of new facilities and real patient/family photography throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 88
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 25
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 25 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 665
+HOSPITAL_NAME_FILE: Guelph General Hospital
+HOSPITAL_NAME_TEXT: Guelph General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Single-page strategic framework document presenting Vision, Mission, Values, and five Strategic Directions in visual format with icons
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: No
+=====================================
+
+L1.1_TITLE: Welcome patients and care partners as team members
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Invest in our team
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Collaborate to provide integrated patient care
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Use technology to enhance quality, efficiency, and safety
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Design and plan for the future
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This is a single-page strategic framework document rather than a comprehensive strategic plan. It presents the hospital's Vision ("Together, a healthier community for everyone"), Mission ("Exemplary and equitable care for and with our community"), and five core Values (Compassionate, Inclusive, Respectful, Collaborative, Inspired) with detailed behavioral descriptions for each value. The five Strategic Directions are presented as titles only with accompanying icons but no descriptive text, goals, or implementation details. The document appears to be a summary or overview piece rather than a full strategic planning document. The Values section is the most developed portion, providing specific behavioral examples for each value. The document is professionally designed with good visual presentation but lacks the depth and detail typically found in comprehensive strategic plans. The DOCUMENT_ISSUES flag reflects that this appears to be an incomplete strategic planning document missing the detailed strategic content typically expected.
+=====================================
+END OF EXTRACTION - HOSPITAL 25
+=====================================
+```

@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 27
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 27 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 674
+HOSPITAL_NAME_FILE: St. Joseph's Health System
+HOSPITAL_NAME_TEXT: St. Joseph's Health System
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic renewal document organized around three strategic directions (Advance Health Beyond Boundaries, Amplify our Collective Impact, Invest in the Teams of Today and Tomorrow) with two key enablers (Innovate Together, Advance Health Equity). Document emphasizes "Care Redefined. Teams Reimagined" theme and builds upon legacy of Sisters of St. Joseph of Hamilton.
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Advance Health Beyond Boundaries
+L1.1_TEXT:
+Reimagine integrated care to empower individuals as they live and thrive in our communities.
+
+Address health inequities and remove barriers to care for priority population groups across SJHS.
+
+---
+
+L1.2_TITLE: Amplify our Collective Impact
+L1.2_TEXT:
+Leverage SJHS scope and scale to support shared priorities and optimize care delivery.
+
+Live the legacy of the Sisters of St. Joseph through SJHS-wide collaboration and partnership.
+
+---
+
+L1.3_TITLE: Invest in the Teams of Today and Tomorrow
+L1.3_TEXT:
+Attract and retain the next generation of health leaders, clinicians and researchers.
+
+Build common learning ecosystems across SJHS to support the teams of today and train the teams of tomorrow.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic renewal document with strong visual design and clear organizational structure. The document effectively communicates the health system's mission, vision, and values while presenting three strategic directions with supporting enablers. However, the document appears to be an overview or summary presentation rather than a complete strategic plan, lacking specific timelines, detailed implementation plans, and measurable objectives that would typically be found in a full strategic plan document. The content focuses heavily on high-level strategic positioning and organizational identity, with emphasis on the legacy of the Sisters of St. Joseph and the integrated nature of the health system across multiple member organizations. The strategic directions are clearly articulated but remain at a conceptual level. Document issues noted as "Incomplete" because this appears to be a strategic framework or summary rather than a comprehensive strategic plan with full implementation details.
+=====================================
+END OF EXTRACTION - HOSPITAL 27
+=====================================
+```

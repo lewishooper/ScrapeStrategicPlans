@@ -1,0 +1,71 @@
+Next Steps & Issues to Address
+🔧 Immediate: Manual Review Phase (Next Few Days)
+
+Review downloaded PDFs for accuracy
+Check medium-confidence downloads
+Add manual URLs where automation failed
+Validate strategy URLs are correct
+
+🐛 Issue #1: Test Configuration System
+Problem: Test mode configuration is corrupted/unreliable
+Need:
+
+Simple end-to-end testing mechanism
+Process one hospital at a time for verification
+Clean test/production separation
+
+Proposed Solution:
+
+Create dedicated test script with single-hospital mode
+Input: FAC number → Output: Full diagnostic report
+No reliance on CONFIG$test_mode flag
+
+📄 Issue #2: HTML-Only Strategic Plans
+Problem: ~20-25% of hospitals only have HTML strategic plans (no PDFs)
+Need:
+
+Separate capture process for HTML content
+Storage mechanism in strategic_plans folder
+Conversion or archival strategy (PDF? Screenshot? Text extraction?)
+
+Considerations:
+
+Manual process vs automated web scraping
+Format standardization
+Integration with existing folder structure
+
+🔮 Issue #3: Phase 4 - Content Analysis
+Scope: Analyze all strategic plans for patterns and insights
+Goals:
+
+Identify common objectives across hospitals
+Compare strategic priorities by hospital type/size
+Extract key themes and trends
+Generate comparative reports
+
+Complexity Factors:
+
+PDF text extraction and parsing
+Natural language processing
+Handling varied document formats
+Meaningful categorization and analysis
+
+Preliminary Thoughts:
+
+May need R packages: pdftools, tidytext, textmineR
+Possibly consider Python for advanced NLP
+Define analysis framework before coding
+
+
+Files Ready for Review Session
+
+IdentifyAndDownloadStrategicPDF.R - Main processing script
+Hospital_strategy.yaml - Complete results (133 hospitals)
+yaml_to_tibble.R - New debugging helper
+Summary CSVs in Outputs folder
+
+Documentation Status
+
+README.md reflects Phase 1-2
+CLAUDE_WORKING_PREFERENCES.md is current
+Will need updates after code review/streamlining

@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 31
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 31 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 686
+HOSPITAL_NAME_FILE: Lady Dunn Health Centre
+HOSPITAL_NAME_TEXT: Lady Dunn Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic goals with mission, vision, and values statements. Includes comprehensive programs and services listing and detailed strategic directions with specific implementation actions.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Focus on quality in delivering our services
+L1.1_TEXT:
+In focusing on quality we hold ourselves to the highest standards by ensuring that we deliver care based on evidence based best practices and by always putting clients first.
+
+---
+
+L1.2_TITLE: Create and Sustain Organizational Resilience
+L1.2_TEXT:
+By increasing resilience, we increase our effectiveness and help to ensure our sustainability.
+
+---
+
+L1.3_TITLE: Integrate and partner with others to better serve our communities
+L1.3_TEXT:
+Through partnerships and collaboration, we lead and participate in the development of a high performing health care system locally, regionally and province wide.
+
+---
+
+L1.4_TITLE: Seek and Optimize Financial Resources
+L1.4_TEXT:
+Through partnerships and collaboration we will lead and participate in the development of a high-performing health care system locally, regionally and province wide.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured five-year strategic plan with clear organizational identity and comprehensive service offerings. The document provides extensive background on the organization's role as a multi-service facility serving approximately 4,300 residents across multiple communities including Indigenous populations. Strong emphasis on partnerships and collaboration throughout. The strategic goals are consistently formatted with brief descriptive text followed by detailed implementation actions. Document includes comprehensive listing of 19 programs and services from acute care to specialized programs. The plan demonstrates good strategic thinking with focus on quality, resilience, partnerships, and financial sustainability. Mission, vision, and values are clearly articulated with specific organizational values (Respect, Trust, Integrity, Compassion, Inclusiveness) well-defined. The document shows strong community orientation and recognition of diverse populations served.
+=====================================
+END OF EXTRACTION - HOSPITAL 31
+=====================================
+```

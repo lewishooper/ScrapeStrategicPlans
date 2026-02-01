@@ -1,0 +1,68 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 14
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 14 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 647
+HOSPITAL_NAME_FILE: Dryden Regional Health Centre
+HOSPITAL_NAME_TEXT: Dryden Regional Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around three strategic pillars (Be a Great Place to Work, Ensure Strong Foundations, Lead New Solutions) with multiple priorities under each pillar, supported by six guiding principles and unified under the theme "Empowered Progressive Innovative Care"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Be a Great Place to Work
+L1.1_TEXT:
+"Empowering Exceptional People to Provide Exceptional Care"
+
+Our people – DRHC staff, professional staff, physicians and volunteers- are our greatest asset. We need enough staff, with the right kinds of skills, who are highly engaged and energized to continue to offer our patients the type and scope of quality service DRHC wants to provide.
+
+DRHC has always had strong HR strategies that have enabled us to be creative in attracting and retaining the best people. Now more than ever we need to be here for the staff and physicians we have invested in, ensuring they feel appreciated and are enabled to give their best every day. We know that if we are an exceptional place to work, DRHC will be successful at retaining our staff and at attracting new talent, even in this very competitive labour market.
+
+---
+
+L1.2_TITLE: Ensure Strong Foundations
+L1.2_TEXT:
+"Progressive Care for Changing Times"
+
+We have learned a lot from the pandemic and know that stability is needed to get through difficult times. In order to continue to offer high quality services to our community, DRHC needs to ensure it is operating with strong foundations.
+
+This means optimizing our financial resources, ensuring we are accessing funding effectively, and using the funds we have in the best way we can.
+
+It also means ensuring strong service delivery foundations: knowing we are set up to deliver best quality services to our patients. We also need to ensure that our actions continue to be aligned with our core values, ensuring we demonstrate our respect and understanding for the unique needs of the populations that rely on us.
+
+---
+
+L1.3_TITLE: Lead New Solutions
+L1.3_TEXT:
+"Innovative Care through Collaboration"
+
+It is clear that new solutions are needed to address the many pressures our community and our hospital is facing. Our ability to continue to serve our patients depends greatly on decisions being made outside our walls.
+
+DRHC needs to take an active role in determining the future as the system changes and new ways of serving patients are being developed in our community. We need to ensure there is clarity about what DRHC will provide as it works together with others in new ways. We commit to being a catalyst for change.
+
+We will dedicate resources and share our experience and expertise, providing leadership in pursuit of a system that provides better access to the types of care our communities needs.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear thematic organization around three strategic pillars. The document demonstrates thoughtful strategic thinking with six guiding principles (Focus, Protect Our Reputation, Invest in Our People, Accelerate Innovation, Lead, Continue to Modernize) that inform the strategic direction. Each pillar includes substantial descriptive text explaining the strategic rationale, followed by detailed priorities with specific initiatives. The plan shows strong awareness of external pressures and system-level challenges facing rural healthcare. Professional presentation with consistent formatting throughout. The mission, vision, and values are clearly articulated with both organizational standards and individual behavioral expectations. Strong emphasis on partnership and collaboration as key to future sustainability. The plan balances internal organizational needs (workforce, foundations) with external leadership responsibilities (system change, innovation).
+=====================================
+END OF EXTRACTION - HOSPITAL 14
+=====================================
+```

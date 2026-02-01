@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 64
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 64 OF BATCH 0
+
+=====================================
+
+FAC: 854
+HOSPITAL_NAME_FILE: Toronto Grace Health Centre
+HOSPITAL_NAME_TEXT: Toronto Grace Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five Strategic Directions with detailed action plans in appendix. Plan includes vision, mission, values framework and comprehensive implementation roadmap.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Invest in our People and Culture
+L1.1_TEXT:
+Support our staff now and in the future so that they can do their best work while promoting a safe and inclusive environment for all.
+
+---
+
+L1.2_TITLE: Communicate Our Purpose
+L1.2_TEXT:
+Strengthen awareness of how TGHC serves the community, creates value in new ways, and positively impacts the health system.
+
+---
+
+L1.3_TITLE: Strengthen Partnerships and Collaboration
+L1.3_TEXT:
+Build strategic partnerships to focus our attention and resources and maximize our collective impact.
+
+---
+
+L1.4_TITLE: Drive Innovation and Transformation
+L1.4_TEXT:
+Use innovative approaches to ensure provision of the best possible care throughout the system.
+
+---
+
+L1.5_TITLE: Provide People-Centred Care
+L1.5_TEXT:
+Establish TGHC as a leading care provider in quality, safety and delivering positive person and family centered care experiences.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured five-year strategic plan with clear organizational framework including vision, mission, and five core values (Compassion, Collaboration, Excellence, Integrity, Innovation). The document demonstrates good strategic thinking with each of the five Strategic Directions having consistent formatting and clear expected outcomes. The plan includes a comprehensive appendix with detailed action plans broken down by short-term (Year 1-2) and medium-term (Year 3-5) initiatives, showing strong implementation planning. The strategic framework visual effectively connects vision, mission, values to the five strategic priorities. Document reflects TGHC's identity as a ministry of The Salvation Army with Christian values integrated throughout. Professional presentation with good use of icons and visual elements to support the strategic framework.
+=====================================
+END OF EXTRACTION - HOSPITAL 64
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

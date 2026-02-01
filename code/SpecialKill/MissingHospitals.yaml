@@ -1,0 +1,1197 @@
+- FAC: '814'
+  name: Middlesex Hosptial Alliance  STRATHROY MIDDLESEX GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://mhalliance.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '824'
+  name: Rural Roads Health Services TILLSONBURG DISTRICT MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.ruralroadshealthservices.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '826'
+  name: KENORA LAKE OF THE WOODS
+  hospital_type: Medium Hospital
+  base_url: http://www.lwdh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '827'
+  name: TORONTO BAYCREST CTR GERIATRIC CARE
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://www.baycrest.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '837'
+  name: TORONTO HOSPITAL FOR SICK CHILDREN
+  hospital_type: Specialty Children Hospital
+  base_url: https://www.sickkids.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '850'
+  name: TORONTO RUNNYMEDE HC
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://runnymedehc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '854'
+  name: TORONTO SA GRACE
+  hospital_type: Small Hospital
+  base_url: https://www.torontograce.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '858'
+  name: Michael Garron TORONTO EAST GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.tehn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '862'
+  name: TORONTO WOMENS COLLEGE
+  hospital_type: Teaching Hospital
+  base_url: https://www.womenscollegehospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '881'
+  name: STURGEON FALLS WEST NIPISSING
+  hospital_type: Small Hospital
+  base_url: https://www.wngh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '882'
+  name: WINCHESTER DISTRICT MEMORIAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.wdmh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '888'
+  name: NEW LISKEARD TEMISKAMING HOSPITAL
+  hospital_type: Small Hospital
+  base_url: https://www.temiskaming-hospital.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '889'
+  name: WINGHAM & DISTRICT
+  hospital_type: Small Hospital
+  base_url: https://lwha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '890'
+  name: WOODSTOCK WOODSTOCK HOSPITAL
+  hospital_type: Large Community Hospital
+  base_url: https://www.woodstockhospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '896'
+  name: RED LAKE MARG COCHENOUR MEMORIAL
+  hospital_type: Small Hospital
+  base_url: https://www.redlakehospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '900'
+  name: FORT FRANCES RIVERSIDE HEALTH CARE
+  hospital_type: Small Hospital
+  base_url: https://riversidehealthcare.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '905'
+  name: OAK VALLEY HEALTH
+  hospital_type: Large Community Hospital
+  base_url: https://www.oakvalleyhealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '907'
+  name: TIMMINS & DISTRICT GENERAL
+  hospital_type: Large Community Hospital
+  base_url: https://tadh.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '910'
+  name: TORONTO CASEY HOUSE
+  hospital_type: Small Hospital
+  base_url: https://caseyhouse.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '916'
+  name: HEADWATERS
+  hospital_type: Large Community Hospital
+  base_url: https://www.headwatershealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '928'
+  name: PERTH SMITHS FALLS
+  hospital_type: Large Community Hospital
+  base_url: https://psfdh.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '930'
+  name: WRHN-KITCHENER GRAND RIVER
+  hospital_type: Large Community Hospital
+  base_url: https://www.grhosp.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '931'
+  name: PARRY SOUND WEST PARRY SOUND
+  hospital_type: Large Community Hospital
+  base_url: https://www.wpshc.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '932'
+  name: Elizabeth Bruyere Hospital
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://www.bruyere.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '935'
+  name: Thunder Bay Regional Health Sciences Centre
+  hospital_type: Teaching Hospital
+  base_url: https://tbrhsc.net
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '936'
+  name: LONDON HEALTH SCIENCES
+  hospital_type: Teaching Hospital
+  base_url: https://www.lhsc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '938'
+  name: DYSART ET AL HALIBURTON HEALTH SER
+  hospital_type: Small Hospital
+  base_url: https://www.hhhs.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '939'
+  name: TORONTO HOLLAND BLOORVIEW KIDS
+  hospital_type: Chronic/Rehab Hospital
+  base_url: https://hollandbloorview.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '940'
+  name: COBOURG NORTHUMBERLAND HILLS
+  hospital_type: Large Community Hospital
+  base_url: https://nhh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '941'
+  name: Humber River Hospital
+  hospital_type: Large Community Hospital
+  base_url: https://www.hrh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '942'
+  name: HAMILTON HEALTH SCIENCES CORP
+  hospital_type: Teaching Hospital
+  base_url: https://www.hamiltonhealthsciences.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '946'
+  name: KINCARDINE SOUTH BRUCE GREY
+  hospital_type: Small Hospital
+  base_url: https://www.sbghc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '947'
+  name: TORONTO UNIVERSITY HEALTH NETWORK
+  hospital_type: Teaching Hospital
+  base_url: https://www.uhn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '948'
+  name: TORONTO ADDICTION & MENTAL HEALTH
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.camh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '950'
+  name: HALTON HEALTHCARE
+  hospital_type: Large Community Hospital
+  base_url: https://www.haltonhealthcare.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '951'
+  name: BRAMPTON WILLIAM OSLER
+  hospital_type: Large Community Hospital
+  base_url: https://www.williamoslerhs.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '952'
+  name: Lakeridge Health
+  hospital_type: Large Community Hospital
+  base_url: https://www.lh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '953'
+  name: Sunnybrook Health Sciences Centre
+  hospital_type: Teaching Hospital
+  base_url: https://sunnybrook.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '955'
+  name: GREY BRUCE HEALTH SERVICES  Brightshores
+  hospital_type: Large Community Hospital
+  base_url: https://www.brightshores.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '957'
+  name: BELLEVILLE QUINTE HEALTH CARE
+  hospital_type: Large Community Hospital
+  base_url: https://quintehealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '958'
+  name: OTTAWA THE OTTAWA HOSPITAL
+  hospital_type: Teaching Hospital
+  base_url: https://www.ottawahospital.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '959'
+  name: SUDBURY HEALTH SCIENCES NORTH
+  hospital_type: Teaching Hospital
+  base_url: https://hsnsudbury.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '961'
+  name: OTTAWA HEART INSTITUTE
+  hospital_type: Teaching Hospital
+  base_url: https://www.ottawaheart.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '962'
+  name: ST CATHARINES NIAGARA HEALTH SYSTEM
+  hospital_type: Large Community Hospital
+  base_url: https://www.niagarahealth.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '963'
+  name: MOUNT FOREST NORTH WELLINGTON HC
+  hospital_type: Small Hospital
+  base_url: https://gmch.whca.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '964'
+  name: SIOUX LOOKOUT MENO-YA-WIN HC
+  hospital_type: Small Hospital
+  base_url: https://slmhc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '965'
+  name: SAULT STE MARIE SAULT AREA
+  hospital_type: Large Community Hospital
+  base_url: https://sah.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '967'
+  name: CORNWALL COMMUNITY
+  hospital_type: Large Community Hospital
+  base_url: https://www.cornwallhospital.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '968'
+  name: HUNTSVILLE MUSKOKA ALGONQUIN HC
+  hospital_type: Large Community Hospital
+  base_url: https://www.mahc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '969'
+  name: WHITBY ONT SHORES CENTRE MH SCIENCE
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.ontarioshores.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '970'
+  name: Brantford Brant Community
+  hospital_type: Large Community Hospital
+  base_url: https://www.bchsys.org
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '971'
+  name: SUDBURY ST.JOSEPHS CONTINUING CARE
+  hospital_type: Small Hospital
+  base_url: https://www.sjsudbury.com
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '972'
+  name: PENETANGUISHENE WAYPOINT
+  hospital_type: Specialty Mental Health Hospital
+  base_url: https://www.waypointcentre.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '973'
+  name: MOOSE FACTORY WEENEEBAYKO AREA
+  hospital_type: Small Hospital
+  base_url: https://www.waha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '974'
+  name: NORTH BAY NORTH BAY REGIONAL HC
+  hospital_type: Large Community Hospital
+  base_url: https://nbrhc.on.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '975'
+  name: MISSISSAUGA TRILLIUM HEALTH PARTNER
+  hospital_type: Large Community Hospital
+  base_url: https://www.thp.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '976'
+  name: TORONTO SINAI HEALTH SYSTEM
+  hospital_type: Teaching Hospital
+  base_url: https://www.sinaihealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '977'
+  name: TERRACE BAY NORTH OF SUPERIOR HC
+  hospital_type: Small Hospital
+  base_url: https://www.nosh.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '978'
+  name: KINGSTON KINGSTON HEALTH SCIENCES
+  hospital_type: Teaching Hospital
+  base_url: https://kingstonhsc.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '979'
+  name: TORONTO SCARBOROUGH HEALTH NETWORK
+  hospital_type: Large Community Hospital
+  base_url: https://www.shn.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '980'
+  name: TORONTO UNITY HEALTH TORONTO
+  hospital_type: Teaching Hospital
+  base_url: https://unityhealth.to
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '982'
+  name: Blanche River Health
+  hospital_type: Large Community Hospital
+  base_url: https://www.blancheriverhealth.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''
+- FAC: '983'
+  name: HURON PERTH HEALTHCARE ALLIANCE
+  hospital_type: Large Community Hospital
+  base_url: https://www.hpha.ca
+  strategy_search:
+    search_attempted: no
+    search_date: .na
+    strategy_url_found: no
+    strategy_url: ''
+    pdf_found: no
+    pdf_url: ''
+    pdf_downloaded: no
+    download_confidence: ''
+    content_type: ''
+    local_folder: ''
+    local_filename: ''
+    manual_pdf_url: ''
+    requires_manual_review: no
+    strategy_notes: ''

@@ -1,0 +1,72 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 50 OF 1
+
+=====================================
+
+FAC: 777
+HOSPITAL_NAME_FILE: Queensway Carleton Hospital Strategic Plan
+HOSPITAL_NAME_TEXT: Queensway Carleton Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan called "True North" organized around Mission, Vision, Values, four True North Goals (Seamless System of Care, Exceptional Care Experience, Positive Work Life, Stewardship and Sustainability), five Strategic Directions (Pandemic Response and Recovery, Integrated Care, Connected Care, Diversity Equity and Inclusion, Learning Culture), and a Foundational Commitment to excellence in patient and family-centred care
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Pandemic Response and Recovery
+L1.1_TEXT:
+Respond to the pandemic, then recover, learn, and emerge more resilient and prepared for the future.
+
+---
+
+L1.2_TITLE: Integrated Care
+L1.2_TEXT:
+Create enhanced partnerships and service delivery models to provide a more coordinated continuum of care for patients and families.
+
+---
+
+L1.3_TITLE: Connected Care
+L1.3_TEXT:
+Optimize digital health solutions in support of enhanced patient care outcomes, patient, family and provider experience, and efficiency.
+
+---
+
+L1.4_TITLE: Diversity, Equity, and Inclusion
+L1.4_TEXT:
+Foster an environment of trust in which everyone feels valued, respected and supported.
+
+---
+
+L1.5_TITLE: Learning Culture
+L1.5_TEXT:
+Develop the leadership, culture, and systems required for continuous learning and performance improvement.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear branding ("True North") and professional presentation. The document demonstrates thoughtful strategic planning with a comprehensive framework including Mission, Vision, Values, four True North Goals, and five Strategic Directions. Each Strategic Direction includes brief descriptive text followed by "How we will do this to advance our goals" sections with specific implementation details. The plan shows evidence of extensive stakeholder engagement (over 1,500 perspectives gathered) and collaborative development process. Strong emphasis on pandemic recovery and future resilience. The True North Goals provide clear organizational priorities while Strategic Directions outline implementation approaches. Document includes compelling patient and staff stories that illustrate the strategic priorities in action. The foundational commitment to patient and family-centred care anchors the entire plan effectively.
+=====================================
+END OF EXTRACTION - HOSPITAL 50
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

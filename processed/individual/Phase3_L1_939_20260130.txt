@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 83
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 83 OF BATCH 0
+
+=====================================
+
+FAC: 939
+HOSPITAL_NAME_FILE: Holland Bloorview Kids Rehabilitation Hospital
+HOSPITAL_NAME_TEXT: Holland Bloorview Kids Rehabilitation Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan organized around four interconnected goals (Healthy team, Care that's agile, Care that's socially accountable, Care that's transformed by research and education) supported by six commitments (Caring Safely, Co-design, IDEAA, Reach, Sustainable). Vision and mission clearly stated with extensive community consultation process documented.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Healthy team
+L1.1_TEXT:
+Empower a thriving, diverse team equipped with the skills, tools and time to learn, do their best work, and the agency to effect meaningful change.
+
+---
+
+L1.2_TITLE: Care that's agile
+L1.2_TEXT:
+Meet the evolving and complex physical, mental, developmental, behavioural and psychosocial health needs of children and youth with disabilities, developmental differences and rehabilitation needs through continuous learning, the power of data and improving integration across systems of care.
+
+---
+
+L1.3_TITLE: Care that's socially accountable
+L1.3_TEXT:
+Integrate equity, anti-racism and social determinants of health in all that we do and demand a world that values children and youth with disabilities and developmental differences.
+
+---
+
+L1.4_TITLE: Care that's transformed by research and education
+L1.4_TEXT:
+Groundbreaking discoveries, precision health, education and knowledge exchange will transform care for children, youth and families that live with disability and developmental differences around the world.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with strong visual presentation and clear organizational structure. The document demonstrates sophisticated strategic thinking with extensive community consultation (1,250+ touchpoints with staff, 150+ with youth and families, 10+ system partner consultations). The four strategic goals are consistently formatted and clearly articulated, each with specific sub-goals and measurable indicators. The plan includes a comprehensive vision and mission statement, six supporting commitments that serve as implementation principles, and a clear transformation narrative from current state (2023) to future state (2030). Strong emphasis on equity, inclusion, and social accountability throughout. The document shows evidence of thorough stakeholder engagement through "campfires" and "sparks" consultation processes. Professional presentation with effective use of graphics and clear typography. The plan balances aspirational vision with concrete implementation elements.
+=====================================
+END OF EXTRACTION - HOSPITAL 83
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

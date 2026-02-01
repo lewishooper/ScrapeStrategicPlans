@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 79
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 79 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 931
+HOSPITAL_NAME_FILE: West Parry Sound Health Centre
+HOSPITAL_NAME_TEXT: West Parry Sound Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around four strategic priorities with accountability structures, measurement frameworks, and OHT partnership focus. Includes comprehensive values statement (CARES) and patient/family centered care definition.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Safe, High Quality Services
+L1.1_TEXT:
+Partnering with patients, their families, and our communities to provide quality care that places them at the centre of everything we do.
+
+---
+
+L1.2_TITLE: Financial Health
+L1.2_TEXT:
+An accountable and efficient health care organization that makes effective use of all its resources.
+
+---
+
+L1.3_TITLE: A Just Culture and Learning Environment
+L1.3_TEXT:
+Working with staff, volunteers, physicians, and health system partners in sustaining safe and healthy workplaces built on organizational cultures of respect, equity, responsibility, teamwork, and continuous quality improvement.
+
+---
+
+L1.4_TITLE: Engagement and Partnerships
+L1.4_TEXT:
+Collaborating with the patients and families we serve by supporting active participation in the planning and delivery of patient and family centred care. Working together with our partners and our communities and aspiring to understand and provide culturally-sensitive and equitable access to care and improve health outcomes for everyone in our changing and growing population.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear organizational values (CARES acronym) and comprehensive patient/family centered care definition. The four strategic priorities are consistently formatted with brief but clear descriptive text. Document includes detailed accountability structures showing Board committees, leadership teams, and measurement frameworks for each priority. Strong emphasis on OHT (Ontario Health Teams) partnership and community engagement. The plan demonstrates good organizational maturity with established governance structures and quality improvement processes. Includes patient feedback mechanisms and transparency commitments. The strategic priorities cover essential hospital operational areas comprehensively. Document is professionally presented with clear visual organization and includes practical contact information for community engagement.
+=====================================
+END OF EXTRACTION - HOSPITAL 79
+=====================================
+```

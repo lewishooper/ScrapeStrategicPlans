@@ -1,0 +1,52 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 74
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 74 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 905
+HOSPITAL_NAME_FILE: Oak Valley Health
+HOSPITAL_NAME_TEXT: Oak Valley Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan titled "Integrated Care for Healthier Communities" organized around three Strategic Priorities (People, Connections, Growth) with Quality Patient Care and Service as a cross-cutting foundation, supported by three Enablers and Accelerators
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Our People, Our Culture
+L1.1_TEXT:
+Integrated care is dependent on people working together. Time and time again, we have heard that what makes Oak Valley Health special is our people and our culture. While our mission focuses on providing an extraordinary patient experience, we want our people to enjoy working, practicing, volunteering, and learning at Oak Valley Health while supporting and providing care. That's why it has never been more important to prioritize the people who make our honoured to care culture special and who are instrumental to our success.
+
+---
+
+L1.2_TITLE: System Design and Partnerships
+L1.2_TEXT:
+Integrated care is dependent on making purposeful connections. One of Oak Valley Health's greatest strengths is our ability to address challenges with creative solutions, partnering with all kinds of interested parties, across our organization and throughout the broader health system, to meet the needs of the patients and the communities we serve. We believe prioritizing system design and partnerships is essential for successful integrated care and we work hard to be good partners.
+
+---
+
+L1.3_TITLE: Scholarship and Innovation
+L1.3_TEXT:
+Integrated care is dependent on growth. The health care landscape is changing along with our growing community. With innovation in mind, we will grow our programs, services, and space and enhance environmental sustainability along the way. We will prioritize scholarship to provide cutting-edge care close to home and a rich learning experience for our future health care professionals, partners, patients, and families.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed executive summary of a five-year strategic plan with clear visual branding and professional presentation. The document demonstrates sophisticated strategic thinking with "Integrated Care" as the central organizing principle and clear vision/mission/values alignment. The three Strategic Priorities are consistently formatted with descriptive text explaining the conceptual foundation of each priority area. The plan includes comprehensive engagement metrics (847 staff/volunteer survey responses, 330 patient/community survey responses, 121 planning meetings) indicating thorough stakeholder input. Strong emphasis on the "honoured to care" culture and extraordinary patient experience as foundational elements. The document clearly distinguishes between strategic directions (L1) and implementation approaches (L2), with specific goals and initiatives present under each priority. Quality Patient Care and Service is positioned as a cross-cutting commitment rather than a separate strategic priority. The three Enablers and Accelerators (Investment and sustainability, Technology and state-of-the-art equipment, Data and analytics) provide additional strategic context.
+=====================================
+END OF EXTRACTION - HOSPITAL 74
+=====================================
+```

@@ -1,0 +1,98 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 17
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 17 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 651
+HOSPITAL_NAME_FILE: The Royal
+HOSPITAL_NAME_TEXT: The Royal
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around five key goals under the SPARQ framework (Sustainability, People, Access, Research, Quality) with detailed strategies and measures of success for each goal
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Sustainability
+L1.1_TEXT:
+Building our future on a solid foundation
+
+It is no secret that our health care system is facing significant financial pressures. Costs have risen while funding has not kept pace with the growing demand for care. In mental illness and addiction services, the need for expanded access and resources is urgent.
+
+These complex realities highlight the need for The Royal to focus on strong financial and operational performance to ensure long-term stability, resilience and the ability to continue to meet the growing needs of our community.
+
+The SPARQ strategic plan focuses on practical, incremental changes that strengthen corporate, financial and environmental sustainability over time.
+
+---
+
+L1.2_TITLE: People
+L1.2_TEXT:
+Cultivate a positive work environment through transparency, collaboration and engagement
+
+People are the heart and soul of The Royal. Supporting their well-being and fostering a positive work environment through transparency, collaboration and engagement is essential to our success and a measure of our commitment to one another.
+
+Even before the COVID-19 pandemic overwhelmed the healthcare sector and exacerbated the mental illness and addiction crisis, the psychological and physical stress of our work was taking a toll on our people.
+
+Workforce shortages in healthcare have made finding and keeping great people a challenge. And when we struggle to find enough qualified staff, it leads to increased workloads and burnout. It can be a vicious cycle.
+
+To overcome these challenges, the SPARQ strategic plan will strengthen our commitment to being a great place to work, creating a culture guided by our values and focused on our purpose.
+
+SPARQ builds on the work started by the Culture Club and our commitment to a whole-of-organization approach to improving employee well-being.
+
+---
+
+L1.3_TITLE: Access
+L1.3_TEXT:
+Break down barriers to mental illness and addiction care to provide high-quality and timely treatment for more people
+
+Access to mental illness and addiction care has never been easy. For too long, stigma, lack of awareness and fear of disclosure have stood in the way of people seeking the help they need. While strides have been made to break down these barriers, significant challenges remain — and as awareness grows, so does the demand for care.
+
+Today, people seeking support often face a fragmented, overburdened system and long waits that leave many turning to emergency departments across the region. These delays can lead to worsening conditions and increased complexity in the care required.
+
+To truly improve access, the SPARQ strategic plan outlines how we will reimagine our role within the broader system, working more closely with primary care and community partners to create a more connected, responsive network of support.
+
+---
+
+L1.4_TITLE: Research
+L1.4_TEXT:
+Integrate what we learn from data into care and accelerate the translation of discoveries into practice
+
+In any given year, one in four Canadians will experience a mental illness or addiction. Yet current approaches to treatment don't always work. In fact, available treatments work about half of the time. This stark reality underscores the urgent need for comprehensive research and intervention.
+
+Yet, mental illness and addiction research is chronically underfunded, especially when directly related to care. That's why hospital-based research and innovation, like the work we do, are vital to closing the critical gap between discovery and patient care.
+
+Our research provides real opportunities for improvement by unlocking the mysteries of the brain. And together with artificial intelligence and other advances in technology, these discoveries can be translated into more personalized and targeted evidence-based treatments that help more people access care that works for them.
+
+---
+
+L1.5_TITLE: Quality
+L1.5_TEXT:
+Raising the standard of quality, together
+
+The healthcare system is facing complex challenges, including workforce shortages, rising costs, health equity disparities, patient safety concerns and data security risks. At The Royal, we're not immune to these pressures. These issues directly affect patient safety, experience and outcomes, and they also deeply impact the well-being of our staff.
+
+In response, we are committed to integrating evidence-based care and innovation to improve experiences and outcomes at both the individual and system levels. We will foster a culture where patients, families and staff feel safe, respected and valued. Equity and inclusion will guide our care models and practices, helping us better meet the unique needs of the people and communities we serve.
+
+By embracing continuous improvement and using data to evaluate our work and inform decisions, we will create a more connected, compassionate and high-quality system of care.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured and professionally presented strategic plan with clear SPARQ framework (Sustainability, People, Access, Research, Quality). Each strategic goal includes substantial descriptive text explaining current challenges and future direction, followed by detailed strategies and measurable success indicators. The document demonstrates sophisticated understanding of mental health system challenges and provides thoughtful context about workforce issues, access barriers, and research gaps. Strong emphasis on evidence-based approaches and system integration. The plan includes land acknowledgment and messages from leadership, showing organizational maturity. Document structure is very clear with consistent formatting across all five goals. Extensive Level 2 content available with specific strategies and measures for each goal area.
+=====================================
+END OF EXTRACTION - HOSPITAL 17
+=====================================
+```

@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 68
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 68 OF BATCH 0
+
+=====================================
+
+FAC: 882
+HOSPITAL_NAME_FILE: Winchester District Memorial Hospital
+HOSPITAL_NAME_TEXT: Winchester District Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2019
+PLAN_END: 2024
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four central themes with specific action items under each theme
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality/Services
+L1.1_TEXT:
+We will provide high-quality services to achieve the best possible patient experience and outcomes.
+
+---
+
+L1.2_TITLE: Our People
+L1.2_TEXT:
+We value our staff, physicians, volunteers and learners, and will foster a workplace where everyone is empowered to work to their full potential.
+
+---
+
+L1.3_TITLE: Partnerships/Integration
+L1.3_TEXT:
+We will collaborate to improve our patients' transitions.
+
+---
+
+L1.4_TITLE: Accountability
+L1.4_TEXT:
+We will demonstrate accountability in all relationships and ensure responsible stewardship of all resources.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional and well-organized strategic plan document with clear commitment statement ("Compassionate Excellence") that anchors all strategic work. The plan is structured around four central themes with each theme having a brief descriptive statement followed by detailed "We will:" action items. The document demonstrates good strategic thinking with comprehensive coverage of key hospital operational areas. The strategic plan was developed through extensive stakeholder engagement including a Strategic Planning Steering Committee with staff, physicians, volunteers, community members, and patients, plus consultation with 17 partner organizations and over 600 survey responses. The format is clean and accessible, though the L1 descriptive text is quite brief for each theme. Strong emphasis on collaboration and community partnership throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 68
+=====================================
+```

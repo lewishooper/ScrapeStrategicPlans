@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 106
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 106 OF BATCH 0
+
+=====================================
+
+FAC: 972
+HOSPITAL_NAME_FILE: Waypoint Centre for Mental Health Care
+HOSPITAL_NAME_TEXT: Waypoint Centre for Mental Health Care
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2026
+PLAN_END: 2035
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Ten-year strategic plan organized around four strategic directions (Serve, Discover, Lead, Inspire) with Vision, Mission, Values, and three Success Levers (Financial Innovations, Infrastructure, Partnerships)
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Serve
+L1.1_TEXT:
+We will deliver excellent specialized care to those living with mental illness, addiction and older adults with complexity to achieve the best possible health experiences and outcomes.
+
+---
+
+L1.2_TITLE: Discover
+L1.2_TEXT:
+We will advance research and embrace education, mobilizing diverse forms of knowledge and sharing our expertise to ignite possibilities and create a brighter future.
+
+---
+
+L1.3_TITLE: Lead
+L1.3_TEXT:
+We will continue to be trusted partners as we innovate, shape and advocate for integrated care to build system capacity and foster healthier communities.
+
+---
+
+L1.4_TITLE: Inspire
+L1.4_TEXT:
+We will create an environment where people learn, grow and thrive, and feel pride, empowerment and belonging to a community that is having a remarkable impact.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professionally designed and well-structured 10-year strategic plan with clear vision ("change lives by leading the advancement and delivery of compassionate care") and mission statement. The four strategic directions are consistently formatted with brief but clear descriptive statements at L1 level, followed by detailed 10-year goals and definitions of success at L2 level. Document demonstrates sophisticated strategic thinking with strong visual design and clear organizational framework. Includes land acknowledgment and letters from leadership. The plan shows evidence of stakeholder engagement through visioning campaigns and staff input. Three Success Levers (Financial Innovations, Infrastructure, Partnerships) are well-integrated as enabling capabilities. Document emphasizes Waypoint's specialized role in mental health, addictions, and geriatric care with forensic expertise. Strong emphasis on research, education, and system leadership. The moral imperative section adds depth to the strategic framework.
+=====================================
+END OF EXTRACTION - HOSPITAL 106
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

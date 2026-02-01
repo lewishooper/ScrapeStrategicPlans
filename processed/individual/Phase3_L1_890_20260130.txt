@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 71
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 71 OF BATCH 0
+
+=====================================
+
+FAC: 890
+HOSPITAL_NAME_FILE: Woodstock Hospital
+HOSPITAL_NAME_TEXT: Woodstock Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around four strategic pillars (Caring, Empowering, Evolving, Collaborating) centered on people-centred care, with strategic directions under each pillar
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Caring
+L1.1_TEXT:
+Demonstrating empathy, respect, and compassion in everything we do, by prioritizing the well-being of patients, families, our hospital team, and the community. Through our hospital culture of kindness and Service Excellence we are committed to providing a sense of belonging for all.
+
+---
+
+L1.2_TITLE: Empowering
+L1.2_TEXT:
+Fostering a culture of trust, collaboration, and growth, to enable individuals, patients, families, our hospital team, and community members to reach their full potential. Achieved by preparing people with the knowledge, tools, and confidence to make informed decisions.
+
+---
+
+L1.3_TITLE: Evolving
+L1.3_TEXT:
+Evolving as our community grows, to meet its changing healthcare needs. Embracing innovation and cutting-edge technology to ensure we provide the highest quality care. An ongoing commitment to energy conservation and sustainability.
+
+---
+
+L1.4_TITLE: Collaborating
+L1.4_TEXT:
+Cultivating strong partnerships and relationships beyond the hospital walls to better address the diverse needs of those we serve. Internally, we foster a culture of teamwork, encouraging open communication and shared responsibility, to achieve the best outcomes for all.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented three-year strategic plan with clear mission ("Providing exceptional people-centred care for the well-being of our community") and vision ("Evolving together to meet the growing needs of our community"). The plan demonstrates a significant shift from patient-centered to people-centered care, encompassing patients, families, hospital team, community, and valued partners. The four strategic pillars are consistently formatted with clear descriptive text and specific strategic directions underneath each pillar. Document includes comprehensive community engagement process with over 1,600 participants and acknowledges Indigenous land territories. Strong emphasis on people-centered care as the central organizing principle. The plan includes land acknowledgement and demonstrates cultural awareness. Strategic directions under each pillar provide good specificity for implementation.
+=====================================
+END OF EXTRACTION - HOSPITAL 71
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

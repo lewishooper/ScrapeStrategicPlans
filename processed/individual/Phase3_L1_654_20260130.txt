@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 19
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 19 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 654
+HOSPITAL_NAME_FILE: Espanola Regional Hospital and Health Centre
+HOSPITAL_NAME_TEXT: Espanola Regional Hospital and Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2020
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Five-year integrated strategic plan organized around four Strategic Pillars with supporting Goals under each pillar, unified under Vision "Caring for the Health of our Community" and Mission "Your Partners for Better Health and Wellness"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Build Upon Patient-Centred Care Through Quality and Safety
+L1.1_TEXT:
+In recognition of the important core of providing patient-centred care, and understanding the growing focus on safety and quality in all aspects within our operations, we will use this Pillar to focus our efforts. In addition, patients and their experiences are a wealth of knowledge to tap into. When we bring the voice of patients to the planning table, through engaging with Patient Advisors, we learn, improve and grow in our abilities to fulfil our caring Mission.
+
+---
+
+L1.2_TITLE: Enhance Care Coordination and Capacity
+L1.2_TEXT:
+We know how important it is to work towards a more seamless health journey for our patients, because the system itself is so complex and specialized. In addition, providing a comprehensive basket of services close-to-home is also important. This forms the basis for Pillar Number 2.
+
+---
+
+L1.3_TITLE: Embrace System Change, Grow Through Collaboration
+L1.3_TEXT:
+With the number of fundamentally transformative changes that are occurring within the health care system, we know that to continue to be successful as an organization, we must evolve and adapt to best take advantage of these changes. In addition, we know that the voice of small, rural, health care providers and patients must reach the ears of government, so as to influence policy and program changes. This Pillar strongly articulates this need.
+
+---
+
+L1.4_TITLE: Invest in Our People
+L1.4_TEXT:
+Healthcare is a people-oriented service; we work for patients, through the hands, minds, and hearts of our care-givers. All staff and clinicians have an important role to play in this. Every function within our Organization, whether it is direct hands-on care, or in various supportive roles, ultimately impacts upon our patients. Thus, we have selected Pillar Number 4 as key to our future efforts over the next 5 years.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured integrated strategic plan for a rural health hub comprising both hospital and family health team services. The document demonstrates thoughtful strategic planning with clear Vision/Mission statements and comprehensive stakeholder engagement (over 150 participants). The four Strategic Pillars are consistently formatted with descriptive text followed by specific goals. The plan shows strong understanding of rural healthcare challenges and emphasizes patient-centered care, partnerships, and system integration. Document includes valuable context about community demographics, health determinants, and external trends affecting healthcare. The "Health Hub" model represents an innovative approach to integrated rural care delivery. Quality presentation with professional formatting and clear organization. The plan addresses current healthcare transformation challenges including new provincial legislation and funding constraints.
+=====================================
+END OF EXTRACTION - HOSPITAL 19
+=====================================
+```

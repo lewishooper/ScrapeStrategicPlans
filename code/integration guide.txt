@@ -1,0 +1,353 @@
+# INTEGRATION GUIDE - Apply Data Preservation Fixes
+# Step-by-step instructions to fix identifyAndDownloadStrategicPDF.R
+# Date: 2025-12-04
+
+## WHAT THESE FIXES DO
+
+✅ Preserve content_type on every run (no more clearing)
+✅ Preserve manual_pdf_url on every run (no more clearing)
+✅ Safe test mode (doesn't delete unprocessed hospitals)
+✅ Skip already-downloaded hospitals (optional efficiency boost)
+
+---
+
+## BEFORE YOU START
+
+1. **Backup your current script:**
+   ```r
+   file.copy(
+     "E:/Hospital_Strategic_Plans/code/identifyAndDownloadStrategicPDF.R",
+     "E:/Hospital_Strategic_Plans/code/identifyAndDownloadStrategicPDF_BEFORE_FIXES.R"
+   )
+   ```
+
+2. **Close any running R sessions** that have the script loaded
+
+3. **Open the script** in RStudio:
+   `E:/Hospital_Strategic_Plans/code/identifyAndDownloadStrategicPDF.R`
+
+---
+
+## FIX 1: Preserve content_type and manual_pdf_url (CRITICAL)
+
+**Location:** Lines 695-711 (in process_hospital function)
+
+**Find this code:**
+```r
+  # Initialize result structure
+  result <- list(
+    search_attempted = TRUE,
+    search_date = as.character(Sys.Date()),
+    strategy_url_found = FALSE,
+    strategy_url = "",
+    pdf_found = FALSE,
+    pdf_url = "",
+    pdf_downloaded = FALSE,
+    download_confidence = "",
+    content_type = "",
+    local_folder = "",
+    local_filename = "",
+    manual_pdf_url = "",
+    requires_manual_review = FALSE,
+    strategy_notes = ""
+  )
+```
+
+**Replace with:**
+```r
+  # Initialize result structure - PRESERVE EXISTING MANUAL DATA
+  result <- list(
+    search_attempted = TRUE,
+    search_date = as.character(Sys.Date()),
+    strategy_url_found = FALSE,
+    strategy_url = "",
+    pdf_found = FALSE,
+    pdf_url = "",
+    pdf_downloaded = FALSE,
+    download_confidence = "",
+    
+    # PRESERVE content_type from previous run if it exists
+    content_type = if (!is.null(hospital$strategy_search$content_type) && 
+                       hospital$strategy_search$content_type != "") {
+      hospital$strategy_search$content_type
+    } else {
+      ""
+    },
+    
+    local_folder = "",
+    local_filename = "",
+    
+    # PRESERVE manual_pdf_url from previous run if it exists
+    manual_pdf_url = if (!is.null(hospital$strategy_search$manual_pdf_url) && 
+                         hospital$strategy_search$manual_pdf_url != "") {
+      hospital$strategy_search$manual_pdf_url
+    } else {
+      ""
+    },
+    
+    requires_manual_review = FALSE,
+    strategy_notes = ""
+  )
+```
+
+**Test it works:**
+- Find lines with `content_type = ` and `manual_pdf_url = `
+- Should have if-statements checking hospital$strategy_search values
+
+---
+
+## FIX 2: Preserve manual_pdf_url when downloading (CRITICAL)
+
+**Location:** After line 750 (in manual PDF download section)
+
+**Find this line:**
+```r
+      result$local_filename <- download_result$filename
+```
+
+**Add immediately after it:**
+```r
+      result$manual_pdf_url <- manual_pdf  # Preserve the manual URL in result
+```
+
+**What this looks like:**
+```r
+      result$pdf_downloaded <- TRUE
+      result$local_folder <- download_result$folder
+      result$local_filename <- download_result$filename
+      result$manual_pdf_url <- manual_pdf  # ← ADD THIS LINE
+      result$requires_manual_review <- FALSE
+```
+
+---
+
+## FIX 3: Safe Test Mode (CRITICAL)
+
+**Location:** Lines 923-968 (entire run_phase2 function)
+
+**Find the function:**
+```r
+# Main Processing Function ----
+run_phase2 <- function() {
+  initialize_project()
+  
+  # Read hospitals (handles first-run automatically)
+  hospitals <- read_yaml_hospitals()
+  
+  # Test mode - limit sample
+  if (CONFIG$test_mode) {
+    hospitals <- hospitals[1:min(CONFIG$test_sample_size, length(hospitals))]
+    ...
+```
+
+**Replace entire function with:**
+```r
+# Main Processing Function ----
+run_phase2 <- function() {
+  initialize_project()
+  
+  # Read ALL hospitals (never lose data)
+  all_hospitals <- read_yaml_hospitals()
+  
+  cat("[LOAD] Total hospitals in file:", length(all_hospitals), "\n")
+  
+  # Determine which hospitals to process
+  if (CONFIG$test_mode) {
+    # Test mode - process only a subset
+    hospitals_to_process <- all_hospitals[1:min(CONFIG$test_sample_size, length(all_hospitals))]
+    cat("[TEST MODE] Processing only first", length(hospitals_to_process), "hospitals\n")
+    cat("[TEST MODE] Remaining", length(all_hospitals) - length(hospitals_to_process), 
+        "hospitals will be preserved unchanged\n\n")
+  } else {
+    # Full run - process all hospitals
+    hospitals_to_process <- all_hospitals
+    cat("[FULL RUN] Processing all", length(hospitals_to_process), "hospitals\n\n")
+  }
+  
+  # Process the selected hospitals
+  cat("Starting processing...\n")
+  
+  for (i in seq_along(hospitals_to_process)) {
+    hospital <- hospitals_to_process[[i]]
+    
+    result <- process_hospital(hospital)
+    
+    # Update the processed hospital
+    hospitals_to_process[[i]]$strategy_search <- result
+    
+    cat("\nProgress:", i, "/", length(hospitals_to_process), "hospitals processed\n")
+  }
+  
+  # Merge processed hospitals back into full list
+  if (CONFIG$test_mode) {
+    cat("\n[TEST MODE] Merging results back into full hospital list...\n")
+    # Replace only the processed hospitals in the full list
+    all_hospitals[1:length(hospitals_to_process)] <- hospitals_to_process
+    hospitals_to_save <- all_hospitals
+    cat("[TEST MODE] Preserving", length(all_hospitals) - length(hospitals_to_process), 
+        "unprocessed hospitals\n")
+  } else {
+    # Full run - save all processed hospitals
+    hospitals_to_save <- hospitals_to_process
+  }
+  
+  # Write updated YAML (includes ALL hospitals, not just processed ones)
+  cat("\n", strrep("=", 70), "\n")
+  cat("Writing updated YAML file...\n")
+  cat("Hospitals being written:", length(hospitals_to_save), "\n")
+  write_yaml_hospitals(hospitals_to_save)
+  
+  # Create summary CSV (only for processed hospitals)
+  cat("\nCreating summary CSV...\n")
+  create_summary_csv(hospitals_to_process)
+  
+  # Final summary (only for processed hospitals)
+  print_final_summary(hospitals_to_process)
+  
+  if (CONFIG$diagnostic_mode) {
+    sink()
+    cat("\nDiagnostic log saved to:", CONFIG$log_file, "\n")
+  }
+  
+  # Return only processed hospitals (for inspection)
+  return(hospitals_to_process)
+}
+```
+
+**Key changes:**
+- Reads all hospitals first as `all_hospitals`
+- Processes only subset as `hospitals_to_process`
+- Merges results back into `all_hospitals` before saving
+- Never deletes unprocessed hospitals
+
+---
+
+## FIX 4: Skip Already-Downloaded (OPTIONAL - Nice to Have)
+
+**Location:** Right after line 694 (beginning of process_hospital, after the diagnostic check)
+
+**After these lines:**
+```r
+  cat(strrep("=", 70), "\n")
+  # Initialize result structure
+```
+
+**Add before "Initialize result structure":**
+```r
+  # Check if already successfully downloaded and skip if so
+  if (!is.null(hospital$strategy_search$pdf_downloaded) && 
+      hospital$strategy_search$pdf_downloaded == TRUE &&
+      (is.null(hospital$strategy_search$manual_pdf_url) || 
+       hospital$strategy_search$manual_pdf_url == "")) {
+    
+    cat("  [SKIP] PDF already downloaded. Preserving existing data.\n")
+    cat(strrep("=", 70), "\n")
+    
+    # Return existing data unchanged
+    return(hospital$strategy_search)
+  }
+  
+```
+
+**What this does:**
+- Skips hospitals that already have PDFs downloaded
+- Only processes if manual_pdf_url is present (in case you're updating)
+- Saves time on re-runs
+
+---
+
+## VERIFICATION AFTER APPLYING FIXES
+
+**1. Check syntax:**
+```r
+# Try to source the script (will error if syntax wrong)
+source("E:/Hospital_Strategic_Plans/code/identifyAndDownloadStrategicPDF.R")
+```
+
+**2. Verify CONFIG:**
+```r
+CONFIG$test_mode  # Should be TRUE
+CONFIG$test_sample_size  # Should be 10 (or whatever you want)
+```
+
+**3. Test preservation with a dry run:**
+```r
+# Add some test data to first hospital
+data <- yaml::read_yaml("E:/Hospital_Strategic_Plans/code/Hospital_strategy.yaml")
+data[[1]]$strategy_search$content_type <- "html"
+data[[1]]$strategy_search$manual_pdf_url <- "http://test.com/test.pdf"
+yaml::write_yaml(data, "E:/Hospital_Strategic_Plans/code/Hospital_strategy.yaml")
+
+# Run on just 1 hospital
+CONFIG$test_sample_size <- 1
+results <- run_phase2()
+
+# Check if preserved
+check <- yaml::read_yaml("E:/Hospital_Strategic_Plans/code/Hospital_strategy.yaml")
+cat("Content type preserved:", check[[1]]$strategy_search$content_type, "\n")
+cat("Manual PDF URL preserved:", check[[1]]$strategy_search$manual_pdf_url, "\n")
+cat("Total hospitals still in file:", length(check), "\n")
+```
+
+**Expected output:**
+- Content type preserved: html
+- Manual PDF URL preserved: http://test.com/test.pdf
+- Total hospitals still in file: 70
+
+---
+
+## FULL TEST WITH 10 HOSPITALS
+
+Once verified:
+
+```r
+# Set test size
+CONFIG$test_sample_size <- 10
+
+# Run on first 10
+results <- run_phase2()
+
+# Verify ALL 70 hospitals still in file
+check <- yaml::read_yaml("E:/Hospital_Strategic_Plans/code/Hospital_strategy.yaml")
+cat("Hospitals in file after test:", length(check), "\n")
+
+# Should see: "Hospitals in file after test: 70"
+```
+
+---
+
+## TROUBLESHOOTING
+
+**Syntax error after edit:**
+- Check you copied all brackets and parentheses
+- Look for missing commas
+- Use RStudio's syntax highlighting
+
+**content_type still being cleared:**
+- Check Fix 1 was applied correctly
+- Look for the if-statement checking hospital$strategy_search$content_type
+
+**Hospitals still being deleted:**
+- Check Fix 3 was applied correctly
+- Look for "all_hospitals" and "hospitals_to_process" variables
+- Check the merge step is present
+
+**Script runs but nothing changes:**
+- Make sure you re-sourced after making edits
+- Check CONFIG$test_mode is TRUE
+- Check CONFIG$test_sample_size is set correctly
+
+---
+
+## SUCCESS CRITERIA
+
+After all fixes:
+- ✅ Can run with test_sample_size = 10
+- ✅ All 70 hospitals remain in YAML after test run
+- ✅ content_type values are preserved
+- ✅ manual_pdf_url values are preserved
+- ✅ Console shows "[TEST MODE] Preserving X unprocessed hospitals"
+
+---
+
+End of Integration Guide

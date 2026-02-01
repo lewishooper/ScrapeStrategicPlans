@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 30
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 30 OF 30
+
+=====================================
+
+FAC: 685
+HOSPITAL_NAME_FILE: MICs Group of Health Services
+HOSPITAL_NAME_TEXT: MICs Group of Health Services
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan organized around five strategic directions with specific goals listed under each direction. Document presented in both English and French versions.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Equity, Diversity, Inclusivity & Belonging
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Partnerships
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Safety
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Seamless Care
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Sustainability
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Clean, professionally formatted strategic plan covering 2023-2026 with clear mission, vision, and values statements. The document is presented in both English and French versions. Five strategic directions are clearly identified but lack descriptive text at the L1 level - each direction jumps immediately to specific goals and initiatives. The goals under each direction are concrete and actionable (e.g., "Continue to build upon equity, diversity, inclusivity & belonging culture," "Maximize external partnership opportunities," "Promote a just culture"). Document demonstrates comprehensive scope covering key healthcare strategic areas including equity/diversity, partnerships, safety, care coordination, and organizational sustainability. The plan shows good strategic thinking with focus areas that align with contemporary healthcare priorities, though the presentation is more goal-oriented than conceptually descriptive at the strategic direction level.
+=====================================
+END OF EXTRACTION - HOSPITAL 30
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 30
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

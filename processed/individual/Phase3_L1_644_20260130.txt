@@ -1,0 +1,126 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 12
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 12 OF 12
+
+=====================================
+
+FAC: 644
+HOSPITAL_NAME_FILE: Cornwall Community Hospital
+HOSPITAL_NAME_TEXT: Cornwall Community Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan titled "Leading Innovative Transformation" organized around three strategic directions (Recovery, People, Integration) with detailed sub-priorities under each direction
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Recovery
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Enhancing access to care
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Committing to operational excellence
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Advancing innovation
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Maintaining a culture of quality and safety
+L1.5_TEXT: nf
+
+---
+
+L1.6_TITLE: Establishing physical capacity
+L1.6_TEXT: nf
+
+---
+
+L1.7_TITLE: People
+L1.7_TEXT: nf
+
+---
+
+L1.8_TITLE: Inspired by patients and care partners
+L1.8_TEXT: nf
+
+---
+
+L1.9_TITLE: Supporting the wellbeing of our people
+L1.9_TEXT: nf
+
+---
+
+L1.10_TITLE: Engaging and cultivating a high performing team
+L1.10_TEXT: nf
+
+---
+
+L1.11_TITLE: Building a culture of equity, diversity and inclusion, and embracing reconciliation
+L1.11_TEXT: nf
+
+---
+
+L1.12_TITLE: Stewarding our environmental and social responsibilities
+L1.12_TEXT: nf
+
+---
+
+L1.13_TITLE: Integration
+L1.13_TEXT: nf
+
+---
+
+L1.14_TITLE: Creating sustainable models of care
+L1.14_TEXT: nf
+
+---
+
+L1.15_TITLE: Supporting transitions in care
+L1.15_TEXT: nf
+
+---
+
+L1.16_TITLE: Advancing collaborative partnerships
+L1.16_TEXT: nf
+
+---
+
+L1.17_TITLE: Promoting health system integration
+L1.17_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear visual design and comprehensive coverage of hospital operations. The plan is organized around three main strategic directions (Recovery, People, Integration) with multiple sub-priorities under each. However, the document structure jumps directly from priority titles to specific goals and initiatives without providing descriptive text explaining what each priority area encompasses. This results in all L1.X_TEXT fields being marked as "nf" despite the plan having substantial L2 content. The document demonstrates good strategic thinking with detailed goals, timelines, and measurable outcomes under each priority, but lacks the conceptual framing text that would typically describe what each strategic direction means. The mission, vision, and ICARE values are clearly articulated. Strong emphasis on post-pandemic recovery, staff wellbeing, and health system integration. The plan shows evidence of stakeholder engagement and environmental scanning but would benefit from more descriptive text explaining the strategic rationale for each priority area.
+=====================================
+END OF EXTRACTION - HOSPITAL 12
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 12
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

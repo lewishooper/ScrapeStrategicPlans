@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 93
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 93 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 955
+HOSPITAL_NAME_FILE: Grey Bruce Health Services Strategic Plan 2023-2025
+HOSPITAL_NAME_TEXT: Grey Bruce Health Services
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around four Strategic Pillars with mission, vision, and values framework. Each pillar includes descriptive text and expected outcomes.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Excellence in Care
+L1.1_TEXT:
+Delivering patient-centred care that advances the health of our communities.
+
+---
+
+L1.2_TITLE: A Great Place to Work
+L1.2_TEXT:
+Recognition as a place where people want to work and build their careers.
+
+---
+
+L1.3_TITLE: Innovation and System Leadership
+L1.3_TEXT:
+Turning ideas into patient-centred solutions through investment, creativity and empowering partners.
+
+---
+
+L1.4_TITLE: Intentional Partnerships
+L1.4_TEXT:
+Taking ownership of our role as a regional network that can be trusted to engage, listen and partner.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear visual branding. The document follows a consistent structure with mission, vision, and values clearly articulated, supported by four Strategic Pillars. Each pillar includes both descriptive text and detailed expected outcomes, demonstrating thoughtful strategic planning. The plan includes comprehensive service statistics and facility photos, showing organizational pride and transparency. The document demonstrates strong leadership messaging from both CEO and Board Chair, emphasizing community partnership and patient-centered care. The strategic framework is supported by organizational values (We CARE, We LEAD) with specific behavioral descriptors. The plan shows evidence of environmental scanning with acknowledgment of COVID-19 impacts and health human resource challenges. The expected outcomes under each pillar provide measurable targets and specific initiatives, indicating strong L2 content available for future extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 93
+=====================================
+```

@@ -1,0 +1,73 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 90
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 90 OF BATCH 0
+
+=====================================
+
+FAC: 951
+HOSPITAL_NAME_FILE: William Osler Health System
+HOSPITAL_NAME_TEXT: William Osler Health System
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five Strategic Directions (Quality Excellence, Organizational Effectiveness, People & Culture, Health System Leadership, Research & Academics) supported by four Strategic Foundations (Equity Diversity & Inclusion, Innovation & Collaboration, Infrastructure & Technology, Financial Stewardship), unified under Vision "World-class health care inspired by our people and communities"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality Excellence
+L1.1_TEXT:
+Every patient deserves excellent care and care experiences, so we strive to design health care that is the best in the world. Our teams embrace transformative thinking and a best practice mindset, ensuring everything we do meets or exceeds the highest standards for quality care and safety. We are on a journey to always deliver world-class people-centred care in a welcoming environment that personifies the human experience.
+
+---
+
+L1.2_TITLE: Organizational Effectiveness
+L1.2_TEXT:
+We make the most efficient and effective use of the resources entrusted to us so that we can deliver an exceptional care and work experience. Committed to health care excellence, we are building more capacity in healing spaces so that our growing population has faster access to care. Our welcoming facilities aim to promote connection and inspire excellent care delivery. We will continue to leverage the latest technology to make informed choices about care, enhance communication, and ensure our teams are at the forefront of best practices.
+
+---
+
+L1.3_TITLE: People & Culture
+L1.3_TEXT:
+Our people are our greatest strength and as diverse as the communities we serve, bringing their unique experiences to provide the best care for our diverse population. We will support our team members to reach their highest potential and make the most of their talents and expertise by providing opportunities to collaborate, innovate, and grow, while also maintaining a focus on their health and wellbeing. We will continue to evolve a workplace culture that our people are proud to be part of founded in respect and trust, where our staff, physicians, volunteers, learners and researchers feel valued, our patients and families feel informed and well cared for, and where everyone feels a strong sense of belonging.
+
+---
+
+L1.4_TITLE: Health System Leadership
+L1.4_TEXT:
+Through bold leadership and strategic partnerships, we are reshaping the health care landscape. Working closely with our many health system partners including primary care, community partners and the Central West Ontario Health Team, we will collaborate to ensure patients and families have access in a timely manner to the right care in the right place. With growing opportunities for people to live longer healthier lives, we will collaborate to advance how services are delivered to improve population health, support seamless transitions, and enhance access to care for our most vulnerable people. Together, we are not just adapting to change; we are driving it, ensuring our communities receive nothing short of exceptional and inspiring care within and beyond our region.
+
+---
+
+L1.5_TITLE: Research & Academics
+L1.5_TEXT:
+As we transform to an academic health centre, the launch of the Osler Research Institute for Health Innovation (ORIHI) and our partnership with Toronto Metropolitan University to open a new School of Medicine in Brampton will advance a culture that celebrates the spirit of discovery, learning and innovation, inspired by the diverse communities we serve.
+
+We will invest in educating and training a diverse health workforce that reflects the populations in our region with the knowledge and competency to care for our communities. In addition, we will advance research projects and opportunities that lead to new approaches to care and clinical excellence in collaboration with our communities to support Osler's growing and underserved communities across different populations.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear vision and mission statements. The document demonstrates sophisticated strategic thinking with five Strategic Directions consistently formatted with descriptive text and specific "We will" action items. The plan includes strong community context with detailed demographic statistics showing the diverse, rapidly growing population (1.3 million residents, 76% visible minorities, 52% immigrants). Notable features include comprehensive Land Acknowledgement for Indigenous peoples, detailed "Day in the Life" operational statistics, and clear distinction between Strategic Directions and Strategic Foundations. The document shows strong emphasis on equity, diversity, and inclusion throughout. Quality presentation with professional photography and clear organizational structure. The plan effectively balances aspirational language with specific commitments and demonstrates awareness of community health needs and demographic trends.
+=====================================
+END OF EXTRACTION - HOSPITAL 90
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 90
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

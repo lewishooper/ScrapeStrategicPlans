@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 53
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 53 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 788
+HOSPITAL_NAME_FILE: Renfrew Victoria Hospital
+HOSPITAL_NAME_TEXT: Renfrew Victoria Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2021
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic priorities with detailed goals and initiatives under each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality of Care
+L1.1_TEXT:
+We will deliver the highest quality care to achieve the best possible experience and outcomes for our patients and their families.
+
+---
+
+L1.2_TITLE: Strength in People
+L1.2_TEXT:
+We will champion an environment that positions RVH as the organization of choice for staff, physicians, volunteers and partners where everyone is empowered to be the best they can be.
+
+---
+
+L1.3_TITLE: System Integration
+L1.3_TEXT:
+We will strengthen relationships and embrace innovative opportunities to advance the delivery of seamless, equitable health care that is responsive to our community's needs.
+
+---
+
+L1.4_TITLE: Financial Performance
+L1.4_TEXT:
+We will demonstrate financial discipline and innovation to support high quality care that responds to the evolving needs of our patients and their families.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured and professionally presented strategic plan with clear mission, vision, and values prominently displayed. The four strategic priorities are consistently formatted with brief but clear descriptive statements at the L1 level, followed by detailed bullet-pointed goals and initiatives at the L2 level. Document demonstrates good strategic thinking with comprehensive coverage of key hospital operational areas. The plan shows evidence of stakeholder engagement and environmental assessment, noting achievements during the COVID-19 pandemic and infrastructure improvements. Strong emphasis on accreditation excellence (Accreditation with Exemplary Standing from Accreditation Canada in 2021). The document includes good visual elements and maintains consistent formatting throughout. Each strategic priority has substantial L2 content with specific, actionable goals and initiatives.
+=====================================
+END OF EXTRACTION - HOSPITAL 53
+=====================================
+```

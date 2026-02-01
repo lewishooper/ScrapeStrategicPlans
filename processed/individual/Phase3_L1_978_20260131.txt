@@ -1,0 +1,95 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 111 OF 1
+
+=====================================
+
+FAC: 978
+HOSPITAL_NAME_FILE: Kingston Health Sciences Centre
+HOSPITAL_NAME_TEXT: Kingston Health Sciences Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Annual Corporate Plan organized around five strategic priorities with specific 2025-2026 objectives under each priority, aligned with longer-term KHSC 2027 Outcomes
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Ensure quality in every patient experience
+L1.1_TEXT:
+KHSC has a robust culture of quality where adherence to standards and evidence-based practice inform decision making in every program and service
+
+KHSC benchmarks as high performer amongst Ontario teaching hospitals delivering outcomes that put the patients and families we serve first at the best cost
+
+KHSC works with community partners to deliver integrated, team-based, people-centred care
+
+People receive timely access to specialist care for chronic conditions.
+
+People and communities are partners in designing people-centred models of care, research and teaching
+
+Our communities are inspired to provide philanthropic support for hospital modernization
+
+---
+
+L1.2_TITLE: Nurture our passion for caring, leading and learning
+L1.2_TEXT:
+KHSC has a stable, engaged work force
+Our people report improved wellness at work
+KHSC has a strong culture of safety
+
+Our people are equipped to do their best work
+
+Our leaders are highly engaged
+
+---
+
+L1.3_TITLE: Improve the health of our communities through partnership and innovation
+L1.3_TEXT:
+Together with FLA OHT partners, KHSC delivers proactive, evidence-based care for patients with chronic conditions
+
+KHSC staff and physicians will benefit from more efficient, integrated workflows, data-driven decision-making, and access to regional information as Lumeo is stabilized and optimized
+
+KHSC identifies several key areas of excellence that align with regional population health needs
+
+---
+
+L1.4_TITLE: Launch KHSC as a leading centre for research and education
+L1.4_TEXT:
+KHSC has a coordinated plan to ensure clinical learners, including nursing, allied health and medical students and residents have allocated placements
+
+Enhanced research activities lead to novel discoveries that transform clinical care for our patient population
+
+KHSC and its research institute become nationally recognized for people-centred research and innovation excellence
+
+---
+
+L1.5_TITLE: Advance equity, inclusion and diversity and address racism to achieve better outcomes for patients, families, providers and staff
+L1.5_TEXT:
+KHSC offers a culturally safe care environment that values and respects diversity
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured annual corporate plan that clearly connects to longer-term strategic outcomes (KHSC 2027). The document demonstrates strong alignment between current state descriptions and specific 2025-2026 objectives. Each strategic priority includes both aspirational outcomes and concrete implementation objectives. The plan shows sophisticated integration with regional health transformation initiatives (FLA OHT, Lumeo system). Professional presentation with clear visual design and consistent formatting. The fifth priority on equity and inclusion has notably less descriptive text compared to other priorities. Strong emphasis on partnership-based care delivery and academic health center positioning. The document effectively bridges high-level strategic direction with operational planning through specific annual objectives.
+=====================================
+END OF EXTRACTION - HOSPITAL 111
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

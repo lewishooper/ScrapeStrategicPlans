@@ -1,0 +1,73 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 78
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 78 OF BATCH 0
+
+=====================================
+
+FAC: 928
+HOSPITAL_NAME_FILE: Perth and Smiths Falls District Hospital
+HOSPITAL_NAME_TEXT: Perth and Smiths Falls District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic priorities document with four main priorities, each containing bullet-pointed goals and initiatives. Mission, vision, and values are clearly stated. Document appears to be an overview or summary rather than a full strategic plan with timeframes.
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Provide an excellent experience for the persons we serve, every time
+L1.1_TEXT:
+Deploy best practice to deliver safest possible care
+Remove barriers to care
+Improve care transitions and health system navigation
+
+---
+
+L1.2_TITLE: Meet the changing needs of our community
+L1.2_TEXT:
+Improve our physical facilities and infrastructure
+Align our services with the needs of the community
+Improve engagement with our community and our partners
+
+---
+
+L1.3_TITLE: Support and empower our people
+L1.3_TEXT:
+Ensure a supportive and safe work environment
+Recruit and retain high-performing people
+Ensure our people have the right skills for now and the future
+
+---
+
+L1.4_TITLE: Ensure our future sustainability
+L1.4_TEXT:
+Secure the capital funds required to meet the needs of our community
+Secure the operational funding required to meet the needs of our community
+Ensure we are prepared to respond to a changing environment
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: This document appears to be a strategic priorities overview or summary rather than a complete strategic plan, as it lacks timeframes, detailed context, and narrative descriptions of the priorities. The four strategic priorities are clearly organized and each contains three bullet-pointed sub-goals that would constitute Level 2 content. The mission, vision, and values are well-articulated. However, what appears as L1.X_TEXT in this extraction are actually the bullet-pointed goals under each priority rather than descriptive narrative text about what each priority means. The document jumps directly from priority titles to implementation goals without providing conceptual descriptions of the strategic directions. This represents an incomplete strategic planning document that would benefit from additional descriptive content at the priority level. The second page provides more specific tactical initiatives under each priority, demonstrating clear L2 content availability.
+=====================================
+END OF EXTRACTION - HOSPITAL 78
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

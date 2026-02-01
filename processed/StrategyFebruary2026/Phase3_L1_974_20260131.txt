@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 108
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 108 OF BATCH 0
+
+=====================================
+
+FAC: 974
+HOSPITAL_NAME_FILE: North Bay Regional Health Centre
+HOSPITAL_NAME_TEXT: North Bay Regional Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five strategic priorities with mission, vision, and values framework. Plan developed through extensive stakeholder engagement including 600+ survey responses and multiple focus groups.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Operational Excellence & Sustainability
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Accountability to High Quality Care
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Wellbeing & Engagement
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Collaborative Community Partnerships
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Innovation & Digital Enablement
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Brief strategic plan document that presents five strategic priorities with mission, vision, and values framework but provides minimal descriptive content at the L1 level. The document jumps directly from priority titles to implementation-focused content without providing conceptual descriptions of what each priority encompasses. Shows evidence of extensive stakeholder engagement (600+ employees, physicians, volunteers surveyed; 43 patients/family members; 14 leadership interviews; 25 external partners). Document notes key contextual factors including NBRHC's role as one of four major acute care hospitals in northeastern Ontario with 458 beds, regional mental health service provider, major teaching center, and specialized mental health care facilities. The plan acknowledges provincial health care trends including COVID-19 impact, aging populations, patient engagement focus, prevention investments, local integration, emerging technologies, and health human resources challenges. Professional presentation with clear visual framework showing the five strategic priorities, but lacks the descriptive narrative text typically found in more detailed strategic plans.
+=====================================
+END OF EXTRACTION - HOSPITAL 108
+=====================================
+```

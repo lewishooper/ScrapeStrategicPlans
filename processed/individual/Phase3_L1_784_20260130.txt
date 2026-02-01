@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 52
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 52 OF BATCH 0
+
+=====================================
+
+FAC: 784
+HOSPITAL_NAME_FILE: Manitoulin Health Centre
+HOSPITAL_NAME_TEXT: Manitoulin Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around five Strategic Directions aligned with the Quintuple Aim Framework, with refreshed Vision, Mission, and Values statements
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Patient Experience
+L1.1_TEXT:
+Enhance patient satisfaction, communication and culturally safe healthcare.
+
+---
+
+L1.2_TITLE: Population Health
+L1.2_TEXT:
+Strengthen integration of population health strategies, to improve the overall health and well-being of the community.
+
+---
+
+L1.3_TITLE: Improving Value
+L1.3_TEXT:
+Increase operational efficiencies and improve patient safety through digital health solutions and optimization
+
+---
+
+L1.4_TITLE: Provider Experience
+L1.4_TEXT:
+Foster a healthy sustainable work environment; and the well-being of healthcare providers
+
+---
+
+L1.5_TITLE: Health Equity
+L1.5_TEXT:
+Advance diversity, equity and inclusion initiatives, and work collaboratively with social and healthcare partners to reduce health disparities
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured three-year strategic plan that demonstrates thoughtful strategic planning process with extensive stakeholder engagement over six months. The plan is aligned with the Quintuple Aim Framework and includes refreshed Vision, Mission, and Values. Each strategic direction has clear emerging themes and detailed explanatory text about current challenges and future directions. The document shows strong commitment to Indigenous reconciliation and cultural safety, acknowledging the hospital's location on traditional Anishinaabe lands. The plan includes comprehensive stakeholder consultation (53 staff in focus groups plus online surveys) and demonstrates understanding of rural healthcare challenges including human resource shortages and access to care issues. Strategic directions are consistently formatted with emerging themes clearly identified. The document quality is professional with good narrative flow explaining the rationale behind each strategic direction.
+=====================================
+END OF EXTRACTION - HOSPITAL 52
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 52
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

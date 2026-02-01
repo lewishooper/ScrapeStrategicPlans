@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 73
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 73 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 900
+HOSPITAL_NAME_FILE: Riverside Health Care
+HOSPITAL_NAME_TEXT: Riverside Health Care
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Single-page vision, mission, values, and strategic pillars document with four strategic pillars outlined
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: No
+=====================================
+
+L1.1_TITLE: One Riverside
+L1.1_TEXT:
+Supporting a consistent and enabling organizational culture
+
+---
+
+L1.2_TITLE: Investing in the People Who Serve
+L1.2_TEXT:
+Creating a plan to strategically leverage human resources
+
+---
+
+L1.3_TITLE: Tomorrow's Riverside Today
+L1.3_TEXT:
+Making investments today, to support Riverside tomorrow
+
+---
+
+L1.4_TITLE: Striving to Excel in Equity, Diversity & Inclusion
+L1.4_TEXT:
+We will support EDI in all we do
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This is a single-page summary document presenting Riverside Health Care's vision, mission, values, and four strategic pillars. The document appears to be a high-level overview or summary rather than a complete strategic plan. Each strategic pillar has only a brief one-line description with no detailed goals, initiatives, or implementation details. The document is professionally formatted with clear branding and visual design, but lacks the depth and detail typically found in comprehensive strategic plans. The absence of timelines, specific objectives, measurable targets, or detailed strategic content suggests this may be an executive summary or promotional piece rather than the full strategic planning document. The DOCUMENT_ISSUES flag of "Incomplete" reflects that this appears to be a summary document rather than a complete strategic plan with the expected level of strategic planning detail.
+=====================================
+END OF EXTRACTION - HOSPITAL 73
+=====================================
+```

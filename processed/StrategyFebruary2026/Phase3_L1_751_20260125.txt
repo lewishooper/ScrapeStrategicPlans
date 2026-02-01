@@ -1,0 +1,72 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITALS
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 1 OF 1
+
+=====================================
+
+FAC: 632
+HOSPITAL_NAME_FILE: CHEO
+HOSPITAL_NAME_TEXT: CHEO
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five strategic priorities (Excellent care, Everyone belongs, Strong team, Bright future, Connected care) with seven guiding principles and detailed implementation approaches for each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Excellent care
+L1.1_TEXT:
+We are the trusted leader in excellent, safe and compassionate pediatric care and expertise and always strive to know, do and be even better.
+
+---
+
+L1.2_TITLE: Everyone belongs
+L1.2_TEXT:
+We respond to every unique need, going above and beyond to ensure safe and supportive spaces for Indigenous and diverse communities.
+
+---
+
+L1.3_TITLE: Strong team
+L1.3_TEXT:
+We branch out to attract, support and teach the very best people and empower everyone at CHEO to make big, bold and meaningful contributions.
+
+---
+
+L1.4_TITLE: Bright future
+L1.4_TEXT:
+We all develop and leverage clinical expertise, research and innovation to create a stronger, healthier tomorrow — for kids here and around the world.
+
+---
+
+L1.5_TITLE: Connected care
+L1.5_TEXT:
+We work, educate, collaborate and advocate with others to grow capacity, build expertise and bring care closer to home.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear mission focus on pediatric care. The document is organized around five strategic priorities that are consistently formatted, each with a brief descriptive statement followed by "Why it matters" rationale and "How we'll get there" implementation approaches. The plan demonstrates thoughtful strategic thinking with seven guiding principles that emphasize patient-centered care, evidence-based practice, and inclusive culture. Strong emphasis on CHEO's role as a leading pediatric health system serving one of Canada's largest regions. The document includes both English and French versions. Each priority area includes detailed goals and initiatives that would provide substantial Level 2 content. The plan shows sophisticated understanding of healthcare challenges including safety culture, equity and inclusion, workforce development, research integration, and partnership building.
+=====================================
+END OF EXTRACTION - HOSPITAL 1
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

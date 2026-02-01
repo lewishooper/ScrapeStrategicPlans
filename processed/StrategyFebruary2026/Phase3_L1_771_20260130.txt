@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 49
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 49 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 771
+HOSPITAL_NAME_FILE: Peterborough Regional Health Centre
+HOSPITAL_NAME_TEXT: Peterborough Regional Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five Strategic Commitments with specific actions listed under each commitment
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Provide timely and excellent care
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Be a workplace where people can thrive
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Expand tertiary services to support our region
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Transform data, analytics and technology to support people today and into the future
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Build our teaching and research focus
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear purpose statement "One team, here when you need us most" and professional presentation. The document is organized around five Strategic Commitments that cover the full range of hospital operations. Each commitment includes specific actions listed as bullet points, indicating good L2 content for future extraction. The plan demonstrates awareness of regional healthcare challenges including population growth, aging demographics, and capacity constraints. Strong emphasis on PRHC's role as a regional acute-care hospital serving 600,000 people. The document includes contextual information about community needs and healthcare system pressures. However, the strategic commitments themselves lack descriptive text explaining what each priority area encompasses - they jump directly from titles to action items. Values are clearly articulated (Act with courage, Embrace our community, Find common ground, Lead and learn, Recognize and appreciate). Overall a solid strategic framework with good implementation detail but minimal L1-level descriptive content.
+=====================================
+END OF EXTRACTION - HOSPITAL 49
+=====================================
+```

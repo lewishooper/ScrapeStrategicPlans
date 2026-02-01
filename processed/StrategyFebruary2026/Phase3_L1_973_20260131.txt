@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 107
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 107 OF BATCH 0
+
+=====================================
+
+FAC: 973
+HOSPITAL_NAME_FILE: nf
+HOSPITAL_NAME_TEXT: Weeneebayko Area Health Authority
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2015
+PLAN_END: 2018
+PLAN_CLASSIFICATION: Historical
+DOCUMENT_STRUCTURE: Strategic plan organized around five main strategies with goals and actions listed under each strategy
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Excellent Quality Service
+L1.1_TEXT:
+We will provide service that is patient and family centred and is respectful of mind, body and spiritual needs.
+
+---
+
+L1.2_TITLE: Quality Infrastructure
+L1.2_TEXT:
+We will sustain financial health and optimize growth to achieve our mission and vision.
+
+---
+
+L1.3_TITLE: Safety First
+L1.3_TEXT:
+We will ensure optimal safety in all aspects of care for the patient and staff.
+
+---
+
+L1.4_TITLE: Build Organizational Capability & Capacity
+L1.4_TEXT:
+We will hire, retain and inspire the best in our people.
+
+---
+
+L1.5_TITLE: Financial Health
+L1.5_TEXT:
+Generation of operating surpluses to re-invest in technology, equipment & infrastructure
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan document with clear organizational vision and mission statements. The plan is organized around five strategic priorities with consistent formatting throughout. Each strategy includes a brief descriptive statement followed by specific goals and actions. The document demonstrates good strategic thinking with focus on quality improvement through evidence-based practices and control standards. Notable features include emphasis on cultural competency training, patient satisfaction measurement, and comprehensive approach covering service delivery, infrastructure, safety, human resources, and financial sustainability. The plan shows attention to Indigenous community needs with references to cultural and traditional activities. Document quality is professional with clear organization, though the strategic priority descriptions are relatively brief. Strong emphasis on measurable outcomes and systematic improvement processes.
+=====================================
+END OF EXTRACTION - HOSPITAL 107
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

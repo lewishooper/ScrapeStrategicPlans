@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 48
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 48 OF BATCH 0
+
+=====================================
+
+FAC: 768
+HOSPITAL_NAME_FILE: St. Francis Memorial Hospital
+HOSPITAL_NAME_TEXT: St. Francis Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2021
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic priorities arranged in a compass/star format around central mission and vision statements
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality of care
+L1.1_TEXT:
+We will improve patient and family experience
+
+---
+
+L1.2_TITLE: System integration
+L1.2_TEXT:
+We will improve our partnerships to increase effective, seamless patient centred care
+
+---
+
+L1.3_TITLE: Financial performance
+L1.3_TEXT:
+We will maintain sustainable financial stability
+
+---
+
+L1.4_TITLE: Strength in people
+L1.4_TEXT:
+We will recruit, develop and retain qualified staff
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed single-page strategic plan with professional visual presentation using a compass/star graphic design. The four strategic priorities are arranged around central mission and vision statements in an attractive format. Each priority includes a brief descriptive statement followed by 2-4 specific bullet points detailing goals and initiatives. The plan covers core hospital operational areas comprehensively. Document demonstrates clear strategic thinking with patient-centered focus evident throughout. The visual design effectively communicates the interconnected nature of the priorities. While concise, the plan provides sufficient detail at both strategic and tactical levels. The bullet points under each priority provide good specificity for implementation, though these are Level 2 content per protocol.
+=====================================
+END OF EXTRACTION - HOSPITAL 48
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

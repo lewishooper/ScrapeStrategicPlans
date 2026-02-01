@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 24
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 24 OF BATCH 0
+
+=====================================
+
+FAC: 663
+HOSPITAL_NAME_FILE: Huron Health System
+HOSPITAL_NAME_TEXT: Huron Health System
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four Strategic Priorities with supporting strategic imperatives underneath each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Partnering with Patients & Families
+L1.1_TEXT:
+We will partner with patients and families in the provision of quality person-centred care.
+
+---
+
+L1.2_TITLE: Empowering Our People
+L1.2_TEXT:
+We are passionate about our people and work hard to support an empowered and engaged team.
+
+---
+
+L1.3_TITLE: Ensuring Operational Excellence
+L1.3_TEXT:
+We will optimize our processes and align operational efforts to make the best use of our resources.
+
+---
+
+L1.4_TITLE: Innovating through Partnership
+L1.4_TEXT:
+We will work with our partners to find innovative approaches that meet the needs of the communities we serve.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear mission, vision, and values framework. The document presents four strategic priorities with consistent formatting and brief descriptive statements for each. Each priority is supported by detailed strategic imperatives that provide specific actions and goals (Level 2 content). The plan demonstrates good organizational thinking with values clearly defined and explained through behavioral descriptions. The strategic imperatives under each priority show good specificity with concrete actions like "Improve patient care through timely access," "Create a high trust organization," and "Strengthen our use of data and technology." The document includes both hospitals in the system (Alexandra Marine and General Hospital, South Huron Hospital Association) and presents a unified strategic approach. Professional presentation with clear visual hierarchy and consistent branding throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 24
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 24
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

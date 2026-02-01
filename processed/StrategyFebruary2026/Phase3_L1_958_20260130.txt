@@ -1,0 +1,137 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 95
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 95 OF BATCH 0
+
+=====================================
+
+FAC: 958
+HOSPITAL_NAME_FILE: The Ottawa Hospital
+HOSPITAL_NAME_TEXT: The Ottawa Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan organized around Vision, Mission, and Values, followed by four Strategic Directions with multiple Strategic Priorities under each direction
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Enhance our culture of patient partnered-care and meaningful engagement
+L1.1_TEXT:
+Empower patients and their care partners as active participants in the care that we provide and entrust everyone working at TOH with providing the best possible patient experience.
+
+---
+
+L1.2_TITLE: Improve access to care for all patients
+L1.2_TEXT:
+Spearhead the development of new and innovative approaches to the delivery of care and leverage local partnerships to ensure our patients have access to the care they need when they need it.
+
+---
+
+L1.3_TITLE: Expand partnerships across the care continuum
+L1.3_TEXT:
+Build a strong integrated system for regional health care delivery in collaboration with a wide range of partners to address the needs of the communities we serve.
+
+---
+
+L1.4_TITLE: Drive the digital evolution in healthcare
+L1.4_TEXT:
+Enhance health outcomes for the populations we serve through safe automation of care and business processes.
+
+---
+
+L1.5_TITLE: Expand infrastructure development and modernization
+L1.5_TEXT:
+Develop and maintain world class infrastructure to support the needs of our community and advance health care delivery.
+
+---
+
+L1.6_TITLE: Create leaders of tomorrow
+L1.6_TEXT:
+Develop human-centered leaders that live TOH values and vision by actively engaging staff, physicians and volunteers in development and supporting them through continuing education, learning and mentorship.
+
+---
+
+L1.7_TITLE: Advance workforce planning and sustainability
+L1.7_TEXT:
+Drive the future of healthcare delivery through innovative models that support high functioning team members to work to their full potential.
+
+---
+
+L1.8_TITLE: Support engagement and well-being to maintain a healthy workforce
+L1.8_TEXT:
+Build an inspiring, engaging, and safe environment where all team members can connect to the purpose and meaning of their work aligned to TOH vision of caring for people like you would for a loved one.
+
+---
+
+L1.9_TITLE: Advance Indigenous engagement
+L1.9_TEXT:
+Continue on our journey to reconciliation to address the systemic racism, discrimination, and inequities pervasive in the healthcare system and advance a culture of belonging so everyone has equitable access, without discrimination, to safe healthcare that respects Indigenous People's traditional and living knowledge in all aspects of their health.
+
+---
+
+L1.10_TITLE: Advance Equity, Diversity, Inclusion and Accessibility
+L1.10_TEXT:
+Address the systemic racism, discrimination, and inequities pervasive in the health care system and advance a culture of belonging for everyone where we foster accessibility, equity, diversity and inclusion that reflects the people we serve.
+
+---
+
+L1.11_TITLE: Lead environmental stewardship in healthcare
+L1.11_TEXT:
+Become a leader in sustainable healthcare, applying principles of planetary health to improve the well-being of our patients, our community and contribute positively to a healthier planet.
+
+---
+
+L1.12_TITLE: Ensure financially responsible stewardship and sustainability
+L1.12_TEXT:
+Preserve financial strength and flexibility to enable world class care through strategic financial planning and partnerships that support economic opportunities.
+
+---
+
+L1.13_TITLE: Harness community support
+L1.13_TEXT:
+Acknowledge the trust and endorsement of a generous community and together with TOHF, build on this spirit of philanthropy and voluntarism to ensure that our community continues to have access to world-class care.
+
+---
+
+L1.14_TITLE: Create hope for patients through a commitment to leading edge research
+L1.14_TEXT:
+Give our patients and their loved ones new hope through research that is making tomorrow's health care possible today by focusing on breakthroughs by design and practice-changing research.
+
+---
+
+L1.15_TITLE: Advance multidisciplinary education
+L1.15_TEXT:
+Train the next generation of health professionals through excellence in multidisciplinary team-based learning, learner experience and knowledge dissemination in collaboration with our educational partners.
+
+---
+
+L1.16_TITLE: Lead the innovation platform
+L1.16_TEXT:
+Lead innovation in health care while advancing Ottawa as a thriving innovation ecosystem.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan document with clear Vision, Mission, and Values statements followed by four Strategic Directions (Enrich quality of care for patients, Ignite the power of our people, Nurture our social responsibility, Accelerate discovery). Each direction contains multiple strategic priorities with brief descriptive text. The document appears to be incomplete as it lacks specific goals, timelines, and implementation details that would typically follow the strategic priorities. The 16 strategic priorities are consistently formatted with concise one-paragraph descriptions. The plan covers comprehensive areas including patient care, workforce development, social responsibility, research, and innovation. Document shows good strategic thinking but limited detail on execution. The incomplete nature (missing end date and detailed implementation plans) suggests this may be an excerpt or summary version of a larger strategic planning document.
+=====================================
+END OF EXTRACTION - HOSPITAL 95
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

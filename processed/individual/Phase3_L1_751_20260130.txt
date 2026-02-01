@@ -1,0 +1,90 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 46
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 46 OF BATCH 0
+
+=====================================
+
+FAC: 751
+HOSPITAL_NAME_FILE: CHEO
+HOSPITAL_NAME_TEXT: CHEO
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five strategic priorities (Excellent care, Everyone belongs, Strong team, Bright future, Connected care) with seven guiding principles and detailed implementation approaches under each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Excellent care
+L1.1_TEXT:
+We are the trusted leader in excellent, safe and compassionate pediatric care and expertise and always strive to know, do and be even better.
+
+We foster an environment that leverages evidence-based research and care excellence, which enables us to offer the highest quality, innovative care designed for the unique needs of each child and youth.
+
+We assess every child and youth for the full range of needs — including physical, emotional, developmental and social — which enables us to best support all of them in their journey.
+
+We cultivate and celebrate a robust safety culture that ensures the care we provide results in the best possible outcome for each child and youth.
+
+---
+
+L1.2_TITLE: Everyone belongs
+L1.2_TEXT:
+We respond to every unique need, going above and beyond to ensure safe and supportive spaces for Indigenous and diverse communities.
+
+We ensure CHEO is free from discrimination and safe and inclusive for everyone to create better outcomes for all.
+
+We ensure care is appropriate and equitable to best meet the needs of the Indigenous and diverse communities we serve.
+
+---
+
+L1.3_TITLE: Strong team
+L1.3_TEXT:
+We branch out to attract, support and teach the very best people and empower everyone at CHEO to make big, bold and meaningful contributions.
+
+Attracting and retaining the best and brightest means CHEO can continue to lead excellent pediatric care in the communities we serve and provide thought leadership that improves children's health.
+
+Being an inspiring, supportive place to work and learn enables us to build on an innovative team of highly-skilled experts.
+
+Working with those with lived experience ensures the care we provide is adapted to the unique needs of the diverse communities we serve.
+
+---
+
+L1.4_TITLE: Bright future
+L1.4_TEXT:
+We all develop and leverage clinical expertise, research and innovation to create a stronger, healthier tomorrow — for kids here and around the world.
+
+Developing homegrown research and quality improvements ensures children and youth get the best care.
+
+Leveraging new research enables us to improve outcomes in meaningful ways for children and youth as well as improve the broader health system.
+
+---
+
+L1.5_TITLE: Connected care
+L1.5_TEXT:
+We work, educate, collaborate and advocate with others to grow capacity, build expertise and bring care closer to home.
+
+Ensuring children, youth and families have access to high-quality pediatric care, no matter where they live, will improve health outcomes.
+
+By working in close partnership and sharing CHEO expertise, CHEO and its partners can ensure every child and youth gets the best care possible.
+
+CHEO is a best-in-class training ground for health professionals, and it is essential we attract diverse learners who choose to train and work here.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear mission focus on pediatric care. The document demonstrates strong strategic thinking with five well-articulated strategic priorities, each supported by clear rationale statements explaining "Why it matters" and specific implementation approaches under "How we'll get there." The plan shows sophisticated understanding of pediatric healthcare challenges and emphasizes evidence-based care, equity and inclusion, workforce development, research and innovation, and collaborative partnerships. Strong emphasis on serving Indigenous and diverse communities throughout. The seven guiding principles provide additional strategic context. Document structure is very clear and consistent across all priorities. The plan balances aspirational vision with concrete implementation strategies, though the detailed tactics are appropriately excluded from L1 extraction per protocol.
+=====================================
+END OF EXTRACTION - HOSPITAL 46
+=====================================
+```

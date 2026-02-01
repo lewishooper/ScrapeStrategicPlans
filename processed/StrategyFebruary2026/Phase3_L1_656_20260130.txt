@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 21
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 21 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 656
+HOSPITAL_NAME_FILE: Wellington Health Care Alliance
+HOSPITAL_NAME_TEXT: Wellington Health Care Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic pillars (Together empowering a meaningful patient journey, Together advancing a culture of team wellness, Together nurturing our Alliance ecosystem, Together enriching partnerships and growing community relationships) with a cross-cutting commitment to champion diversity, equity, and inclusion in everything we do
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Together, empowering a meaningful patient journey
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Together, advancing a culture of team wellness
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Together, nurturing our Alliance ecosystem
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Together, enriching partnerships and growing community relationships
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Champion diversity, equity, and inclusion in everything we do
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear organizational structure. The document presents a unified vision ("Rooted in Wellness - Growing Together - Cultivating Health") and mission statement with five core values (Teamwork, Respect, Accountability, Compassion, Kindness). The four main strategic pillars are consistently formatted with clear "WE WILL DO THIS BY:" sections that provide specific goals and initiatives under each pillar. The cross-cutting DEI commitment is appropriately highlighted as foundational to all strategic work. The plan demonstrates thoughtful strategic development with evidence of extensive stakeholder engagement (100+ staff touchpoints, 140 survey responses, 80+ patient/community touchpoints, 22 working sessions). However, the strategic priorities jump directly from titles to implementation goals without providing descriptive text about what each priority area encompasses conceptually. The document shows strong attention to community health needs assessment and demographic analysis, noting significant population growth projections and aging demographics. The Alliance structure covering three hospitals (Groves Memorial Community Hospital, Palmerston and District Hospital, Louise Marshall Hospital) is clearly explained.
+=====================================
+END OF EXTRACTION - HOSPITAL 21
+=====================================
+```

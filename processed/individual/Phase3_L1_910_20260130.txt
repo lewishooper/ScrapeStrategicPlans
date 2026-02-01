@@ -1,0 +1,69 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 76
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 76 OF BATCH 0
+
+=====================================
+
+FAC: 910
+HOSPITAL_NAME_FILE: Casey House
+HOSPITAL_NAME_TEXT: Casey House
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around a central Purpose with five strategic priorities (Demonstrate, Embrace, Nurture, Optimize, Refine) arranged in a circular Strategic Model, supported by Values and Approach statements
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Demonstrate
+L1.1_TEXT:
+Demonstrate the value we bring to the world
+Evaluate the holistic impact of our care
+
+---
+
+L1.2_TITLE: Embrace
+L1.2_TEXT:
+Embrace how we work together
+Cultivate relationships to achieve our purpose
+
+---
+
+L1.3_TITLE: Nurture
+L1.3_TEXT:
+Nurture our people
+Support the team to find joy and connection in our work
+
+---
+
+L1.4_TITLE: Optimize
+L1.4_TEXT:
+Optimize resources
+Strengthen how we manage and grow our financial and operational capacity
+
+---
+
+L1.5_TITLE: Refine
+L1.5_TEXT:
+Continuously refine our services
+To deliver relevant, equitable, safe and quality care
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with a distinctive circular Strategic Model that visually represents the interconnected nature of the five strategic priorities around a central Purpose. The document demonstrates sophisticated strategic thinking with clear Values (Unconditional Compassion, Informed Client Driven Care, Deliberate Inclusivity, Creative Mindful Collaboration, Courageous Advocacy, Responsive Innovation) and Approach statements that contextualize the work within HIV care and stigma-free healthcare. Each strategic priority has a brief descriptive statement at L1 level followed by detailed goals and initiatives at L2 level. The plan shows strong focus on Casey House's specialized mission in HIV care and social justice. Professional presentation with clear visual hierarchy and consistent formatting throughout. The strategic model effectively communicates the holistic, integrated approach to achieving the central purpose of transforming lives and healthcare through compassion and social justice.
+=====================================
+END OF EXTRACTION - HOSPITAL 76
+=====================================
+```

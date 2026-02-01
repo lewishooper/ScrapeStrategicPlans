@@ -1,0 +1,77 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 113
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 113 OF 113
+
+=====================================
+
+FAC: 982
+HOSPITAL_NAME_FILE: Blanche River Health
+HOSPITAL_NAME_TEXT: Blanche River Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year operational plan organized around six Strategic Pillars (System Integration, People Centered-Care, Infrastructure, Health and Human Resources, Communication, Fiscal Accountability) with detailed goals and measurement criteria for each pillar
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: System Integration
+L1.1_TEXT:
+BRH believes that each organization has strength and capacity to provide excellent services and by working together, actively removing barriers, we can respond to people's holistic needs timely, we can prevent people needing help falling through the cracks, and we can uphold a world-class healthcare system for all.
+
+---
+
+L1.2_TITLE: People Centered-Care
+L1.2_TEXT:
+BRH believes that the system should work for the people and not the people trying to figure out how to navigate the complex system. We see individuals as a whole person, with worth and dignity, and are deserving of the best care possible at the right place, the right time, the right provider, and as close to home as possible.
+
+---
+
+L1.3_TITLE: Infrastructure
+L1.3_TEXT:
+In order to provide the best care possible, BRH believes in having the right infrastructure to support the work that we do - physical, technological, data, equipment, and processes. We believe in proactive maintenance and advocacy to maintain the resources that are needed to provide the best care possible. Continuous quality improvement is embedded in everything that we do.
+
+---
+
+L1.4_TITLE: Health and Human Resources
+L1.4_TEXT:
+The backbone of our services is our people. Our employees, our leaders, our physicians, our partners, our volunteers. Our people's welfare is our priority. BRH believes in fair and equitable treatment, in providing a safe and welcoming work environment where people thrive and pursue continuous growth, and where people are valued.
+
+---
+
+L1.5_TITLE: Communication
+L1.5_TEXT:
+The heart of what we do is dependent on the quality of our communication, BRH believes in timely, responsive, transparent, and clear communication as the vehicle to get our work done and to serve effectively. BRH is committed to ongoing improvement and to ensuring that our people, our community members, our partners, are well-informed and proactively engaged with our organization.
+
+---
+
+L1.6_TITLE: Fiscal Accountability
+L1.6_TEXT:
+BRH believes in managing our resources effectively so we can continue to provide excellent services, we can continue to think outside the box, and we can continue to invest in the future of healthcare in our communities.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured operational plan with clear organizational mission ("Making healthcare work for you") and comprehensive ARC Values (Accountability, Respect, Courage to Excel) detailed extensively. The six Strategic Pillars are consistently formatted with clear descriptive text followed by detailed goals and measurement criteria. Document demonstrates strong strategic thinking with specific, measurable targets and timelines. The plan includes both philosophical foundations (values, mission) and practical implementation details. Professional presentation with clear organization and comprehensive coverage of operational domains. Strong emphasis on people-centered care and system integration as core themes. The measurement criteria for each pillar provide high specificity for implementation tracking.
+=====================================
+END OF EXTRACTION - HOSPITAL 113
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 113
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

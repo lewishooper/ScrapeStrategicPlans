@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 112
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 112 OF BATCH 0
+
+=====================================
+
+FAC: 979
+HOSPITAL_NAME_FILE: Scarborough Health Network
+HOSPITAL_NAME_TEXT: Scarborough Health Network
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2029
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five strategic priorities arranged in a circular framework around a central vision, with mission and values clearly articulated at the bottom
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Population Health & Equity
+L1.1_TEXT:
+Champion improved health outcomes by matching our services to Scarborough communities' needs.
+
+---
+
+L1.2_TITLE: Research & Education
+L1.2_TEXT:
+Uncover and pursue innovative new ways to address Scarborough's most critical health needs.
+
+---
+
+L1.3_TITLE: Quality & Patient Safety
+L1.3_TEXT:
+Keep quality care and patient safety at the core of everything we do.
+
+---
+
+L1.4_TITLE: People & Culture
+L1.4_TEXT:
+Recruit, retain, and support our exceptional people and cultivate a culture of inclusion.
+
+---
+
+L1.5_TITLE: System Integration & Transformation
+L1.5_TEXT:
+Work with partners to bring care closer to home with fewer handoffs.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: This is a high-level strategic framework document presented as an infographic rather than a detailed strategic plan. The five strategic priorities are arranged in a circular visual format around the central vision "Canada's leading community teaching health network." Each priority has only a single sentence of descriptive text, making this a very concise, aspirational document. The mission ("Improving lives through exceptional care") and values ("Compassionate, Inclusive, Courageous, Innovative") are clearly stated. The document covers the expected strategic domains but provides minimal detail about implementation approaches, current state analysis, or specific goals. The visual presentation is professional and clear, but the content lacks the depth typically found in comprehensive strategic plans. This appears to be a summary or overview document rather than a full strategic planning document.
+=====================================
+END OF EXTRACTION - HOSPITAL 112
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

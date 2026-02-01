@@ -1,0 +1,54 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 9
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 9 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 626
+HOSPITAL_NAME_FILE: Mississippi River Health Alliance
+HOSPITAL_NAME_TEXT: Mississippi River Health Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around four priority areas with supporting bullet points under each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Your Care Experience
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Our Great People
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Our Partners in Care
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Our Places & Spaces
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Clean, professionally presented strategic plan document with clear visual design featuring the organization's mission and vision prominently displayed. The plan is organized around four strategic priority areas that align with their organizational values (Teamwork, Inclusivity, Accessibility, Accountability). Each priority has a descriptive title but moves directly into bulleted action items without providing L1-level descriptive text about what each priority area encompasses. The bullet points under each priority are specific and actionable, indicating good L2 content. The document includes their mission statement and vision clearly articulated in the center of the strategic framework diagram. The plan appears to be part of a larger organizational framework but focuses specifically on these four operational priorities. The format is concise and action-oriented rather than providing extensive narrative context for each strategic direction.
+=====================================
+END OF EXTRACTION - HOSPITAL 9
+=====================================
+```

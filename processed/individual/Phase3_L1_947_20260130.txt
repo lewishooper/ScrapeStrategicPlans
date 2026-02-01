@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 87
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 87 OF BATCH 0
+
+=====================================
+
+FAC: 947
+HOSPITAL_NAME_FILE: UHN Strategic Plan
+HOSPITAL_NAME_TEXT: University Health Network (UHN)
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan organized around three Strategic Directions (Transformative Experiences, Solutions Beyond Boundaries, Alignment for Impact) supported by foundational commitments and key enablers, unified under the vision "A Healthier World"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Transformative Experiences
+L1.1_TEXT:
+We will create extraordinary, integrated health care experiences that are seamless, compassionate and centered around the patient, family and TeamUHN members. Every individual – whether receiving care or delivering it – deserves an environment that supports their needs. Our aspiration is to create a system that puts people first, empowers our staff, and delivers on our promises at every touchpoint.
+
+---
+
+L1.2_TITLE: Solutions Beyond Boundaries
+L1.2_TEXT:
+UHN is leading the charge for radical innovation. That means investing in discovery like never before. New opportunities and solutions abound, and UHN must nurture and convert those.
+
+---
+
+L1.3_TITLE: Alignment for Impact
+L1.3_TEXT:
+To create lasting change, we will align our resources, partnerships and technologies where they will have the greatest impact. UHN is called to drive real, transformative solutions that leverage the privilege of caring for patients, educating the health care providers and students of tomorrow, pursuing discovery and adoption. The future is here – and UHN is bringing it to life.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professionally designed strategic plan document with strong visual branding and clear organizational structure. The plan is built around three Strategic Directions with detailed commitments under each (Integrated Care, TeamUHN Experience, Lead in Education under Transformative Experiences; Accelerate Research and Innovation, Set Global Health Standards, Transform Health Education under Solutions Beyond Boundaries; High-Impact Partnerships, Harness Technology to Revolutionize Care, Build a Thriving Health Care Ecosystem under Alignment for Impact). Document includes foundational commitments around shared values, Indigenous rights, and inclusive health impact. Features extensive organizational statistics (41,000 TeamUHN members, 500,000+ patients, etc.) and emphasizes UHN's position as "Canada's #1 Hospital." Strong emphasis on global impact and leadership. The plan lacks specific timeframes but demonstrates sophisticated strategic thinking with clear vision ("A Healthier World") and purpose statement. Document includes key enablers (Philanthropy, Advocacy & Investment, Infrastructure Renewal) that support the strategic directions.
+=====================================
+END OF EXTRACTION - HOSPITAL 87
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

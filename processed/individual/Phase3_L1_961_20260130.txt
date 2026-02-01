@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 97 OF 1
+
+=====================================
+
+FAC: 961
+HOSPITAL_NAME_FILE: University of Ottawa Heart Institute
+HOSPITAL_NAME_TEXT: University of Ottawa Heart Institute
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2018
+PLAN_END: 2024
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around four main goals with scientific priority themes including Discovery to Translational Innovations, Precision Medicine, Big Data & Artificial Intelligence, and Healthy Diverse Populations. Features Innovation Hubs focused on specific cardiovascular disease areas.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Catalyze impactful research by creating and supporting unique Innovation Hubs of interdisciplinary research teams
+L1.1_TEXT:
+nf
+
+---
+
+L1.2_TITLE: Support and enhance our fundamental and translational research enterprise
+L1.2_TEXT:
+nf
+
+---
+
+L1.3_TITLE: Catalyse innovation and excellence in clinical research
+L1.3_TEXT:
+nf
+
+---
+
+L1.4_TITLE: Build cross-cutting initiatives to facilitate research
+L1.4_TEXT:
+nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed strategic research plan focused specifically on cardiovascular research excellence. The document presents a clear framework with four strategic goals and detailed Innovation Hubs covering major cardiovascular disease areas (Atherosclerosis and Cardiometabolic Diseases, Arrhythmias, Heart Failure, Brain and Heart, Valvular Heart Disease). The plan demonstrates sophisticated research strategy thinking with cross-cutting scientific priority themes and emphasis on interdisciplinary collaboration. However, the document structure jumps directly from goal titles to detailed implementation elements without providing L1-level descriptive text for the strategic goals themselves. The Innovation Hubs section provides rich detail about specific research focus areas. Strong emphasis on regional partnerships, patient engagement, and translational research from bench to bedside. Professional presentation with clear visual elements and comprehensive coverage of research infrastructure needs.
+=====================================
+END OF EXTRACTION - HOSPITAL 97
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

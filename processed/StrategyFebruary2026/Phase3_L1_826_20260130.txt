@@ -1,0 +1,94 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 61
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 61 OF BATCH 0
+
+=====================================
+
+FAC: 826
+HOSPITAL_NAME_FILE: Lake of the Woods District Hospital
+HOSPITAL_NAME_TEXT: Lake of the Woods District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around five Strategic Directions with Mission, Vision, and Values statements. Each direction includes descriptive text followed by specific implementation goals.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Authentic Partnerships
+L1.1_TEXT:
+We will partner purposefully to advance health system integration, innovation, research and education.
+
+We will partner with patients and families in decision-making for care.
+
+We will acknowledge, respect and collaborate with our Indigenous partners and communities to learn and grow together.
+
+We will collaborate with our Foundation, advancing a culture of philanthropy.
+
+---
+
+L1.2_TITLE: Patient Safety and Clinical Excellence
+L1.2_TEXT:
+We will improve patient safety through quality improvement and best practice clinical service delivery.
+
+We will accelerate the introduction and adoption of enterprise-wide data and information systems.
+
+We will invest in continuous learning and development opportunities to support hospital and professional staff in achieving clinical excellence.
+
+We will establish specialty centres of excellence to support health care delivery.
+
+---
+
+L1.3_TITLE: Effective Stewardship
+L1.3_TEXT:
+We will contribute to a healthier planet by reducing our environmental footprint.
+
+We will secure funding tailored to the unique health needs of our region.
+
+We will diversify revenue streams and foster entrepreneurial thinking.
+
+We will optimize efficiency and use of resources.
+
+---
+
+L1.4_TITLE: Engaged Workforce
+L1.4_TEXT:
+We will continually enhance a responsive Human Resources strategy and action plan.
+
+We will engage staff and seek ideas for improving work-life and hospital culture.
+
+We will champion inclusion, diversity, equity and accessibility.
+
+We will advance internal communications efforts to improve organizational transparency and increase employee engagement.
+
+---
+
+L1.5_TITLE: Campus of Care
+L1.5_TEXT:
+We will grow our services to align with current and evolving needs of our region.
+
+We will address issues of rural health inequities through advanced advocacy and strategic efforts.
+
+We will foster unique and innovative solutions to support an integrated health system.
+
+We will work with our partners and key influencers to advance the All Nations Hospital Project.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear visual branding. The document provides good context about LWDH as a 75-bed acute care hospital in Kenora serving traditional Anishinaabe lands, with recent "Accreditation with Exemplary Standing" achievement noted. The five Strategic Directions are consistently formatted, though the L1 descriptive text consists primarily of goal-like statements rather than conceptual descriptions of what each priority area represents. The plan addresses comprehensive hospital operations including partnerships, clinical excellence, stewardship, workforce, and campus development. Notable emphasis on Indigenous partnerships and the All Nations Hospital Project. The document includes aerial photography and staff photos that enhance presentation quality. Strong focus on rural health challenges and the need for facility renewal after nearly 100 years of operation with multiple expansions.
+=====================================
+END OF EXTRACTION - HOSPITAL 61
+=====================================
+```

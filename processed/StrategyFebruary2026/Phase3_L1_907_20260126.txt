@@ -1,0 +1,74 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 2
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 2 OF BATCH 0
+
+=====================================
+
+FAC: 907
+HOSPITAL_NAME_FILE: Timmins and District Hospital
+HOSPITAL_NAME_TEXT: Timmins and District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic dimensions aligned with the Quadruple Aim framework: Patient Experience, Provider Experience, Population Health, and Financial Health, plus a fifth dimension on Equity and Social Accountability
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: We Will Improve the Experience of Our Patients
+L1.1_TEXT:
+We value the health and wellness of all Northerners and aim to make a positive difference in their lives. Together with our community and district partners we will work to improve the experience and health of Northerners.
+
+Making sure that our program and service delivery is developed for and by the populations we serve is vital. The work that we do will be reflective of the diverse population we serve in Timmins and the Cochrane District.
+
+---
+
+L1.2_TITLE: We Will Improve the Experience and Wellbeing of Our Health Providers
+L1.2_TEXT:
+Together we are stronger. Through collaboration with our staff, physicians, partners, patients and families we will help create a health care system that promotes equity, wellness and attracts health care workers to the North.
+
+We are going to seek and value the diverse expertise, experiences and stories of our staff, physicians, volunteers and partners to create an organizational culture that supports wellness and equity.
+
+---
+
+L1.3_TITLE: We Will Improve Population Health
+L1.3_TEXT:
+We all have a part to play in helping to improve the health of our Northern population. This dimension allows us to improve the quality of clinical care and treatment through the promotion of better patient outcomes. We want to see a healthier Northern Ontario.
+
+We are driven to ensure that those living in our community and district have fair access to the health services they need, when and where they need them. Collaboratively, we will focus on ensuring that our health system provides everyone what they need to be their healthiest selves.
+
+---
+
+L1.4_TITLE: We Will Sustain the Financial Health of Our Hospital
+L1.4_TEXT:
+Ensuring that our hospital is financially sustainable to meet the current and future needs of our community and district is vital. Our hospital will continue to be leaders in the creation of sustainable health care system transformation.
+
+Through the creation of sustainable health care system transformation, we aim to ensure that the program and service delivery reflects the needs of our community.
+
+---
+
+L1.5_TITLE: We Will Focus on Equity and Social Accountability
+L1.5_TEXT:
+Creating a health system that is equitable for all those accessing it is incredibly important. In addition to embedding equity within all aspects of our plan, we have outlined specific, measurable goals relating to diversity, equity and social accountability.
+
+We are going to seek and value the diverse expertise, experiences and stories of our staff, physicians, volunteers and partners to create an organizational culture that supports wellness and equity.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan that clearly aligns with the Quadruple Aim healthcare framework plus equity as a fifth dimension. The document demonstrates strong strategic thinking with consistent formatting across all five dimensions. Each strategic dimension includes both descriptive text explaining the priority and detailed strategic goals underneath. The plan shows sophisticated understanding of Northern Ontario healthcare challenges and emphasizes collaboration, equity, and community partnership throughout. Strong emphasis on serving diverse populations in Timmins and the Cochrane District. The document includes extensive stakeholder engagement data (184 community surveys, 17 staff sessions, 12 partner sessions, etc.) indicating robust planning process. Professional presentation with clear mission, vision, and values statements. The strategic goals under each dimension provide good specificity for implementation.
+=====================================
+END OF EXTRACTION - HOSPITAL 2
+=====================================
+```

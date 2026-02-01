@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 6
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 6 OF BATCH 0
+
+=====================================
+
+FAC: 606
+HOSPITAL_NAME_FILE: Royal Victoria Regional Health Centre
+HOSPITAL_NAME_TEXT: Royal Victoria Regional Health Centre (RVH)
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2034
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Ten-year strategic plan titled "Vitally You" organized around three focus areas (Drive clinical and academic excellence, Cultivate fulfilled high-performing teams, Make exceptional patient and family experiences) supported by three foundations (Sustainable investment, Health technology, Strategic partnerships). Includes purpose, values, and future vision sections.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Drive clinical and academic excellence
+L1.1_TEXT:
+We'll be a regional academic health sciences centre. As a full-scale teaching hospital and research institute, we'll offer the latest in complex, specialized care at scope and scale that meets our region's needs.
+
+Using state-of-the-art tools, we'll teach the next generation of practitioners to be clinically exceptional and compassionate. As a national leader in research at the bedside, we'll improve care now, not years in the future.
+
+The cornerstone of our work will always be collaborative partnerships, to give you the care you need – at RVH or elsewhere in our regional system of care.
+
+---
+
+L1.2_TITLE: Cultivate fulfilled, high-performing teams
+L1.2_TEXT:
+The drive for excellence fuels Team RVH. We're a workforce equipped for today and primed for the challenges of tomorrow. Driven by our shared purpose, as we live our values, each member of Team RVH is powered by the impact they have on the people they care for.
+
+Top talent, regardless of specialization or career stage, will aspire to join RVH, knowing it is an important career achievement. Through a culture of continuous learning, our people will grow in their roles, supported by the best tools and resources to unlock their potential.
+
+We attract and retain an engaged and talented team that feels cared for and valued.
+
+Our diverse perspectives and unique experiences will continue to ignite innovation and foster belonging. Diversity is critical to our collective success.
+
+---
+
+L1.3_TITLE: Make exceptional patient and family experiences
+L1.3_TEXT:
+Offering culturally informed care, Team RVH will continue to understand and honour diverse perspectives and needs. We will eliminate disparities and promote equity to ensure fair access to care for all. We will recognize and act on the unique needs of Indigenous Peoples.
+
+Our patients and families will feel comfortable and safe. We'll offer as many care options as makes sense for your needs, with patients and families remaining active participants in that process. They'll also be able to easily navigate the connections between RVH and our community care partners.
+
+Our patient and family experience will not only help people heal; it will ensure they feel respected, informed and empowered.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented 10-year strategic plan with strong visual identity and clear messaging around "Vitally You" theme. The document demonstrates sophisticated strategic thinking with clear distinction between three strategic focus areas and three foundational enablers. Each focus area includes both descriptive text and specific tracking measures/goals. Strong emphasis on regional academic health sciences centre transformation and community connection. The plan includes comprehensive land acknowledgment recognizing multiple Indigenous nations and communities. Document structure is clear and consistent, with good balance of aspirational vision and concrete direction. The "big moves" tracking approach under each focus area provides measurable specificity while maintaining strategic-level perspective. Strong integration of equity, diversity, and Indigenous health considerations throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 6
+=====================================
+```

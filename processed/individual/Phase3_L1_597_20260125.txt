@@ -1,0 +1,54 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 3
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 3 OF BATCH 0
+
+=====================================
+
+FAC: nf
+HOSPITAL_NAME_FILE: nf
+HOSPITAL_NAME_TEXT: Mississippi River Health Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around four main priority areas (Your Care Experience, Our Great People, Our Partners in Care, Our Places & Spaces) with supporting values of Teamwork, Inclusivity, Accessibility, and Accountability, all centered around the organizational vision
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Your Care Experience
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Our Great People
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Our Partners in Care
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Our Places & Spaces
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear visual design featuring a circular diagram that effectively illustrates the relationship between strategic priorities, organizational values, and central vision. The plan covers four comprehensive strategic areas with specific bullet-pointed initiatives under each priority. However, the document provides only priority titles without descriptive text - it moves directly from titles to specific action items and goals. The mission statement is clearly articulated, and the visual presentation effectively communicates the integrated nature of the strategic framework. The priorities cover the full spectrum of hospital operations from patient care to workforce to partnerships to infrastructure. While lacking L1 descriptive content, the document demonstrates good strategic thinking with specific, actionable L2 initiatives under each priority area.
+=====================================
+END OF EXTRACTION - HOSPITAL 3
+=====================================
+```

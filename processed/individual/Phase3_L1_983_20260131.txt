@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 114 OF 1
+
+=====================================
+
+FAC: 983
+HOSPITAL_NAME_FILE: nf
+HOSPITAL_NAME_TEXT: Huron Perth Healthcare Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan titled "Commitments to Our Communities" organized around three Guiding Principles (People, Partnership, Performance) with strategic goals and commitments under each principle
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People
+L1.1_TEXT:
+We are guided by a simple but powerful principle: "Nothing for you, without you." This applies to everyone—patients, families, caregivers, staff, physicians, and volunteers. By centering people in our work, we build meaningful partnerships in both care delivery and service design.
+
+Our highest priority is providing a safe and healthy workplace. In addition to delivering compassionate, high-quality care, HPHA is committed to environmental sustainability by reducing our operational impact.
+
+To those who live and work in the communities we serve, we commit to being transparent, engaged, and bold advocates for the changes needed to support both a healthier population, and high-quality care—now and in the future.
+
+---
+
+L1.2_TITLE: Partnership
+L1.2_TEXT:
+Partnerships are central to transforming healthcare into a truly person-centered system.
+
+HPHA recognizes that we are stronger together. Many of the most significant improvements occur when providers collaborate across traditional boundaries. This ensures care is delivered at the right time, in the right place, and by the right provider.
+
+Whether in primary care, public health, long-term care, home and community care, hospital services, mental health, or emergency response—our collective impact is greatest when we work together, united in service to those we care for.
+
+---
+
+L1.3_TITLE: Performance
+L1.3_TEXT:
+Strong performance is critical—not only for HPHA but for the entire health system.
+
+Healthcare is a vital public service and one of Canada's largest sectors. It must be grounded in responsible business practices that protect financial sustainability and ensure timely, appropriate care.
+
+Above all, healthcare must be accountable. At HPHA, we evaluate our work through this lens—ensuring services are grounded in engagement, innovation, evidence, and best practice, and are delivered in the most efficient and effective setting.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear organizational values (Compassion, Accountability, Integrity; Collaborating for Exceptional Care; Innovating for Exceptional Health) and a strong conceptual framework. The three Guiding Principles (People, Partnership, Performance) are consistently formatted with rich descriptive text explaining the philosophy behind each principle. Each principle includes both strategic goals and strategic commitments providing good L2 content. The document demonstrates sophisticated strategic thinking with emphasis on person-centered care, system transformation, and social accountability. Professional presentation with good use of imagery and clear typography. The plan shows strong community focus and recognition of broader healthcare system challenges. Document structure clearly distinguishes between the conceptual framework (L1) and specific goals/commitments (L2).
+=====================================
+END OF EXTRACTION - HOSPITAL 114
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 3
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 3 OF BATCH 0
+
+=====================================
+
+FAC: 596
+HOSPITAL_NAME_FILE: Stevenson Memorial Hospital
+HOSPITAL_NAME_TEXT: Stevenson Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four pillars (People, Care, Partnerships, Investments) with mission "Promising Progress, Pursuing Perfection" and vision "Setting A New Standard For Community Hospital Care"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People
+L1.1_TEXT:
+Creating a work environment that values and recognizes the contribution of every staff member in creating a positive patient care experience. Creating and upholding a culture of continuous learning, focused on collaboration and teamwork.
+
+---
+
+L1.2_TITLE: Care
+L1.2_TEXT:
+Keeping the patient at the center of every care discussion and decision. Ensuring that patient values inform every aspect of delivery.
+
+---
+
+L1.3_TITLE: Partnerships
+L1.3_TEXT:
+Working collaboratively with local and community health care providers to continue to develop our care network and availability to offer a seamless care experience for our patients.
+
+---
+
+L1.4_TITLE: Investments
+L1.4_TEXT:
+Operating appropriately within fiscal constraints to maximize investments in staff, equipment, infrastructure and improvement to provide high quality care for present and future patients.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed strategic plan document with professional presentation and clear visual branding. The plan is organized around four strategic pillars with consistent formatting and clear descriptive text for each pillar. Document includes strong organizational values framework (I.C.A.R.E. - Integrity, Compassion, Accountability, Respect, Excellence) with detailed explanations. The plan demonstrates thoughtful strategic thinking with focus areas identified for the coming year including redevelopment, CPOE implementation, OHT leadership, senior-friendly care, equity/diversity/inclusion, and OR wait time reduction. Document includes leadership photos and contextual information about community growth and hospital redevelopment project. The four pillars are well-balanced covering internal culture (People), clinical focus (Care), external relationships (Partnerships), and operational sustainability (Investments). Strategic priorities are concise but meaningful, with clear L2 content available for future extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 3
+=====================================
+```

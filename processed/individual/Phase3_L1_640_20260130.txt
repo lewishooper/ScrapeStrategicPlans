@@ -1,0 +1,52 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 11
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 11 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 640
+HOSPITAL_NAME_FILE: Collingwood General and Marine Hospital
+HOSPITAL_NAME_TEXT: Collingwood General and Marine Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three strategic directions (Elevate Quality, Develop Team, Create Capacity) with supporting foundational commitments and vision/mission/values framework
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Elevate Quality Through Best Practices
+L1.1_TEXT:
+Focusing on best practices will enable CGMH to elevate care and experience to new levels. Through continuous improvement and a focus on high-quality, person-centred care, we will implement innovative care models and streamline processes, enhancing patient outcomes and overall patient and family experience.
+
+---
+
+L1.2_TITLE: Develop a High-Performing and Inspired Team
+L1.2_TEXT:
+We are committed to building a high-performing and inspired team by promoting collaboration, continuous learning, and shared goals. Through professional development programs, open dialogue, and a supportive work environment where every team member feels valued, we'll empower our team to work together effectively, driving excellence and ensuring the best possible experience for our community – today and in the future.
+
+---
+
+L1.3_TITLE: Create Capacity to Serve Our Growing Population
+L1.3_TEXT:
+As South Georgian Bay continues to grow at one of the fastest rates in Canada, we must ensure our hospital can keep pace – both now and in the future. By balancing proactive planning for our future hospital with immediate steps to optimize our existing space, we will act strategically to effectively address the evolving infrastructure and service needs of patients within our community.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with strong visual design and clear organizational structure. The document demonstrates sophisticated strategic thinking with a clear vision ("Outstanding Care For Life") and mission statement, supported by four core values (Be Kind, Support Each Other, Lead By Example, Keep Growing). The three strategic directions are consistently formatted with descriptive text followed by detailed sub-goals and initiatives. The plan includes foundational commitments covering Health Analytics and Technology, Health Partnerships and Community Engagement, Inclusion/Diversity/Equity/Accessibility, and Financial and Environmental Sustainability. Strong emphasis on building a new hospital while maintaining current operations. The document effectively balances current state challenges with future aspirations and includes compelling messaging about "Tomorrow is Built Today." Each strategic direction includes specific success metrics and timelines for 2030, demonstrating measurable planning approach.
+=====================================
+END OF EXTRACTION - HOSPITAL 11
+=====================================
+```

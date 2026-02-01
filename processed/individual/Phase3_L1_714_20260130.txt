@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 37
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 37 OF BATCH 0
+
+=====================================
+
+FAC: 714
+HOSPITAL_NAME_FILE: St. Joseph's Health Care London
+HOSPITAL_NAME_TEXT: St. Joseph's Health Care London
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three core commitments with supporting objectives and goals under each commitment
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Excellence in Care: Powered by Discovery
+L1.1_TEXT:
+Throughout our engagement process, St. Joseph's was continuously described as a leader in providing exemplary care to everyone we serve, without distinction. Across every program and service, people shared positive experiences about our team and our approach to wholistic care and innovation. We will build on this foundation and through discovery in research, we will transform and improve care.
+
+---
+
+L1.2_TITLE: A Vibrant Workforce
+L1.2_TEXT:
+We have exceptional people delivering compassionate care. With a strong and unique workplace built on humility and respect, we will continue to support our people and help our culture flourish. We are dedicated to creating a workplace that supports the well-being of our staff, clinicians, volunteers and students—helping them thrive in body, mind and spirit.
+
+---
+
+L1.3_TITLE: Partnering for Impact
+L1.3_TEXT:
+As an anchor organization in Southwestern Ontario, St. Joseph's plays an important role in promoting a seamless patient experience across our region. Our internal and external communities recognize the depth and breadth of our partnerships in support of a better, more integrated care experience for those we serve.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear mission, vision, and values framework. The document demonstrates sophisticated strategic thinking with three core commitments that are consistently formatted and include both descriptive text and detailed objectives/goals beneath each. Strong emphasis on the mustard seed symbolism connecting to Catholic heritage and organizational growth metaphor. The plan shows evidence of extensive community engagement (over 1,000 individuals consulted) and includes diverse stakeholder input. Document structure clearly distinguishes between strategic priorities (L1) and implementation goals (L2). Notable features include focus on holistic care, research integration through Lawson Research Institute, and regional partnership emphasis. The plan balances aspirational language with specific measurable objectives at the L2 level.
+=====================================
+END OF EXTRACTION - HOSPITAL 37
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 37
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

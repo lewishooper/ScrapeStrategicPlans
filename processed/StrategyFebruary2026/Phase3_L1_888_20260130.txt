@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 69
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 69 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 888
+HOSPITAL_NAME_FILE: L'Hôpital Temiskaming
+HOSPITAL_NAME_TEXT: L'Hôpital Temiskaming
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic orientations (Personnes, Patients, Partenaires, Processus) with mission, vision, and values framework. Document is bilingual French-English with extensive stakeholder consultation process documented.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Personnes
+L1.1_TEXT:
+équipe résiliente, organisation durable.
+
+Par l'année 2027, nous aurons implémenté des stratégies pour garantir une durabilité financière et une pleine équipe, saine et diversifiée.
+
+---
+
+L1.2_TITLE: Patients
+L1.2_TEXT:
+expérience cohérente, résultats positifs.
+
+Par l'année 2027, l'Hôpital Temiskaming aura amélioré de façon cohérente les expériences des patients, en intégrant des stratégies qui comblent les lacunes des services, et qui encouragent une communication étroite et la rétroaction régulière.
+
+---
+
+L1.3_TITLE: Partenaires
+L1.3_TEXT:
+Relations valorisées, communautés fortes
+
+Par l'année 2027, nous améliorerons notre cercle d'influence en nous appuyant sur notre rôle de leader, tout en priorisant notre rôle de partenaire solide dans le Nord de l'Ontario.
+
+---
+
+L1.4_TITLE: Processus
+L1.4_TEXT:
+capacité numérique, connexion améliorée
+
+Par l'année 2027, l'Hôpital Temiskaming aura pleinement intégré l'initiative ONE à travers l'organisation, tout en investissant en technologie pertinente et en optimisant notre capacité à partager des informations à d'autres partenaires.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed bilingual strategic plan with professional presentation and clear visual design. The document demonstrates strong community engagement with extensive stakeholder consultation (239 online survey responses, 45 focus group participants, 6 key informant interviews). The four strategic orientations are consistently formatted with brief descriptive text and clear 2027 vision statements. The plan includes comprehensive organizational context with mission, vision, and six core values (human dignity, excellence, compassion, social responsibility, community partnership, security). Document provides good operational context (320+ staff, 59 beds, 13 programs/services, serving communities from Temagami to Earlton). The ONE initiative (shared health information system across 23 northeastern Ontario hospitals) is prominently featured as a key strategic element. French content appears to be primary with English translations provided. Strategic priorities have limited descriptive text but clear future state visions.
+=====================================
+END OF EXTRACTION - HOSPITAL 69
+=====================================
+```

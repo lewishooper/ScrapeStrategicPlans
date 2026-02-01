@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 80
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 80 OF BATCH 0
+
+=====================================
+
+FAC: 935
+HOSPITAL_NAME_FILE: Thunder Bay Regional Health Sciences Centre
+HOSPITAL_NAME_TEXT: Thunder Bay Regional Health Sciences Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2026
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic Plan 2026 organized around five strategic directions (Equity Diversity & Inclusion, Patient Experience, Staff Experience, Research Innovation & Learning, Sustainable Future) with mission, vision, values, and philosophy clearly articulated. Each strategic direction includes "What We Will Do" sections with specific initiatives and "How We Will Measure It" sections.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Equity, Diversity, & Inclusion
+L1.1_TEXT:
+We all belong
+
+---
+
+L1.2_TITLE: Patient Experience
+L1.2_TEXT:
+Empathy, compassion, and respect in every encounter
+
+---
+
+L1.3_TITLE: Staff Experience
+L1.3_TEXT:
+This is where we want to work, grow, and thrive
+
+---
+
+L1.4_TITLE: Research, Innovation, & Learning
+L1.4_TEXT:
+Driven by the needs of our patients, our staff, and our communities
+
+---
+
+L1.5_TITLE: Sustainable Future
+L1.5_TEXT:
+Ensuring our Healthy Future
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear visual branding and consistent formatting. The document demonstrates strong organizational identity with clearly articulated mission, vision, values, and philosophy centered around "Exceptional care for every patient, every time." Each of the five strategic directions is consistently formatted with brief descriptive taglines at L1 level, followed by detailed "What We Will Do" and "How We Will Measure It" sections that provide substantial L2 content. The plan shows evidence of extensive stakeholder engagement (120+ engagement sessions with 700+ stakeholders) and sophisticated strategic planning process. Document includes comprehensive current environment analysis with demographic and operational data. Strong emphasis on Indigenous reconciliation and equity throughout. The plan effectively balances aspirational vision with specific, measurable initiatives. Notable features include patient and staff quotes integrated throughout, and clear connection between strategic directions and organizational values.
+=====================================
+END OF EXTRACTION - HOSPITAL 80
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 80
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

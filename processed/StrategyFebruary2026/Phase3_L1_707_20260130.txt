@@ -1,0 +1,74 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 35
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 35 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 707
+HOSPITAL_NAME_FILE: Ross Memorial Hospital
+HOSPITAL_NAME_TEXT: Ross Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan organized around four Strategic Directions with corresponding Strategic Priorities listed beneath each direction
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Providing the Best Possible Patient Experience
+L1.1_TEXT:
+Pursuing the journey of becoming a High-Reliability Organization.
+
+Advancing our master program and plan, working closely with our Foundation and partners. Continually improving and building pride in the overall experience of our hospital.
+
+Leveraging current and emerging technology to deliver more efficient and effective patient and family-centric care.
+
+---
+
+L1.2_TITLE: Continually Building a Passionate Team
+L1.2_TEXT:
+Continually leveraging creative strategies and emphasizing what makes Ross Memorial Hospital special to support, recruit, and retain our people.
+
+Purposefully nurturing and reinforcing our Ross Memorial culture.
+
+Supporting our physicians and their work life.
+
+---
+
+L1.3_TITLE: Anticipating and Responding to the Needs of our Community
+L1.3_TEXT:
+Collaborating and partnering with our Ontario Health Team (OHT) and community partners to identify and address community needs.
+
+Optimizing our service offerings to best meet the continually changing needs of the community.
+
+Ensuring our services are equitable, inclusive, and respectful of everyone in our community.
+
+---
+
+L1.4_TITLE: Championing System Improvements
+L1.4_TEXT:
+Working within the Ontario health system to best position RMH in the post-pandemic reality.
+
+Identifying new and different approaches to funding and resourcing to deliver on our strategic directions.
+
+Working with others to improve the efficiency of our local system through creative partnerships.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan document with professional presentation and clear visual design featuring community-focused illustrations. The plan is organized around four Strategic Directions with corresponding Strategic Priorities that provide moderate detail about focus areas. Each strategic direction includes 3-4 specific priority statements that bridge between high-level direction and actionable goals. The document demonstrates thoughtful consideration of post-pandemic healthcare delivery and emphasizes community partnership through Ontario Health Teams. Strong visual branding with consistent use of hospital logo and community imagery. The plan shows evidence of stakeholder engagement and community focus, with particular emphasis on High-Reliability Organization journey and system-level collaboration. Mission, Vision, and Values are clearly articulated with the mission "Delivering on the promise of a better healthcare experience" providing a unifying theme.
+=====================================
+END OF EXTRACTION - HOSPITAL 35
+=====================================
+```

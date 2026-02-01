@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 54
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 54 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 790
+HOSPITAL_NAME_FILE: Hotel Dieu Shaver Health and Rehabilitation Centre
+HOSPITAL_NAME_TEXT: Hotel Dieu Shaver Health and Rehabilitation Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around five strategic pillars under the C.A.R.E.S. framework (Cultivate, Advance, Revitalize, Enhance, Sustain) with tagline "Rehabilitation Redefined"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Cultivate People and Culture
+L1.1_TEXT:
+We will foster a thriving, empowered workplace where staff and volunteers feel valued, heard, and supported.
+
+---
+
+L1.2_TITLE: Advance Our Identity and Reach
+L1.2_TEXT:
+We will solidify HDS as a visible, trusted and widely recognized leader in rehabilitation.
+
+---
+
+L1.3_TITLE: Revitalize Infrastructure and Capacity
+L1.3_TEXT:
+We will build a modern environment that supports collaboration, compassionate healing and a seamless patient journey.
+
+---
+
+L1.4_TITLE: Enhance Research and Innovation
+L1.4_TEXT:
+We will expand academic and industry leader partnerships to advance research and innovation in rehabilitation.
+
+---
+
+L1.5_TITLE: Sustain Exceptional Quality and Patient Experience
+L1.5_TEXT:
+We will ensure long-term sustainability of high-quality care and exceptional patient experience inspired by comfort, care, and hope.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear branding around "Rehabilitation Redefined." The C.A.R.E.S. framework provides a memorable structure for the five strategic pillars. Document includes strong acknowledgement of Indigenous peoples and commitment to reconciliation in healthcare. The plan demonstrates understanding of Hotel Dieu Shaver's unique position as Niagara's only rehabilitation hospital and builds on 100+ years of legacy from the Religious Hospitallers of St. Joseph. Each strategic pillar has a clear, concise description at L1 level. The document shows evidence of thoughtful engagement across the organization and community. Strong emphasis on faith-based mission while embracing modern healthcare challenges. The plan balances aspirational language with practical strategic directions, though specific goals and initiatives (L2 content) would provide additional implementation detail.
+=====================================
+END OF EXTRACTION - HOSPITAL 54
+=====================================
+```

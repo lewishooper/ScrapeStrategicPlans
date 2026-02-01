@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 94
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 94 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 957
+HOSPITAL_NAME_FILE: Quinte Health
+HOSPITAL_NAME_TEXT: Quinte Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around a central purpose "Creating healthier communities. Together." with four core values, four aspirations (Care, Compassion, Connection, Our People), and five strategic priorities supported by three enablers
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: A high-quality health care experience for all
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: A healthy and sustainable workplace
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Impactful relationships and partnerships across Quinte Health and its communities
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: High-impact, integrated digital and information supports
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: A culture of patient and caregiver leadership at every level
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: This is a professionally designed strategic plan document with strong visual branding and clear organizational structure. The plan demonstrates a rebranding effort from QHC to Quinte Health with new logo and visual identity. The document is well-organized around four aspirations (Care, Compassion, Connection, Our People) with detailed descriptive text for each aspiration area. However, the five strategic priorities themselves contain only titles with no descriptive text - they appear to go directly to implementation goals and initiatives. The aspirations provide rich narrative content about organizational values and direction, while the priorities function more as implementation categories. The plan shows evidence of extensive community engagement (2,200+ touchpoints) and includes four well-articulated values. The document represents a comprehensive strategic framework but with minimal L1-level descriptive content for the actual strategic priorities.
+=====================================
+END OF EXTRACTION - HOSPITAL 94
+=====================================
+```

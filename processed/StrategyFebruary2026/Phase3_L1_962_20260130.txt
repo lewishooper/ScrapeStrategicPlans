@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 98
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 98 OF BATCH 0
+
+=====================================
+
+FAC: 962
+HOSPITAL_NAME_FILE: Niagara Health Strategic Plan 2023-2028
+HOSPITAL_NAME_TEXT: Niagara Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around three Strategic Pillars (People First, Safe and Quality Care, How We Work) with supporting organizational priorities and implementation framework
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People First
+L1.1_TEXT:
+People are the basis of everything we do at Niagara Health — both patients and our team members. Caring for patients is the reason Niagara Health exists. Connecting with our community and building partnerships with other organizations serving our patients help us deliver better care. Nothing can happen without our team.
+
+---
+
+L1.2_TITLE: Safe and Quality Care
+L1.2_TEXT:
+Our purpose is clear that every person who comes to Niagara Health should receive the best care, every time. We must use all resources available to us to ensure people can access hospital services when they need them, that these services and experiences are consistent, and that we are always striving to do better.
+
+---
+
+L1.3_TITLE: How We Work
+L1.3_TEXT:
+As the needs of Niagara Health's patients, community and team members change, we must transform how we work. We will become one truly regional system, functioning seamlessly across sites. We are updating our physical structures, including building a new hospital, but we are also changing how we organize ourselves and how we use technology to work together and to serve our patients.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with clear organizational identity centered around "Extraordinary Caring. Every Person. Every Time." The three Strategic Pillars are consistently formatted with descriptive text explaining the conceptual framework, followed by detailed sub-priorities and initiatives. Document demonstrates strong strategic thinking with clear vision for regional integration, including transition to three hospital sites with new South Niagara hospital opening and Welland hospital redevelopment. Plan shows sophisticated understanding of healthcare transformation needs, emphasizing patient experience, interprofessional teams, technology integration, and regional coordination. Strong emphasis on diversity, equity and inclusion throughout. The supporting priorities under each pillar provide substantial detail for Level 2 extraction. Professional presentation with clear visual design and consistent formatting.
+=====================================
+END OF EXTRACTION - HOSPITAL 98
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 98
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

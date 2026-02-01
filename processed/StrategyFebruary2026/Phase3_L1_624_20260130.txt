@@ -1,0 +1,70 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 8
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 8 OF BATCH 0
+
+=====================================
+
+FAC: 624
+HOSPITAL_NAME_FILE: Campbellford Memorial Hospital
+HOSPITAL_NAME_TEXT: Campbellford Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four key priority areas with supporting values framework and shared purpose statement
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Modernizing service delivery to continuously improve outcomes
+L1.1_TEXT:
+We will create an integrated, high performing and agile health services model promoting a holistic approach to wellness and healthcare.
+
+We are committed to modernizing service delivery to continuously improve outcomes. By optimizing resource allocation, we are focused on achieving greater organizational stability while streamlining our systems, processes, and policies to increase efficiency and reduce administrative burdens. This will allow our teams to focus on delivering exceptional patient care.
+
+To further enhance our internal capabilities, we will invest in systems that foster better collaboration across departments and with our regional partners, enabling a more cohesive approach to patient care.
+
+---
+
+L1.2_TITLE: Advancing our workplace through inclusivity, connection, wellbeing, and growth
+L1.2_TEXT:
+We will foster a culture of belonging by inspiring and supporting each other to reach our full potential.
+
+Advancing our workplace through inclusivity, connection, well-being, and growth creates an environment where every team member feels valued, supported, and empowered. We will foster this culture by embedding our core values into every aspect of our systems and processes.
+
+We will enhance our recruitment and retention strategies to attract and retain top talent, ensuring that our workforce is diverse, skilled, and aligned with our purpose. We will also expand opportunities for learning, development, and training, allowing staff to grow professionally while contributing to the hospital's success.
+
+---
+
+L1.3_TITLE: Pushing the boundaries of rural care
+L1.3_TEXT:
+We will set a new standard for the delivery of rural care outside the traditional hospital setting.
+
+Pushing the Boundaries of Rural Care—is a commitment to delivering exceptional, patient and family-centred healthcare that responds to the evolving needs of our communities. By continuously improving the quality of care and expanding our services, we aim to enhance access to vital health and preventative care, especially for underserved populations. We are focused on securing the latest technology to elevate the level of care we provide, ensuring our patients benefit from innovative solutions close to home.
+
+---
+
+L1.4_TITLE: Building for tomorrow
+L1.4_TEXT:
+Innovate our space today and plan to build a new Campus of Care that will serve as a destination for integrated health services at the heart of the community.
+
+Building for Tomorrow — focuses on transforming our facility to meet current and future healthcare needs. While we actively plan for redevelopment through a comprehensive approach that includes advocacy, a master plan, thorough assessments, and the vision for a Campus of Care, we also recognize the importance of making the most of our existing spaces. By leveraging the innovative use of current facilities, we aim to enhance care delivery and improve patient and staff experiences today as we plan for the future.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan document with professional presentation and clear branding. The plan demonstrates thoughtful strategic thinking with four comprehensive priority areas that cover service delivery, workplace culture, rural care innovation, and infrastructure development. Each priority includes both descriptive text explaining the strategic direction and supporting goals/initiatives that provide implementation detail. The document features a strong values framework (Be Our Best, Act Responsibly, Better Together, Learn & Grow, Create Possibilities) and clear shared purpose statement ("We Touch Lives with Care"). Notable features include emphasis on rural healthcare innovation, comprehensive workplace culture focus, and forward-thinking approach to facility development with "Campus of Care" concept. The plan shows evidence of community-focused strategic thinking appropriate for a rural hospital setting. Document includes new branding elements with meaningful logo symbolism (rising sun for new day/progress, rolling hills for agricultural community).
+=====================================
+END OF EXTRACTION - HOSPITAL 8
+=====================================
+```

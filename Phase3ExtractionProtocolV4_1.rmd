@@ -1,0 +1,587 @@
+# Phase 3 - Level 1 (L1) Extraction Protocol - Version 4.1
+
+## Purpose
+This protocol guides the extraction of high-level strategic priorities (Level 1) from hospital strategic plans. Level 1 captures ONLY the strategic priority titles and their descriptive text - NOT the goals, initiatives, or tactics under them (those are Level 2).
+
+---
+
+## Output Format Structure
+
+### Header Section
+Each hospital extraction begins with:
+
+```
+FAC: [facility number]
+HOSPITAL_NAME_FILE: [hospital name from the PDF filename]
+HOSPITAL_NAME_TEXT: [hospital name as it appears in the strategic plan document text]
+EXTRACTION_DATE: [YYYY-MM format, system date when extraction was performed]
+PLAN_START: [start year - YYYY]
+PLAN_END: [end year - YYYY]
+PLAN_CLASSIFICATION: [Current/Dated/Historical]
+DOCUMENT_STRUCTURE: [Brief narrative description of how the plan is organized]
+DOCUMENT_ISSUES: [None/Incomplete/Unclear/Low_Quality/Technical_Error - flag any problems requiring follow-up]
+L2_PRESENT: [Yes/No - whether sub-goals/initiatives exist that could be extracted at Level 2]
+=====================================
+```
+
+**Field Notes:**
+- Use `nf` for any field where information is not found or not available
+- HOSPITAL_NAME_FILE: Extract exactly as appears in filename between FAC number and .pdf
+- HOSPITAL_NAME_TEXT: Extract as the hospital identifies itself in the document (may differ from filename)
+- EXTRACTION_DATE: Current system date in YYYY-MM format (e.g., 2024-12)
+- DOCUMENT_ISSUES: Use `None` for normal documents; flag problems that need user follow-up
+  - `Incomplete` - Document missing expected sections (e.g., strategic plan section not included)
+  - `Unclear` - Ambiguous structure or content that affects extraction quality
+  - `Low_Quality` - Extremely minimal content or poorly structured document
+  - `Technical_Error` - PDF corruption, unreadable text, or other technical problems
+
+### Strategic Priorities Section
+
+For each Level 1 strategic priority:
+
+```
+L1.X_TITLE: [Priority Title as it appears in document]
+L1.X_TEXT:
+[ONLY the descriptive/narrative text about what this priority IS - typically 0-3 paragraphs. Extract text verbatim or near-verbatim from the document. If no descriptive text exists, use: nf]
+
+---
+```
+
+**CRITICAL - What Goes in L1.X_TEXT:**
+- ONLY descriptive/narrative text explaining what this strategic priority means
+- Extract text from the document - do NOT extrapolate, invent, summarize, or create text
+- Every phrase must be discoverable in the source document
+- Typically 0-3 paragraphs
+- If a priority has a title but NO descriptive text (goes straight to goals/bullets), use: `nf`
+- May include "why this matters" or rationale statements if part of the description
+- May include "today/future" state descriptions if these describe the priority itself
+- **DOES NOT include:** Goals, objectives, initiatives, tactics, key actions, or "we will do this by..." statements
+
+**Text Extraction Rules:**
+- Extract verbatim or near-verbatim from document
+- Minor cleanup allowed: remove page numbers, extra whitespace, formatting artifacts
+- Do NOT "fix" typos or medical terminology - healthcare has its own language
+- Do NOT paraphrase or rewrite
+- Do NOT summarize multiple paragraphs into shorter text
+- If text is spread across pages, combine it but keep original wording
+
+**Examples of L1.X_TEXT:**
+
+*Example 1 - Rich narrative (NYG style):*
+```
+Being a place where the best people want to learn, grow and innovate.
+
+Achieving our ambitions, like our success over our 50-plus years, will be because of our remarkable people and culture.
+
+Today, there is intense competition for human resources and our teams are managing high workloads while developing new leadership capacities to meet complex patient care needs.
+
+In 10 years, we will be a preferred choice for health professionals, learners and volunteers. We will have exceptional leadership and talent at all levels, united by a culture that fosters belonging, wellness, and empowerment.
+```
+
+*Example 2 - Minimal text (MICs style):*
+```
+Continue to build upon equity, diversity, inclusivity & belonging culture.
+```
+
+*Example 3 - No descriptive text (title only with goals below):*
+```
+nf
+```
+
+**Important Notes:**
+- Number priorities sequentially: L1.1, L1.2, L1.3, etc.
+- ONLY list priorities that actually exist in the document
+- If document has 3 priorities, list only L1.1, L1.2, L1.3 (do not create placeholder L1.4, L1.5)
+- If a priority has a title but no descriptive text, include it with `L1.X_TEXT: nf`
+
+### Quality Assessment Section
+
+End each hospital with:
+
+```
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: [Low/Medium/Medium-High/High]
+SCOPE: [Comprehensive/Limited/Focused/etc.]
+OVERALL_QUALITY_NOTES: [Detailed narrative assessment of the document quality, strategic sophistication, level of detail, presentation quality, notable features, strengths/limitations, and any other relevant observations about the strategic plan document]
+=====================================
+END OF EXTRACTION - HOSPITAL [number in batch]
+=====================================
+```
+
+---
+
+## Classification Guidelines
+
+### PLAN_CLASSIFICATION
+Based on current system date of 2024-12:
+- **Current:** Plan extends beyond the next calendar year (PLAN_END â‰¥ 2026)
+- **Dated:** Plan ending in current year or next calendar year (PLAN_END = 2024 or 2025)
+- **Historical:** Plan already ended before current year (PLAN_END â‰¤ 2023)
+
+**Decision Rule:**
+- If PLAN_END â‰¥ 2026 â†’ Current
+- If PLAN_END = 2024 or 2025 â†’ Dated
+- If PLAN_END â‰¤ 2023 â†’ Historical
+
+**Examples:**
+- Plan dates 2023-2028: PLAN_END = 2028 â‰¥ 2026 â†’ **Current**
+- Plan dates 2022-2025: PLAN_END = 2025 â†’ **Dated**
+- Plan dates 2020-2023: PLAN_END = 2023 â‰¤ 2023 â†’ **Historical**
+- Plan dates 2024-2024: PLAN_END = 2024 â†’ **Dated**
+
+### SPECIFICITY Ratings
+Refers to the overall document specificity, particularly considering Level 2 content:
+- **Low:** High-level statements, aspirational language, minimal concrete goals
+- **Medium:** Mix of aspirational and specific goals, some measurable elements
+- **Medium-High:** Mostly specific with clear goals and some measurable targets
+- **High:** Very specific with measurable targets, timelines, and detailed initiatives
+
+### SCOPE Ratings
+- **Comprehensive:** Covers full range of hospital operations and strategic areas
+- **Focused:** Concentrates on specific strategic areas or priorities
+- **Limited:** Narrow scope or minimal strategic content
+
+### L2_PRESENT
+- **Yes:** Document contains sub-goals, specific initiatives, tactics, or detailed actions that could be extracted as Level 2 items (this will be most documents)
+- **No:** Document contains only high-level strategic directions without further detail (rare)
+
+---
+
+## Understanding Level 1 vs Level 2
+
+### Level 1 (L1) = Strategic Priority Description
+- The title of the strategic priority
+- The descriptive text explaining what this priority area is about
+- "What" this priority means conceptually
+- 0-3 paragraphs typically
+- Extracted verbatim from document
+
+### Level 2 (L2) = Goals, Initiatives, Tactics
+- Specific goals under each priority
+- Key initiatives or actions
+- "How" the organization will pursue the priority
+- Measurable objectives
+- Implementation tactics
+- NOT extracted at Level 1
+
+### Document Structure Clues
+L2 items typically appear beneath the L1 priority as:
+- Bulleted lists
+- Numbered items
+- Sub-headings (e.g., "Goals:", "Initiatives:", "We will:")
+- Indented content
+
+This structural positioning helps distinguish descriptive L1 text from actionable L2 goals/initiatives. L2 content appears before the next L1 priority begins.
+
+### Example Document Structure:
+
+```
+Strategic Priority: Patient Experience (L1 - extract this title)
+Description: We will focus on creating exceptional experiences for all patients and families. (L1 - extract this text verbatim)
+
+Goals: (L2 - DO NOT extract at Level 1)
+- Improve patient satisfaction scores by 15%
+- Implement bedside rounding
+- Reduce wait times
+
+Initiatives: (L2 - DO NOT extract at Level 1)
+- Launch patient portal by Q2
+- Renovate Emergency Department
+- Hire patient navigators
+```
+
+**In Level 1 extraction, you would capture:**
+```
+L1.1_TITLE: Patient Experience
+L1.1_TEXT:
+We will focus on creating exceptional experiences for all patients and families.
+
+---
+```
+
+**You would NOT include the goals or initiatives in L1.X_TEXT**
+
+### Example: Priority with Title but No Descriptive Text
+
+```
+Strategic Priority: Innovation (L1 - extract this title)
+
+Goals: (L2 - DO NOT extract at Level 1)
+- Establish innovation fund
+- Create idea submission process
+- Partner with tech startups
+```
+
+**In Level 1 extraction, you would capture:**
+```
+L1.1_TITLE: Innovation
+L1.1_TEXT: nf
+
+---
+```
+
+This documents that the priority exists but has no L1 descriptive text.
+
+---
+
+## Content Extraction Guidelines for L1.X_TEXT
+
+### What to Include in L1.X_TEXT
+
+**ONLY include:**
+1. The main descriptive/narrative text explaining what this priority is
+2. Conceptual explanation of the strategic direction
+3. "Why this matters" statements if they're part of the priority description
+4. "Today...in the future..." framing if it describes the priority conceptually
+5. Vision for what this priority represents
+6. Text extracted verbatim or near-verbatim from the document
+
+### What NOT to Include in L1.X_TEXT
+
+**DO NOT include (these are Level 2):**
+1. Lists of goals or objectives
+2. Specific initiatives or tactics
+3. "We will do this by..." action statements
+4. Key actions or implementation steps
+5. Measurable targets or metrics
+6. Timelines or milestones
+7. Bulleted or numbered lists of activities
+
+**DO NOT create or modify text:**
+1. Do NOT extrapolate or invent text not in document
+2. Do NOT summarize - extract actual text
+3. Do NOT paraphrase - use document wording
+4. Do NOT combine ideas from different sections
+5. Do NOT "fix" typos or healthcare terminology
+
+### Text Extraction Standards
+
+**Verbatim Extraction:**
+- Copy text exactly as it appears in the document
+- Preserve healthcare terminology and medical language exactly
+- Preserve organizational acronyms and proper nouns
+
+**Allowed Minor Cleanup:**
+- Remove page numbers
+- Remove excessive whitespace or line breaks
+- Remove formatting artifacts (bullets, numbering when part of L2 content)
+- Combine text split across pages if it's continuous
+
+**NOT Allowed:**
+- Correcting typos or spelling
+- Changing medical/healthcare terminology
+- Simplifying complex language
+- Shortening sentences
+- Reordering text
+
+### When Descriptive Text is Not Present
+
+If a strategic priority has a title but jumps immediately to goals/initiatives with no introductory descriptive text:
+```
+L1.X_TITLE: [Title]
+L1.X_TEXT: nf
+```
+
+This documents the priority exists but lacks L1-level description.
+
+---
+
+## Special Situations
+
+### When "Goals" Are Really Descriptive Text
+Occasionally, what a document labels as "goals" may actually be descriptive statements about what the priority encompasses. Use judgment:
+- If the "goal" describes what the priority area includes â†’ might be L1
+- If the "goal" states a specific action or achievement target â†’ definitely L2
+
+When in doubt, if it reads like an action or achievement target, it's L2.
+
+### When Goals Appear Before the Word "Goals"
+Some documents list goal-like statements before using the header "Goals:" or "Initiatives:". **If a statement reads like an action or achievement target, it's L2 regardless of positioning.**
+
+**L2 indicators (even without headers):**
+- Action verbs: "Continue to...", "Implement...", "Achieve...", "Establish...", "Build..."
+- Specific activities or outcomes
+- Statements that could be checked off as completed
+- "We will..." statements followed by specific actions
+
+**Example:**
+```
+Strategic Priority: Equity, Diversity, Inclusivity & Belonging
+
+Continue to build upon equity, diversity, inclusivity & belonging culture.
+
+Goals:
+- Establish DEI council
+- Implement bias training
+```
+
+In this case, "Continue to build upon..." is a goal-like action statement, NOT descriptive text.
+**Correct extraction:**
+```
+L1.X_TITLE: Equity, Diversity, Inclusivity & Belonging
+L1.X_TEXT: nf
+```
+
+### Cross-Cutting Themes
+If a document has a cross-cutting theme (e.g., "DEI in everything we do"), include it as a separate L1 priority with whatever descriptive text is provided.
+
+### Bilingual Documents
+Extract English content. Note in OVERALL_QUALITY_NOTES if document is bilingual.
+
+### Multiple Hospitals in One Document
+If document covers multiple hospitals under one organization:
+- Use the parent organization name in HOSPITAL_NAME_FILE and HOSPITAL_NAME_TEXT
+- Note the member hospitals in DOCUMENT_STRUCTURE or OVERALL_QUALITY_NOTES
+
+### Minimal Strategic Plans
+Some hospitals have very brief, high-level plans:
+- Still extract what's there
+- L1.X_TEXT may be very short (one sentence) or `nf`
+- Note the limited detail in SPECIFICITY rating and OVERALL_QUALITY_NOTES
+
+### Highly Detailed Strategic Plans
+Some hospitals have extensive detail:
+- Focus on Level 1 descriptive text only
+- Do not include the detailed goals/initiatives in L1.X_TEXT
+- Note the detail level in SPECIFICITY rating
+- Mark L2_PRESENT as "Yes"
+
+### Missing Information
+Use `nf` for any field where information cannot be found:
+- HOSPITAL_NAME_TEXT: nf (if hospital doesn't clearly identify itself)
+- PLAN_START: nf (if start year not stated)
+- DOCUMENT_STRUCTURE: nf (if structure is unclear)
+- L1.X_TEXT: nf (if no descriptive text for that priority)
+
+### Incomplete or Problematic Documents
+If a document is missing strategic content or has other issues:
+- Set DOCUMENT_ISSUES field to appropriate value (Incomplete, Unclear, Low_Quality, Technical_Error)
+- Document the specific issue in OVERALL_QUALITY_NOTES
+- Extract whatever content is available
+- If no strategic priorities are present, note this and end extraction
+
+---
+
+## Quality Assessment Guidelines
+
+### OVERALL_QUALITY_NOTES Should Address:
+
+1. **Document sophistication** - Is this a well-developed strategic plan or basic framework?
+2. **Level of detail** - How much descriptive text is provided at L1? How detailed are L2 goals/initiatives?
+3. **Presentation quality** - Is it professionally formatted and clearly organized?
+4. **Strategic thinking** - Does it show evidence of environmental scanning, stakeholder input, future-oriented thinking?
+5. **Notable features** - Unique elements, innovative approaches, special emphases
+6. **Strengths** - What does this plan do particularly well?
+7. **Limitations** - What is minimal or lacking? (stated objectively, not critically)
+8. **Context** - Any relevant information about the organization or document structure
+9. **Consistency** - Are priorities consistently formatted and detailed?
+10. **Completeness** - Does it cover expected strategic domains?
+11. **L1 vs L2 distinction** - Does the document clearly distinguish between strategic directions and implementation goals?
+12. **Bilingual** - Note if document is presented in multiple languages
+13. **Document issues** - If DOCUMENT_ISSUES is not "None", explain the specific problem here
+
+---
+
+## Batch Processing
+
+### Batch Number Source
+The batch number will be provided by the user when submitting documents for extraction (e.g., "Here is Batch 3"). Use the specified batch number in output files and headers.
+
+### Document Separation
+Each hospital extraction is separated by:
+```
+=====================================
+=====================================
+
+HOSPITAL [X] OF [Y]
+
+=====================================
+```
+
+### Batch Header
+Each batch file begins with:
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH [N] - [X] HOSPITALS
+Extraction Date: [YYYY-MM]
+Protocol Version: V4.1
+```
+
+### Batch Footer
+Each batch file ends with:
+```
+=====================================
+END OF BATCH [N]
+=====================================
+Total Hospitals Extracted: [X]
+Protocol Version: V4.1
+Extraction Complete: [YYYY-MM]
+```
+
+### Batch File Naming
+`Phase3_Batch[N]_L1_Extraction.txt`
+
+Where N is the batch number provided by user (1, 2, 3, etc.)
+
+---
+
+## Data Format Considerations
+
+This extraction format is designed for subsequent parsing into structured data formats (CSV, JSON, YAML, etc.). 
+
+**Key Requirements:**
+- Consistent field naming across all extractions
+- Use of `nf` for missing data (enables null handling in databases)
+- Structured delimiters between records
+- Clean, parsable text format
+- No free-form variations in field labels
+- Standardized classification values
+
+**Examples of Consistent Field Usage:**
+```
+FAC: 123
+HOSPITAL_NAME_FILE: Hospital Name
+HOSPITAL_NAME_TEXT: Hospital Name
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year plan with five priorities
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+```
+
+All fields use consistent labels and formatting across all hospital extractions.
+
+---
+
+## Complete Example Structure
+
+```
+FAC: 632
+HOSPITAL_NAME_FILE: North York General Hospital
+HOSPITAL_NAME_TEXT: North York General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2035
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Ten-year strategic plan organized around five Strategic Directions supported by five cross-cutting Enablers, all unified under the central Vision "World-Class Care, 24/7"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: People and Culture
+L1.1_TEXT:
+Being a place where the best people want to learn, grow and innovate.
+
+Achieving our ambitions, like our success over our 50-plus years, will be because of our remarkable people and culture.
+
+Today, there is intense competition for human resources and our teams are managing high workloads while developing new leadership capacities to meet complex patient care needs.
+
+In 10 years, we will be a preferred choice for health professionals, learners and volunteers. We will have exceptional leadership and talent at all levels, united by a culture that fosters belonging, wellness, and empowerment.
+
+---
+
+L1.2_TITLE: Specialized Excellence
+L1.2_TEXT:
+Innovating across clinical pathways, grounded in quality for global impact.
+
+To elevate our impact, NYG will focus on excellence in specialized areas where we are positioned to innovate and lead on a global level. Through strong partnerships, we will ensure that no matter what a person needs, they will be connected to the right services, in the right place.
+
+Today, NYG provides exceptional care but needs in our communities are becoming more complex, requiring higher levels of integration along with specialization across the healthcare journey.
+
+In 10 years, we will be a powerhouse academic community hospital, excelling in the care of populations with evolving needs â€“ seniors, women, children, cancer care, and mental health. Rooted in our deep understanding of community health, we will lead in translating new treatments and practices into everyday care.
+
+---
+
+[Continue for all L1 priorities]
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Exceptionally well-designed and professionally presented 10-year strategic plan with clear vision ("World-Class Care, 24/7") and strong narrative structure. The five Strategic Directions are consistently formatted and each includes current state assessment and future state vision. The plan demonstrates sophisticated strategic thinking with five supporting "Enablers" (Data and Digital, Campus Transformation, Sustainability, Partnerships, Research and Education) clearly distinguished from the main strategic directions. Document provides extensive context about demographic challenges and community needs. Strong emphasis on becoming a 24/7 organization as a unifying transformation theme. The 3-year goals under each direction provide increased specificity, though not captured at L1 level per protocol.
+=====================================
+END OF EXTRACTION - HOSPITAL 1
+=====================================
+```
+
+---
+
+## Version History
+
+**Version 4.1 (Current)**
+- **MAJOR REVISIONS:**
+- **CRITICAL FIX:** Corrected PLAN_CLASSIFICATION logic to eliminate ambiguity
+  - Current: PLAN_END â‰¥ 2026 (extends beyond next calendar year)
+  - Dated: PLAN_END = 2024 or 2025 (ending in current or next year)
+  - Historical: PLAN_END â‰¤ 2023 (already ended before current year)
+  - Added clear decision rule and examples
+- **NEW FIELD:** Added DOCUMENT_ISSUES field to header section
+  - Flags incomplete documents, technical errors, or other problems requiring user follow-up
+  - Values: None/Incomplete/Unclear/Low_Quality/Technical_Error
+- **ENHANCED GUIDANCE:** Added "When Goals Appear Before the Word 'Goals'" section
+  - Clarifies that action-oriented statements are L2 regardless of positioning
+  - Provides L2 indicators (action verbs, specific activities, completable statements)
+  - Includes example of correctly excluding goal-like text from L1.X_TEXT
+- Updated batch headers and footers to reference V4.1
+- Added note in OVERALL_QUALITY_NOTES to explain DOCUMENT_ISSUES when not "None"
+
+**Version 4**
+- Added two hospital name fields: HOSPITAL_NAME_FILE and HOSPITAL_NAME_TEXT
+- Added EXTRACTION_DATE field in header (YYYY-MM format)
+- Refined PLAN_CLASSIFICATION with three tiers: Current/Dated/Historical with clear definitions
+- Added guidance on document structure clues for distinguishing L1 vs L2
+- Emphasized verbatim text extraction - no extrapolation, invention, or summarization
+- Added explicit text extraction standards (what cleanup is allowed vs not allowed)
+- Clarified use of `nf` for missing data throughout
+- Added section on batch number source (provided by user)
+- Added data format considerations for CSV/JSON/YAML parsing
+- Clarified Option A approach: priorities with titles but no descriptive text use `L1.X_TEXT: nf`
+- Added guidance that only priorities that exist should be listed (no placeholder entries)
+- Added note not to "fix" healthcare terminology or typos
+
+**Version 3**
+- Clarified that L1.X_TEXT contains ONLY descriptive text about the priority, NOT goals or initiatives
+- Added clear L1 vs L2 distinction with examples
+- Added section "Understanding Level 1 vs Level 2"
+- Added "What NOT to Include in L1.X_TEXT" section
+
+**Version 2**
+- Complete reformatting of output structure
+- Simplified header format with plain text fields
+- Consolidated L1.X_TEXT format
+- Added Quality Indicators section structure
+
+**Version 1**
+- Initial protocol with markdown-heavy formatting
+
+---
+
+## Protocol Maintainer Notes
+
+This protocol should be updated as:
+- Edge cases are encountered
+- Output format needs refinement
+- Additional quality indicators are needed
+- Batch processing workflows evolve
+- Clarifications are needed about content boundaries
+
+Document any protocol changes in Version History section.
+
+**Critical Principles for V4.1:**
+1. Level 1 = Strategic priority description (WHAT the priority is) - extracted verbatim from document
+2. Level 2 = Goals, initiatives, tactics (HOW the priority will be pursued) - not captured at L1
+3. Extract text from document - do not invent, summarize, or paraphrase
+4. Use `nf` for missing data to enable proper null handling in databases
+5. Maintain consistent format for downstream data processing
+6. PLAN_CLASSIFICATION based on end year relative to current system year
+7. Flag document issues systematically for user follow-up
+8. Action-oriented statements are L2 regardless of their position in document
+
+---
+
+END OF PROTOCOL V4.1

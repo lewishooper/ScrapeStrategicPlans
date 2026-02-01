@@ -1,0 +1,61 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 41
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 41 OF BATCH 0
+
+=====================================
+
+FAC: 726
+HOSPITAL_NAME_FILE: Georgian Bay General Hospital
+HOSPITAL_NAME_TEXT: Georgian Bay General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Seven-year strategic plan organized around four main strategic themes with supporting directions and objectives under each theme
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Continual Excellence
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Trust and Belonging
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Dedicated Team
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Sustainable Growth
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear purpose statement "We Make Excellent Care Personal" and four main strategic themes. Each theme includes multiple specific directions and detailed objectives with measurable outcomes. The plan demonstrates good strategic thinking with comprehensive coverage of clinical excellence, community engagement, workforce development, and organizational sustainability. Document is professionally presented with consistent formatting and clear organizational values (Inspire Dedication, Patients First, Empower Others, Lead with Empathy, Think Forward). The strategic priorities have titles but jump directly to specific directions and objectives without introductory descriptive text at the L1 level. Strong emphasis on person-centered care, Indigenous engagement, and environmental stewardship. The objectives under each theme are quite specific and actionable, indicating robust L2 content available for future extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 41
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

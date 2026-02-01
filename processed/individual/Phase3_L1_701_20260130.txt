@@ -1,0 +1,74 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 34
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 34 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 701
+HOSPITAL_NAME_FILE: Mackenzie Health
+HOSPITAL_NAME_TEXT: Mackenzie Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around five areas of focus (Patient Care Excellence, People are our Strength, Growing with our Communities, Integrated Care, Education and Research) with three enablers (Digital Solutions, Financial Health, Strategic Partnerships) and four commitments (Safety and High Reliability, Diversity/Equity/Inclusion/Accessibility, Environmental Sustainability, Innovative Mindset)
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Patient Care Excellence
+L1.1_TEXT:
+At Mackenzie Health, Patient Care Excellence is the driving force behind everything we do, making it the focal point of our 2025-2028 Strategic Plan.
+
+Looking ahead and building on the foundations of quality and safety, we're deepening our focus on compassionate, person-centred care. This includes reinforcing our commitment to empathy in every interaction and harnessing digital innovations and intelligent systems to elevate the care experience. These efforts will help empower Mackenzie Health to deliver exemplary, reliable and high-quality care every time — creating a world-class experience for every person we serve.
+
+---
+
+L1.2_TITLE: People are our Strength
+L1.2_TEXT:
+Our people at Mackenzie Health play a critical role in achieving patient care excellence and enabling us to deliver on our strategic priorities. The dedication of staff, physicians and volunteers to excellence, compassion and collaboration underpins our delivery of safe, high-quality, person-centred care.
+
+Looking ahead and building on the foundation of recruitment, retention and high reliability, Mackenzie Health will modernize corporate services systems and workflows through a modern Enterprise Resource Planning (ERP) system, advance learning and career pathways, invest in leadership development and continue to cultivate a strong sense of belonging, wellness and safety.
+
+---
+
+L1.3_TITLE: Growing with our Communities
+L1.3_TEXT:
+Meeting the needs of our fast-growing communities is a critical priority that requires bold action and ongoing investment.
+
+However, rising emergency visits and complex care needs — driven by population growth, aging demographics and limited community-based options — are placing increasing strain on the system. Western York Region is growing at a rapid pace. In 2021, its population was 600,000. In 2031, the population will increase by 120,000. The seniors' population has also grown by 23 per cent. Mackenzie Health's Emergency Department is now the second busiest in Ontario. These capacity pressures are not sustainable. Expanding our specialized services is essential to delivering timely, high-quality, person-centred care close to home.
+
+---
+
+L1.4_TITLE: Integrated Care
+L1.4_TEXT:
+Integrated Care is integral to building healthier communities and ensuring people receive the right care, at the right time, in the right place. With rapid population growth, record-high emergency department volumes and limited hospital resources, expanding hospital-based services alone is not sustainable. To preserve our capacity for acute and specialized care, the broader health system must be strengthened through investments in care models that help keep people healthier in the community.
+
+Looking ahead to 2025–2028, Mackenzie Health is working with partners to co-develop new, team-based primary care models supported by digital tools. These initiatives align with the Ontario Ministry of Health's Primary Care Action Plan and its $1.8 billion investment in expanding primary care teams.
+
+---
+
+L1.5_TITLE: Education and Research
+L1.5_TEXT:
+As part of our evolution, education and research are playing a greater role in advancing care quality, sparking innovation and strengthening the health system for the future.
+
+Looking ahead to 2025-2028, an expanded teaching and research environment will enhance patient care, improve recruitment and retention, support community and system development, and strengthen primary and integrated care. Research will be central to improving care access, advancing patient outcomes and supporting learners in achieving their academic and professional goals.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear visual identity and strong narrative structure. The document demonstrates sophisticated strategic thinking with five main areas of focus supported by three enablers and four organizational commitments. Each strategic priority includes contextual background and forward-looking vision statements. The plan shows evidence of environmental scanning, particularly around demographic pressures and capacity challenges in Western York Region. Strong emphasis on building a "modern, connected hospital network for the future" as an overarching transformation theme. Document includes specific data points (population growth, emergency department volumes) that ground the strategic directions in community reality. The visual design with interconnected priority areas effectively communicates the integrated nature of the strategic approach. Goals and initiatives under each priority provide good specificity for Level 2 extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 34
+=====================================
+```

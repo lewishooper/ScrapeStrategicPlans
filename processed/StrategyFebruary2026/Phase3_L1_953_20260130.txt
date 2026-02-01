@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 92
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 92 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 953
+HOSPITAL_NAME_FILE: Sunnybrook Health Sciences Centre
+HOSPITAL_NAME_TEXT: Sunnybrook Health Sciences Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2021
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan titled "Invent 2030" organized around four Strategic Directions (Personalized & Precise Treatments, Integrated Care, Quality & Patient Experience, Thriving People and Teams) supported by three Enablers (Social Responsibility, Digital Health & Artificial Intelligence, Growth & Investment)
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Personalized & Precise Treatments
+L1.1_TEXT:
+Drive innovation in personalized and precise treatments by leveraging cutting-edge technology, advanced techniques, and novel therapies to improve patient outcomes, reduce side effects, and minimize hospital visits.
+
+---
+
+L1.2_TITLE: Integrated Care
+L1.2_TEXT:
+Lead system transformation with partners to improve access in the areas of primary, community and specialized care.
+
+---
+
+L1.3_TITLE: Quality & Patient Experience
+L1.3_TEXT:
+Exceed care expectations by delivering compassionate patient experiences and achieving the best care outcomes.
+
+---
+
+L1.4_TITLE: Thriving People and Teams
+L1.4_TEXT:
+Strengthen Team Sunnybrook by cultivating leadership that drives care, improves outcomes, and advances innovations to turn challenges into opportunities.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan with professional presentation and clear visual identity. The document demonstrates sophisticated strategic thinking with four main Strategic Directions supported by three cross-cutting Enablers. Each strategic direction includes detailed objectives and approaches with specific initiatives listed underneath. The plan shows strong integration between research, education, and clinical care missions. Notable features include emphasis on innovation, partnerships with University of Toronto, and positioning as a leader in trauma, cancer, and specialized care. The document includes compelling patient stories and staff profiles that humanize the strategic priorities. Strong focus on digital transformation and artificial intelligence as enablers. The plan effectively balances aspirational vision with concrete implementation approaches.
+=====================================
+END OF EXTRACTION - HOSPITAL 92
+=====================================
+```

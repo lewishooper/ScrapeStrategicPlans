@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 89
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 89 OF BATCH 0
+
+=====================================
+
+FAC: 950
+HOSPITAL_NAME_FILE: Halton Healthcare
+HOSPITAL_NAME_TEXT: Halton Healthcare
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2021
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan titled "Inspiring Care 2021 and Beyond" organized around four strategic priorities (Connect, Advance, Respond, Engage) with purpose statement "To Care" and vision of "Exemplary patient experiences, always"
+DOCUMENT_ISSUES: Incomplete
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Connect
+L1.1_TEXT:
+Connecting people and partners throughout the continuum of care.
+
+---
+
+L1.2_TITLE: Advance
+L1.2_TEXT:
+Advancing how we deliver care.
+
+---
+
+L1.3_TITLE: Respond
+L1.3_TEXT:
+Responding to the care needs of our communities.
+
+---
+
+L1.4_TITLE: Engage
+L1.4_TEXT:
+Engaging people and teams in care.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This appears to be an overview or summary document rather than a complete strategic plan. The document presents four strategic priorities with very brief descriptive text (single sentences) and includes some supporting goals under each priority, but lacks the depth and detail typically found in comprehensive strategic plans. The document is professionally designed with good visual presentation including quotes from leadership and family members, but provides minimal strategic content. The plan timeframe is unclear - titled "2021 and Beyond" but no specific end date is provided. Document issues flagged as "Incomplete" because this appears to be a high-level summary rather than the full strategic plan document, which would typically contain more detailed strategic analysis, environmental scanning, and comprehensive goal statements.
+=====================================
+END OF EXTRACTION - HOSPITAL 89
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 89
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

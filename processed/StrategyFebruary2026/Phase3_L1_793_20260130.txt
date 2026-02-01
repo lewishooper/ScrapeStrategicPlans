@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 55
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 55 OF BATCH 0
+
+=====================================
+
+FAC: 793
+HOSPITAL_NAME_FILE: St. Thomas Elgin General Hospital
+HOSPITAL_NAME_TEXT: St. Thomas Elgin General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four Strategic Priorities supported by three cross-cutting Enablers, with mission "Caring, Healing, Connecting" and vision "Together, creating health care excellence for our community"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Partnering with Patients
+L1.1_TEXT:
+We will engage patient and caregivers in a meaningful way to enhance their experience, facilitate self-care, and improve quality and safety of care.
+
+---
+
+L1.2_TITLE: Empowering our Team
+L1.2_TEXT:
+We will ensure a safe and healthy workplace and invest in our team's development to meet the evolving needs of our patients and our community
+
+---
+
+L1.3_TITLE: Creating Collaborative Networks
+L1.3_TEXT:
+We will collaborate with other service providers to co-design, support and deliver accessible and coordinated services for our patients, organization, and region
+
+---
+
+L1.4_TITLE: Achieving Operational Excellence
+L1.4_TEXT:
+We will deliver quality care by adopting evidence-based practices while supporting the sustainability of our healthcare system
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear mission ("Caring, Healing, Connecting") and vision ("Together, creating health care excellence for our community"). The document demonstrates thoughtful strategic planning process beginning with an "Epic Tale" collaborative reflection exercise involving staff, physicians, volunteers, and community partners. Five core values (Compassion, Respect, Collaboration, Innovation, Accountability) are clearly articulated with descriptive text. The four Strategic Priorities are consistently formatted with brief but clear descriptive statements, supported by detailed goals and initiatives at L2 level. Three cross-cutting Enablers (Digital Transformation, Safety and Well-Being, Integration) provide foundational support. Document includes comprehensive statistics and organizational context. Strong emphasis on community engagement and collaborative approach to strategic planning. The plan shows evidence of environmental scanning and stakeholder input through the Epic Tale process.
+=====================================
+END OF EXTRACTION - HOSPITAL 55
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 55
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

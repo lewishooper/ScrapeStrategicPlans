@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 28
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 28 OF 28
+
+=====================================
+
+FAC: 676
+HOSPITAL_NAME_FILE: Hanover & District Hospital
+HOSPITAL_NAME_TEXT: Hanover & District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic initiatives with mission, vision, and values clearly stated. Each initiative includes a brief description followed by specific bullet points.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Caring for our Patients
+L1.1_TEXT:
+We will provide high quality patient and family-centred care.
+
+---
+
+L1.2_TITLE: Valuing our People & Teams
+L1.2_TEXT:
+We will continue to value, invest in and recognize our teams.
+
+---
+
+L1.3_TITLE: Innovating for a Sustainable Future
+L1.3_TEXT:
+We will advance a forward-thinking culture into our operations to ensure our sustainability.
+
+---
+
+L1.4_TITLE: Anticipating & Responding
+L1.4_TEXT:
+We will actively engage with our community and partners to understand and address community needs.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Clean, professionally presented strategic plan with clear visual design and consistent formatting. The document provides a concise framework with four well-defined strategic initiatives that cover the core domains of patient care, workforce, sustainability, and community engagement. Each strategic initiative includes a brief descriptive statement followed by 3 bullet points providing more specific direction. The plan demonstrates good strategic thinking with initiatives that are interconnected and comprehensive. The mission ("Providing Exceptional Care"), vision ("Partnering for Excellence in Rural Health Care"), and values (Integrity, Compassion, Collaboration) are clearly articulated and align well with the strategic initiatives. The document is brief but well-structured, making it accessible while covering essential strategic areas for a rural hospital.
+=====================================
+END OF EXTRACTION - HOSPITAL 28
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 28
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

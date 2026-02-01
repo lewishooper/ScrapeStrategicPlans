@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 67
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 67 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 881
+HOSPITAL_NAME_FILE: West Nipissing General Hospital
+HOSPITAL_NAME_TEXT: West Nipissing General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around five priority areas (Finances, People, Care Environment, Communication, Partnerships) with corresponding strategic objectives under each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Finances
+L1.1_TEXT:
+nf
+
+---
+
+L1.2_TITLE: People
+L1.2_TEXT:
+nf
+
+---
+
+L1.3_TITLE: Care Environment
+L1.3_TEXT:
+nf
+
+---
+
+L1.4_TITLE: Communication
+L1.4_TEXT:
+nf
+
+---
+
+L1.5_TITLE: Partnerships
+L1.5_TEXT:
+nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear visual presentation and well-organized structure. The plan is presented as an infographic-style summary with five strategic priorities clearly identified in a matrix format. Each priority has a corresponding strategic objective (e.g., "Strive for fiscal sustainability" under Finances, "Value our team" under People). However, the document provides only the priority titles and brief strategic objectives without any descriptive narrative text explaining what each priority area encompasses. The plan includes the hospital's purpose statement about being a leader in the local health system committed to improving health and wellness of the culturally diverse community, along with clearly articulated values (People, Communication, Quality Care Close to Home, Accountability, Teamwork). The document appears to be a summary version of a larger strategic plan, focusing on high-level direction rather than detailed description of priority areas.
+=====================================
+END OF EXTRACTION - HOSPITAL 67
+=====================================
+```

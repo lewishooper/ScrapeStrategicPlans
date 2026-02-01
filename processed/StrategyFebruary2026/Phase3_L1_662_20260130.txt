@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 23
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 23 OF BATCH 0
+
+=====================================
+
+FAC: 662
+HOSPITAL_NAME_FILE: Geraldton District Hospital
+HOSPITAL_NAME_TEXT: Geraldton District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around three strategic priorities with goals, objectives, success indicators, and proposed timelines for each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Invest In Care
+L1.1_TEXT:
+Building for our Future
+
+---
+
+L1.2_TITLE: Unleash Our Potential
+L1.2_TEXT:
+Innovation & Creativity to Empower our People
+
+---
+
+L1.3_TITLE: Collaborate With Partners
+L1.3_TEXT:
+Better Care through Collaboration
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear organization and professional presentation. The document provides comprehensive background information including demographics, health services utilization data, and community consultation findings. Each of the three strategic priorities includes detailed goals and objectives, success indicators, and proposed timelines spanning 2024-2028. The plan demonstrates thoughtful community engagement through interviews, focus groups, and a digital survey with 297 responses. Notable features include acknowledgment of Indigenous territory, bilingual emergency department signage, and focus on rural healthcare challenges including human resource recruitment and retention. The strategic priorities are consistently formatted with clear goals, success measures, and implementation timelines. Document shows evidence of data-driven planning with specific utilization statistics and demographic projections. However, the L1 descriptive text for each priority is minimal (single tagline phrases), with the substantive content appearing in the L2 goals and objectives sections.
+=====================================
+END OF EXTRACTION - HOSPITAL 23
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 23
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

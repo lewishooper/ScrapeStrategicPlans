@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 57
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 57 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 804
+HOSPITAL_NAME_FILE: Norfolk General Hospital
+HOSPITAL_NAME_TEXT: Norfolk General Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around five Strategic Directions with Vision, Mission, and Values framework. Plan titled "Healthier Communities, Close to Home" with extensive stakeholder engagement process documented.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Exceptional Patient Care
+L1.1_TEXT:
+Every patient we serve will receive personalized, compassionate, and high-quality care. Supporting their healing, well-being and satisfaction throughout their healthcare journey.
+
+---
+
+L1.2_TITLE: Outstanding Team
+L1.2_TEXT:
+We strive to cultivate a skilled, engaged, and empowered workforce, fostering a culture of collaboration, professional development, and excellence to deliver the best possible outcomes for our patients and community.
+
+---
+
+L1.3_TITLE: Operational Excellence
+L1.3_TEXT:
+Our aim is to optimize efficiency, effectiveness, and safety in all aspects of our operations. Leveraging best practices, technology, and continuous improvement initiatives to achieve the highest standards of service delivery and resource management.
+
+---
+
+L1.4_TITLE: Community Partnerships and Connection
+L1.4_TEXT:
+We are committed to building strong partnerships and meaningful connections with our community stakeholders, collaborating to address local health needs, promote wellness, and enhance access to care through outreach, education, and advocacy.
+
+---
+
+L1.5_TITLE: Innovation and Digital Enablement
+L1.5_TEXT:
+Embracing innovation and leveraging digital technologies, we seek to drive transformative change in healthcare delivery, enhancing accessibility, efficiency, and quality of care through the adoption of cutting-edge solutions and data-driven approaches.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured and professionally presented three-year strategic plan with clear vision "to foster healthier communities through exceptional rural health care, close to home" and mission focused on "high-quality, integrated and innovative care, together with our partners." The document demonstrates strong strategic thinking with extensive stakeholder engagement process documented (406 survey responses, 10 focus groups, multiple interviews). Each of the five Strategic Directions is consistently formatted with clear descriptive text followed by specific commitments and outcomes. The plan shows sophisticated understanding of rural healthcare challenges and demographic trends, with detailed population growth projections included. Strong emphasis on partnership and community connection throughout. The values framework (Person-Centred, Collaborative, Inclusive, Respectful, Innovative, Accountable) is well-integrated. Document includes land acknowledgement and demonstrates cultural sensitivity. High level of detail in goals and initiatives under each priority area.
+=====================================
+END OF EXTRACTION - HOSPITAL 57
+=====================================
+```

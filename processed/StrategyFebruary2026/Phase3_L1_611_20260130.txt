@@ -1,0 +1,59 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 7
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 7 OF BATCH 0
+
+=====================================
+
+FAC: 611
+HOSPITAL_NAME_FILE: North Shore Health Network
+HOSPITAL_NAME_TEXT: North Shore Health Network
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around three sequential stages (Clarify, Stabilize, Improve) with specific actions under each stage
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Clarify
+L1.1_TEXT:
+Getting clear about who we are is an important part of this plan, with renewed mission and vision statements, as well as values.
+
+---
+
+L1.2_TITLE: Stabilize
+L1.2_TEXT:
+Making sure our tank is full, so we can continue to serve our communities.
+
+---
+
+L1.3_TITLE: Improve
+L1.3_TEXT:
+Building on our foundation of safe, quality care to do better for those we serve.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Well-designed three-year strategic plan with a clear phased approach addressing organizational challenges following amalgamation and executive turnover. The plan uses a road metaphor with three sequential stages, each with brief but clear descriptive text. Document demonstrates strategic thinking about organizational development needs, moving from foundational clarity through stabilization to improvement. Each stage contains detailed, specific actions and initiatives showing strong operational planning. The plan acknowledges context of COVID-19 impacts, external review recommendations, and financial challenges. Professional presentation with consistent formatting. The NSHN C.A.R.E.S. values framework (Compassion, Accountability, Respect, Equity, Sustainability) is well-integrated. Document shows realistic assessment of organizational position and systematic approach to building capacity before pursuing improvements.
+=====================================
+END OF EXTRACTION - HOSPITAL 7
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 7
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

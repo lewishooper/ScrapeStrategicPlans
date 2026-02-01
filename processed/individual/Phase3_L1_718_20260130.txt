@@ -1,0 +1,61 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 38
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 38 OF BATCH 0
+
+=====================================
+
+FAC: 718
+HOSPITAL_NAME_FILE: Joseph Brant Hospital
+HOSPITAL_NAME_TEXT: Joseph Brant Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Three-year strategic plan organized around four Strategic Directions with Mission, Vision, and Values clearly articulated. Plan uses "Moving Forward, Together" as unifying theme with community-inspired care focus.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Achieve excellence in quality patient care
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Nurture and support our people
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Re-imagine how we deliver care
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Collaborate to deliver outstanding care experience
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear branding and visual identity. The document emphasizes community-inspired care with three symbolic icons (mountains, binoculars, hands) representing different aspects of their mission. The four Strategic Directions are clearly titled but jump directly to "We will:" action statements without providing descriptive text about what each direction encompasses. Strong emphasis on values-based approach with detailed articulation of Compassion, Accountability, Respect, and Excellence. The plan demonstrates good strategic thinking with stakeholder engagement noted (over 23 stakeholder groups consulted). Document is concise and accessible, though lacks the descriptive richness at the strategic direction level that would provide context for each priority area. The "We will:" statements under each direction provide clear L2 content with specific initiatives and goals.
+=====================================
+END OF EXTRACTION - HOSPITAL 38
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 38
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

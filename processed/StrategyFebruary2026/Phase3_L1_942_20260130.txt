@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 86
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 86 OF BATCH 0
+
+=====================================
+
+FAC: 942
+HOSPITAL_NAME_FILE: Hamilton Health Sciences
+HOSPITAL_NAME_TEXT: Hamilton Health Sciences
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2018
+PLAN_END: 2019
+PLAN_CLASSIFICATION: Historical
+DOCUMENT_STRUCTURE: Corporate Strategic Plan organized around four strategic pillars (Patients, People, Sustainability, Research Innovation and Learning) with four strategic directions (Operational Excellence, Enterprise Approach, Population Health, Strategic Partnerships) and five enabling plans
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Patients
+L1.1_TEXT:
+Provide an excellent patient and family experience every time.
+
+---
+
+L1.2_TITLE: People
+L1.2_TEXT:
+Engage, empower and enable our people to deliver on our mission.
+
+---
+
+L1.3_TITLE: Sustainability
+L1.3_TEXT:
+Meet the healthcare needs of the communities we serve now and in the future.
+
+---
+
+L1.4_TITLE: Research, Innovation and Learning
+L1.4_TEXT:
+Lead in research, innovation and learning for the benefit of our community and the world.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed corporate strategic plan with clear visual presentation and professional formatting. The document presents four strategic pillars with concise goal statements, supported by four strategic directions and five enabling plans (Digital Health Plan, People Plan, Clinical Services Plan, Our Healthy Future). The "Strategy at a Glance" format provides excellent visual overview with goal statements, North Star metrics, strategic directions, key initiatives, and enabling plans clearly mapped. Each pillar includes specific metrics and initiatives at the L2 level. The plan demonstrates systematic approach to strategic planning with clear measurement framework. Document includes strong CEO message contextualizing the strategy within organizational evolution and community needs. The strategic directions (Operational Excellence, Enterprise Approach, Population Health, Strategic Partnerships) are well-defined with clear explanatory text. Overall represents a mature, well-structured strategic planning approach with good balance of aspirational vision and operational specificity.
+=====================================
+END OF EXTRACTION - HOSPITAL 86
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,61 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 85
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 85 OF BATCH 0
+
+=====================================
+
+FAC: 941
+HOSPITAL_NAME_FILE: Humber River Health
+HOSPITAL_NAME_TEXT: Humber River Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four strategic priorities with supporting goals and initiatives under each priority
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Embrace equity, diversity and inclusion
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Advance the empowerment of our people and patients
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Deliver comprehensive quality care closer to home
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Foster innovation, research and academics
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear vision ("Lighting New Ways in Healthcare") and mission statements. The document is professionally presented with consistent formatting and clear organizational structure. Each of the four strategic priorities has detailed supporting goals and initiatives listed beneath them, indicating strong L2 content availability. The plan demonstrates comprehensive coverage of key healthcare strategic domains including equity/diversity, workforce empowerment, care delivery, and innovation/academics. However, the strategic priorities themselves lack descriptive text - each priority title is followed immediately by specific goals and initiatives without introductory narrative explaining what the priority encompasses conceptually. The goals under each priority are specific and actionable, showing good strategic planning depth at the implementation level. The document includes clear mission, vision, and values statements that provide organizational context.
+=====================================
+END OF EXTRACTION - HOSPITAL 85
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

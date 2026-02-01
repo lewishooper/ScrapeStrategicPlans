@@ -1,0 +1,49 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 2
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 2 OF BATCH 0
+
+=====================================
+
+FAC: 593
+HOSPITAL_NAME_FILE: Middlesex Hospital Alliance
+HOSPITAL_NAME_TEXT: Middlesex Hospital Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic plan document titled "Caring for our Communities: Building our Future Together 2024 — FORWARD" with Vision, Mission, and Values statements followed by three Strategic Priorities
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Collaborate for Exceptional Care and Experiences
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Engage, Support and Inspire Our People
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Advance How We Deliver Care
+L1.3_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear branding and visual design. The document presents a well-structured Vision ("Exceptional People providing Exceptional Care"), Mission ("To provide the health care we would expect for our own families"), and four core Values (Compassion, Accountability, Respect, Excellence) with detailed definitions. The plan includes commitment to Truth and Reconciliation with Indigenous Peoples and features a Patient and Family Advisory Council. However, the strategic priorities section provides only titles with bullet-pointed goals/initiatives beneath each priority, with no descriptive text explaining what each priority encompasses conceptually. The document demonstrates good organizational values foundation but minimal L1-level strategic priority description. Strong emphasis on patient-centered care and community focus throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 2
+=====================================
+```

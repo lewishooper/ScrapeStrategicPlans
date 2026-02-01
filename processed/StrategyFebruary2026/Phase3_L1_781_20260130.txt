@@ -1,0 +1,56 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 51
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 51 OF BATCH 0
+
+=====================================
+
+FAC: 781
+HOSPITAL_NAME_FILE: St. Joseph's Care Group
+HOSPITAL_NAME_TEXT: St. Joseph's Care Group
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around three strategic priorities with supporting strategic enablers, includes Mission, Vision, and Values statements with Land Acknowledgement
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Drive High-Quality People-Centred Care
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Nurture Our People
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Lead and Enhance Regional Specialized Care
+L1.3_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear visual design and consistent formatting. The plan is organized around three strategic priorities with specific action items listed under each (marked as "We will:"). Each priority has a title but jumps directly to implementation goals without providing descriptive text about what the priority encompasses conceptually. The document includes well-developed Mission, Vision, and Values statements, plus a thoughtful Land Acknowledgement recognizing Indigenous territory. Strategic enablers are clearly identified (Strategic Partnerships, Digital and Data Infrastructure, Communications, Financial Resources). The plan shows evidence of comprehensive stakeholder engagement with over 1,000 people providing input. While the strategic framework is sound, the lack of descriptive text for the priorities themselves limits the conceptual depth at the L1 level, though substantial L2 content is available for future extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 51
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

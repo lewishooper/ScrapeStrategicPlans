@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 84
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 84 OF BATCH 0
+
+=====================================
+
+FAC: 940
+HOSPITAL_NAME_FILE: Northumberland Hills Hospital
+HOSPITAL_NAME_TEXT: Northumberland Hills Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: nf
+PLAN_CLASSIFICATION: nf
+DOCUMENT_STRUCTURE: Strategic Plan Framework organized around four strategic priorities using the acronym CARE (Connected care close to home, Accountable care, Responsive and healthy work environment, Exceptional care every time for every person) with shared purpose "People First" and five core values
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Connected care close to home
+L1.1_TEXT:
+Build inclusive and integrated care pathways to secure a foundation for sustainability and growth
+
+---
+
+L1.2_TITLE: Accountable care
+L1.2_TEXT:
+Unleash the power of technology, information, and innovation to improve experiences, efficiency, and outcomes, including quality and safety
+
+---
+
+L1.3_TITLE: Responsive and healthy work environment
+L1.3_TEXT:
+Create and sustain a work environment and culture that engages, empowers, and promotes positive morale
+
+---
+
+L1.4_TITLE: Exceptional care, every time, for every person
+L1.4_TEXT:
+Build a culture where each person receives high-quality, reliable, whole-person care, service, and support
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed strategic plan framework document with professional presentation and clear visual organization. The document uses the CARE acronym effectively to organize four strategic priorities under the overarching shared purpose of "People First." Each priority includes both a title and a clear descriptive statement of what the priority encompasses. The framework is supported by five core values (Quality, Integrity, Respect, Teamwork, Compassion) and includes multiple photos of staff throughout the document showing the organization's commitment to its people-first approach. The document appears to be a framework or summary document rather than a detailed strategic plan, as it lacks specific timelines, detailed goals, or implementation tactics at the Level 1 presentation. However, the document structure suggests that more detailed Level 2 content (specific goals and initiatives) exists or would be developed under each priority area. The strategic planning process description indicates extensive community engagement and collaborative planning with over 200 individuals consulted.
+=====================================
+END OF EXTRACTION - HOSPITAL 84
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 84
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

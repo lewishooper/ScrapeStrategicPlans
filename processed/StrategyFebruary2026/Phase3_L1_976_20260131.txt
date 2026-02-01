@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 109 OF 1
+
+=====================================
+
+FAC: 976
+HOSPITAL_NAME_FILE: Sinai Health Strategic Plan
+HOSPITAL_NAME_TEXT: Sinai Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic priorities in a circular framework centered on "We Discover and Deliver Life-Changing Care" with eight guiding principles
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Enhance excellence and integration in care and service
+L1.1_TEXT:
+Invest in people, practice, partnerships, and technology to enable our patients and their essential care partners to access the highest quality care, based on the latest knowledge, within Sinai Health and across the health care system.
+
+---
+
+L1.2_TITLE: Build a caring and inclusive culture and environment
+L1.2_TEXT:
+Create welcoming environments where everyone feels they matter and belong.
+
+---
+
+L1.3_TITLE: Optimize care and performance
+L1.3_TEXT:
+Fully utilize all of our resources (people, funds, processes) to enhance our sustainability and inspire investment in our future.
+
+---
+
+L1.4_TITLE: Advance discovery, education, and the science of care
+L1.4_TEXT:
+Prioritize our nine key areas of specialization, bringing our leadership to the next level, and invest in research and teaching to create better treatments and outcomes here and around the world.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear vision ("We discover and deliver life-changing care") and strong visual framework. The four strategic priorities are organized in a circular diagram emphasizing their interconnected nature. Document demonstrates sophisticated strategic thinking with eight guiding principles including Person-Centred Care, Joy in Work, and population health lens. Strong emphasis on integration following the formation of Sinai Health from Mount Sinai Hospital and Bridgepoint Active Healthcare. The plan shows evidence of extensive stakeholder engagement (1,500 voices mentioned) and includes detailed goals and initiatives under each priority. Document reflects academic health science center focus with emphasis on research, teaching, and specialized care. The leadership message provides good context about organizational evolution and COVID-19 impact.
+=====================================
+END OF EXTRACTION - HOSPITAL 109
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

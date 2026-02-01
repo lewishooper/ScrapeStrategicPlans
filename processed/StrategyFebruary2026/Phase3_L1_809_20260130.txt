@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 58
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 58 OF BATCH 0
+
+=====================================
+
+FAC: 809
+HOSPITAL_NAME_FILE: Smooth Rock Falls Hospital
+HOSPITAL_NAME_TEXT: Smooth Rock Falls Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2020
+PLAN_END: 2023
+PLAN_CLASSIFICATION: Historical
+DOCUMENT_STRUCTURE: Strategic plan organized around five strategic priorities with supporting values (Community, Person Centered Care, Collaboration, Accountability) and mission statement. Document includes brief descriptions of hospital services and programs.
+DOCUMENT_ISSUES: None
+L2_PRESENT: No
+=====================================
+
+L1.1_TITLE: Patients as Partners
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Healthy Teams
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Technology
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Financial Stability
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Continuous Improvement
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This is a high-level strategic framework document rather than a detailed strategic plan. The document presents five strategic priorities with visual icons and brief taglines (e.g., "Working together to provide care that meets your needs and wishes" for Patients as Partners) but provides no descriptive text explaining what each priority means or encompasses. The document focuses primarily on presenting the hospital's mission, values, and basic service descriptions rather than strategic planning detail. The format is more of a strategic overview or summary document suitable for public communication rather than an operational strategic plan. The visual presentation is clean and professional with consistent branding, but lacks the depth typically expected in strategic planning documents. No goals, initiatives, or implementation details are provided under any of the strategic priorities.
+=====================================
+END OF EXTRACTION - HOSPITAL 58
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 58
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

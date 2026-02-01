@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 47
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 47 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 753
+HOSPITAL_NAME_FILE: Montfort Hospital
+HOSPITAL_NAME_TEXT: Hôpital Montfort
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around five key goals with 17 outcomes, unified under the shared vision "A Bold Francophonie for Healthy Communities" with three organizational entities (Montfort, Savoir Montfort, Santé Montfort) each having distinct missions
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Serve a growing and aging population
+L1.1_TEXT:
+To meet the growing and complex needs of a diverse population, we will take a proactive, multidisciplinary approach with our partners to serve 210,000 more patients in Ottawa and Eastern Ontario within the next 10 years, including 80,000 persons aged 65 and over.
+
+---
+
+L1.2_TITLE: Expand French-language services
+L1.2_TEXT:
+We will increase access to services in French to better serve our communities, knowing that receiving health care in one's mother tongue is beneficial for health. Through close and active collaboration with other health care institutions, we will create partnerships that reinforce the services provided in French and transform the patient experience across the entire health sector.
+
+---
+
+L1.3_TITLE: Strengthen our social accountability
+L1.3_TEXT:
+In recognizing our social accountability toward the wide-range of communities that we serve, we will offer services suited to the needs of vulnerable populations to create a more equitable and inclusive healthcare system while reducing health disparities.
+
+---
+
+L1.4_TITLE: Enhance the impact of education and research
+L1.4_TEXT:
+We will cultivate next-generation knowledge for future-oriented care with an emphasis on multidisciplinary activity and knowledge transfers across different sectors of clinical activity. We will capitalize on Montfort's status as one of Ontario's largest hospitals in terms of obstetrical and mental health beds, with recognized programs in family medicine and orthopedic surgery, among others.
+
+---
+
+L1.5_TITLE: Innovate to remain a sought-after environment
+L1.5_TEXT:
+In the context of a health care labour shortage, we will cultivate a positive environment with priority placed on employee well-being. By supporting our teams in a stimulating, caring environment, we will retain our talent while delivering quality care with empathy and professionalism.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professionally designed bilingual strategic plan with strong visual presentation and clear organizational structure. The document demonstrates sophisticated strategic thinking with a unified vision across three distinct organizational entities (Hôpital Montfort as academic hospital, Savoir Montfort for research/education, Santé Montfort for partnerships). Each of the five key goals includes clear descriptive text at L1 level followed by specific numbered outcomes (17 total) that provide measurable targets and timelines. The plan shows evidence of extensive community consultation (over 1,300 participants) and includes detailed consultation methodology. Strong emphasis on Francophone identity while serving diverse communities. Document includes staff photos and quotes that personalize the strategic directions. The plan builds toward the hospital's 75th anniversary in 2028, providing a clear temporal framework. Five fundamental principles guide activities: patients first, continuous improvement, solidarity with communities, sustainable development, and recognition of Indigenous peoples' rights.
+=====================================
+END OF EXTRACTION - HOSPITAL 47
+=====================================
+```

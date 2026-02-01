@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 104
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 104 OF BATCH 0
+
+=====================================
+
+FAC: 970
+HOSPITAL_NAME_FILE: Brant Community Healthcare System
+HOSPITAL_NAME_TEXT: Brant Community Healthcare System
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2030
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four Strategic Pillars (The 4 Ps: Patients, People, Partners, Progress) with Vision "Leading Beyond Care" and Mission "Serving as an anchor for community well-being through healthcare excellence"
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Patients
+L1.1_TEXT:
+We will prioritize high-quality, person-centered care and improving patient outcomes.
+
+---
+
+L1.2_TITLE: People
+L1.2_TEXT:
+We will focus on the recruitment, retention, well-being, development, and engagement of TeamBCHS.
+
+---
+
+L1.3_TITLE: Partners
+L1.3_TEXT:
+We will lead collaborations within our hospital and with community partners to drive innovation, elevate healthcare quality, and improve health outcomes.
+
+---
+
+L1.4_TITLE: Progress
+L1.4_TEXT:
+We will advance the redevelopment of our facilities, services, and systems to meet the evolving needs of our communities, ensuring sustainable, environmentally responsible, high-quality, and accessible care for years to come.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed and professionally presented strategic plan with clear vision "Leading Beyond Care" and strong organizational framework. The four Strategic Pillars (The 4 Ps) provide a memorable and comprehensive structure covering all major operational areas. Each pillar includes a clear commitment statement at L1 level followed by detailed commitments with specific actions at L2 level. The document demonstrates thoughtful strategic planning with acknowledgment of Indigenous territories, strong visual design, and comprehensive statistical data about patient volumes and workforce. Notable features include Patient and Family Advisory Program emphasis, Indigenous Health Strategy development, and significant focus on diversity, equity, inclusion and belonging initiatives. The plan shows sophisticated understanding of healthcare system challenges and community anchor role. Document includes extensive quantitative data (patient visits, procedures, workforce numbers) demonstrating data-driven approach to planning.
+=====================================
+END OF EXTRACTION - HOSPITAL 104
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 104
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

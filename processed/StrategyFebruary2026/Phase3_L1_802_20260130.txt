@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 56
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 56 OF BATCH 0
+
+=====================================
+
+FAC: 802
+HOSPITAL_NAME_FILE: Glengarry Memorial Hospital
+HOSPITAL_NAME_TEXT: Hôpital Glengarry Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four strategic priorities with mission, vision, and values framework. Document includes French and English content with PACT values (Passion, Accountability, Compassion, Teamwork).
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality & Safety
+L1.1_TEXT:
+Enrich the patient experience through quality, safe care that welcomes patients and families as partners in care.
+
+---
+
+L1.2_TITLE: People & Culture
+L1.2_TEXT:
+Improve engagement by investing in the organizations people and empower a caring and positive culture for all.
+
+---
+
+L1.3_TITLE: Integration & Standardization
+L1.3_TEXT:
+Deliver standardized quality care in a cost-effective way through collaboration & integration opportunities.
+
+---
+
+L1.4_TITLE: Future Planning
+L1.4_TEXT:
+Invest in the sustainability of our equipment & infrastructure to support safe, quality care.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional bilingual strategic plan document with clear visual design and consistent formatting. The plan demonstrates solid strategic thinking with four well-defined priorities that cover the essential domains of hospital operations. Each priority includes a brief descriptive statement followed by detailed implementation strategies with specific icons and bullet points. The PACT values framework (Passion, Accountability, Compassion, Teamwork) is well-integrated throughout. Document includes demographic information about the communities served (68,500 in Stormont/Dundas/Glengarry, 89,000 in Prescott/Russell, 12,000 Mohawk Nation at Akwesasne, and 149,349 in Vaudreuil-Soulanges with 56.9% bilingual residents). The plan shows good balance between aspirational vision and practical implementation focus. Photography throughout shows diverse staff and patient interactions, reinforcing the community-centered approach. Strategic priorities are concise but could benefit from more detailed narrative descriptions at the L1 level.
+=====================================
+END OF EXTRACTION - HOSPITAL 56
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 56
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

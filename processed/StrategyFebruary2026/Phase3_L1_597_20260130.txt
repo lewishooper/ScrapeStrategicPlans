@@ -1,0 +1,58 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 4
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 4 OF BATCH 0
+
+=====================================
+
+FAC: 597
+HOSPITAL_NAME_FILE: Mississippi River Health Alliance
+HOSPITAL_NAME_TEXT: Mississippi River Health Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2025
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Strategic plan organized around four strategic priorities with supporting values (Teamwork, Inclusivity, Accessibility, Accountability) and a central vision statement
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Your Care Experience
+L1.1_TEXT:
+nf
+
+---
+
+L1.2_TITLE: Our Great People
+L1.2_TEXT:
+nf
+
+---
+
+L1.3_TITLE: Our Partners in Care
+L1.3_TEXT:
+nf
+
+---
+
+L1.4_TITLE: Our Places & Spaces
+L1.4_TEXT:
+nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Focused
+OVERALL_QUALITY_NOTES: Clean, professionally designed strategic plan document with clear visual organization around four strategic priorities supported by organizational values (Teamwork, Inclusivity, Accessibility, Accountability). The plan uses a circular diagram format with the central vision statement surrounded by the four priority areas. Each priority has specific bullet-pointed goals and initiatives listed, but lacks descriptive text explaining what each priority area encompasses conceptually. The document demonstrates good strategic thinking with specific, actionable goals under each priority, but the high-level strategic directions go directly to implementation without conceptual framing. Strong visual presentation and clear structure, though minimal at the L1 descriptive level.
+=====================================
+END OF EXTRACTION - HOSPITAL 4
+=====================================
+```

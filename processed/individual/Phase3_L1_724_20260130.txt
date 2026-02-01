@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 40
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 40 OF 40
+
+=====================================
+
+FAC: 724
+HOSPITAL_NAME_FILE: Mattawa Hospital
+HOSPITAL_NAME_TEXT: Hôpital de Mattawa Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four strategic directions with supporting goals, plans/frameworks/affiliations, and priorities/actions. Document is bilingual (French/English) with integrated visual design showing alignment with Provincial, Ontario Health, and CHSO strategic directions.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Quality of Care & Patient/Resident Safety
+L1.1_TEXT:
+We will provide bilingual, high-quality, safe and timely patient and resident care to ensure the best outcomes and high level of satisfaction for the people we serve.
+
+---
+
+L1.2_TITLE: Our People & Our Mission
+L1.2_TEXT:
+We will be a "workplace of choice" in our area and focus on our physicians and our staff.
+
+---
+
+L1.3_TITLE: Our Community: Working Together for Better Integration
+L1.3_TEXT:
+We will work collaboratively and creatively with other health care providers and stakeholders in order to deliver innovative, effective, integrated quality care.
+
+---
+
+L1.4_TITLE: Financial Responsibility, Accountability & Transparency
+L1.4_TEXT:
+We will plan for and maintain financial stability in order to deliver and sustain quality patient and resident care services.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-designed bilingual strategic plan with professional visual presentation showing clear alignment between organizational priorities and provincial/regional strategic directions. The document demonstrates good strategic thinking with four comprehensive strategic directions that cover the full scope of hospital operations. Each strategic direction includes concise descriptive text at L1 level followed by detailed goals, plans/frameworks, and specific priorities/actions at L2 level. The visual design effectively shows the hierarchical alignment from Provincial Directions through Ontario Health Directions and CHSO Strategic Directions to the hospital's own strategic directions. The plan includes extensive L2 content with specific initiatives, frameworks, and measurable actions. The bilingual presentation (French/English) reflects the hospital's commitment to serving its francophone community. The mission statement "Together, Guided by Medicine, Inspired by Faith, In a place called Home" provides strong organizational identity. Document structure is clear and consistent across all four strategic directions.
+=====================================
+END OF EXTRACTION - HOSPITAL 40
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 40
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

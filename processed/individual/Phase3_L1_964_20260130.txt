@@ -1,0 +1,77 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - 1 HOSPITAL
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+=====================================
+
+HOSPITAL 100 OF 1
+
+=====================================
+
+FAC: 964
+HOSPITAL_NAME_FILE: Sioux Lookout Meno Ya Win Health Centre
+HOSPITAL_NAME_TEXT: Sioux Lookout Meno Ya Win Health Centre
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around seven strategic pillars with specific goals and initiatives under each pillar
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Equity, Diversity & Inclusion (EDI)
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Mental Health & Addictions
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Future Planning, Infrastructure & Growth
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Investing In Our People
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: High Quality Patient Experience & Care
+L1.5_TEXT: nf
+
+---
+
+L1.6_TITLE: Innovation/Technology - Digital Transformation
+L1.6_TEXT: nf
+
+---
+
+L1.7_TITLE: External Partnerships
+L1.7_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Professional strategic plan document with clear mission, vision, and values statements. The plan is organized around seven strategic pillars covering comprehensive operational areas. Each pillar contains multiple specific goals and initiatives, indicating good strategic depth at the L2 level. However, the document structure provides pillar titles without descriptive text explaining what each pillar encompasses - it moves directly from titles to bulleted goals and initiatives. The plan demonstrates cultural sensitivity with Indigenous focus, including Traditional Healing Medicine Foods and Support program integration. Strong emphasis on serving First Nations communities (85% of population served). The document includes leadership messages and values statements with cultural imagery. Well-formatted with consistent structure across all pillars, though lacking L1-level descriptive content for the strategic priorities themselves.
+=====================================
+END OF EXTRACTION - HOSPITAL 100
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

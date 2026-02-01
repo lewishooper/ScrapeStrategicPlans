@@ -1,0 +1,64 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 91
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 91 OF [BATCH SIZE]
+
+=====================================
+
+FAC: 952
+HOSPITAL_NAME_FILE: Lakeridge Health Strategic Plan 2019-2024
+HOSPITAL_NAME_TEXT: Lakeridge Health
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2019
+PLAN_END: 2024
+PLAN_CLASSIFICATION: Dated
+DOCUMENT_STRUCTURE: Five-year strategic plan organized around four Strategic Directions with supporting vision, mission, and values framework. Plan includes community context, planning methodology, and success indicators.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Improve Population Health
+L1.1_TEXT:
+Traditional health care delivery has focused on providing the best possible care to patients who access the Lakeridge Health system. This approach often obscures the fact that health outcomes can vary significantly across and between groups of patients. Leading health care systems have recognized the need to understand and respond to the distinct needs of diverse populations to improve the overall health of the people they serve and reduce disparities in outcomes. Our Mental Health and Addictions and Oncology programs are already leaders in driving improvements at the population level and, building on this experience, Lakeridge Health will expand our population health focus across all our programs and services and our work with partners going forward.
+
+A focus on population health will not eliminate disease, but it will ensure that each person living in the region will have the best opportunity for better health, whether they happen to be a child living with type 1 diabetes, a senior living independently at home, a middle-aged person newly diagnosed with cancer, a person experiencing addiction and homelessness, or a newcomer who is just learning to speak English. Population health approaches recognize that health is best understood not as the absence of disease, but as the "capacity of people to adapt to, respond to, or control life's challenges and changes."
+
+---
+
+L1.2_TITLE: Commitment to Individual Health Care
+L1.2_TEXT:
+People expect accessible, high quality health care close to home. For Lakeridge Health, this means a relentless focus on improving clinical practices and meeting the highest standards within all our local hospitals, community services and specialized regional programs as well as a commitment to empower patients and their families to become true partners in care. It also means working with partners in health and social services across the region to ensure that people have a seamless experience as they transition across the health care continuum.
+
+---
+
+L1.3_TITLE: Create an Integrated System of Care
+L1.3_TEXT:
+Lakeridge Health has a responsibility to extend beyond our walls and think about our mandate as more than a health care provider. As one of the largest employers in the region, Lakeridge Health is crucial to local economic vitality and is uniquely positioned to become the connector between community members and a broad array of community health services. In addition to providing high quality acute health care services, Lakeridge Health will also work with partners across and beyond the area we serve to ensure that the regional population is able to access all continuum of integrated health and other services that promote health, wellness and quality of life.
+
+Health system problems such as emergency department overcrowding, hallway health care, and people waiting for long-term care placement can only be solved by improving care, housing and social support options for people in the community. Success requires Lakeridge Health to reimagine our role within the regional health system – to be the connector for the community – and create partnerships and new service offerings we had previously not thought possible.
+
+---
+
+L1.4_TITLE: Be a Workplace of Choice
+L1.4_TEXT:
+Success depends on the strength of the team and our ability to recruit and retain the healthiest people. Lakeridge Health is focused on being an employer of choice in the Canadian health care sector and strives to be a place where the people want to start, build and finish their careers in health care. We will provide the tools for team to be productive, positive difference in the lives of people around them, recognizing that our people are under tremendous pressure, dealing literally with matters of life and death.
+
+Every day a team of 6,200 people including physicians, nurses, allied health professionals and other team members alongside 1,500 amazing volunteers answer the call to provide essential care, treatment and support to people in the region. To become a truly high-performing health care system, Lakeridge Health will focus on supporting and empowering team members to improve the health and quality of life of the residents living throughout our vast geographic region.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium-High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Well-structured strategic plan with clear vision ("One System. Best Health.") and mission ("We empower people to live their best health"). The four Strategic Directions are consistently formatted with substantial descriptive text explaining the rationale and approach for each priority. Document demonstrates sophisticated strategic thinking with extensive community context including population growth projections and health needs analysis. Strong emphasis on system integration and population health approaches. The plan includes detailed planning methodology showing extensive community consultation (17,000+ input points). Each strategic direction includes specific goals and initiatives that would be captured at Level 2. Document quality is high with professional presentation and clear organizational structure. Values framework (Inclusion, Compassion, Innovation, Teamwork, Joy) is well-integrated throughout.
+=====================================
+END OF EXTRACTION - HOSPITAL 91
+=====================================
+```

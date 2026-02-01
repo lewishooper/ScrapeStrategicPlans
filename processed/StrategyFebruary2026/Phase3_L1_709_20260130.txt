@@ -1,0 +1,71 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 36
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 36 OF BATCH 0
+
+=====================================
+
+FAC: 709
+HOSPITAL_NAME_FILE: Listowel Wingham Hospitals Alliance
+HOSPITAL_NAME_TEXT: Listowel Wingham Hospitals Alliance
+EXTRACTION_DATE: 2024-12
+PLAN_START: nf
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategy refresh document with vision, mission, values, and four strategic goals with specific objectives and targets for 2025/26 forward
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Services
+L1.1_TEXT:
+Transform and grow our services to meet the needs of the community and greater catchment area.
+
+---
+
+L1.2_TITLE: Quality (&Risk)
+L1.2_TEXT:
+Provide Quality Care that is patient centered, timely, efficient, effective, equitable and safe
+
+---
+
+L1.3_TITLE: Human Resources
+L1.3_TEXT:
+A Workplace that nurtures accountability, individual and collective potential and a culture of kindness and inclusion.
+
+---
+
+L1.4_TITLE: Finance (& Resources)
+L1.4_TEXT:
+A sustainable and resilient Health Organization that is here for future generations.
+
+---
+
+L1.5_TITLE: Stewardship & Partnerships
+L1.5_TEXT:
+Harness Innovation and Partnerships to deliver a quality, expanded, integrated network of sustainable regional care, demonstrating responsible use of public funds.
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: High
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: This is a strategy refresh document rather than a full strategic plan, designed to assist with bridging CEOs and facilitate common understanding and alignment for the next 12-18 months. The document is professionally presented with clear organizational framework including refreshed purpose, vision, mission, and values. The five strategic goals are consistently formatted with very specific, measurable objectives including detailed targets, timelines, and baseline metrics. Notable features include specific utilization targets (OR hours, diagnostic imaging volumes), financial balance targets, supply chain reduction goals, and staff engagement metrics. The plan demonstrates strong operational focus with concrete deliverables like accreditation processes, electronic documentation implementation, and primary care provider recruitment. The document shows sophisticated performance measurement approach with detailed baselines and specific percentage targets. Strong emphasis on Master Services Planning and regional partnerships.
+=====================================
+END OF EXTRACTION - HOSPITAL 36
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 36
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

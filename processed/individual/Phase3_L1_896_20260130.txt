@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 72
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 72 OF BATCH 0
+
+=====================================
+
+FAC: 896
+HOSPITAL_NAME_FILE: Red Lake Margaret Cochenour Memorial Hospital
+HOSPITAL_NAME_TEXT: Red Lake Margaret Cochenour Memorial Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2024
+PLAN_END: 2027
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four main priorities with specific goals and objectives under each priority area
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Patient Experience
+L1.1_TEXT:
+Provide patient-centred care
+
+---
+
+L1.2_TITLE: Team Experience
+L1.2_TEXT:
+Foster a collaborative, supportive team
+
+---
+
+L1.3_TITLE: Partnerships with purpose
+L1.3_TEXT:
+Collaborate with stakeholders for a positive impact
+
+---
+
+L1.4_TITLE: Sustainability and Growth
+L1.4_TEXT:
+Manage resources responsibly and pursue opportunities to improve service delivery
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Clean, well-organized strategic plan presented in a simple table format with clear vision and mission statements. The four strategic priorities are consistently structured with brief goal statements followed by 2-3 specific objectives each. The document demonstrates solid strategic planning fundamentals with priorities covering the essential domains of patient care, staff experience, partnerships, and organizational sustainability. While the L1 descriptive text is minimal (single phrases), the L2 objectives show good specificity with measurable elements like recruitment/retention targets, communication improvements, and fiscal responsibility. The plan reflects the realities of a smaller northern healthcare facility with appropriate focus on collaboration and resource management. Professional presentation with clear organizational structure.
+=====================================
+END OF EXTRACTION - HOSPITAL 72
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,66 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 10
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 10 OF 10
+
+=====================================
+
+FAC: 638
+HOSPITAL_NAME_FILE: MICs Group of Health Services
+HOSPITAL_NAME_TEXT: MICs Group of Health Services
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2023
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan organized around five strategic directions with specific goals listed under each direction. Document presented in both English and French versions with identical content structure.
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Equity, Diversity, Inclusivity & Belonging
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Partnerships
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Safety
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Seamless Care
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Sustainability
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Medium
+SCOPE: Comprehensive
+OVERALL_QUALITY_NOTES: Clean, professionally formatted bilingual strategic plan (English and French) covering 2023-2026 period. The document presents five strategic directions but provides no descriptive text for any of the priorities - each strategic direction jumps immediately to specific goals and initiatives. The goals under each direction are concrete and actionable (e.g., "Continue to build upon equity, diversity, inclusivity & belonging culture," "Maximize external partnership opportunities," "Promote a just culture"). The plan demonstrates comprehensive coverage of key healthcare strategic areas including equity/diversity, partnerships, safety, care coordination, and organizational sustainability. Mission, vision, and values are clearly articulated with the tagline "Caring for Today and Tomorrow." The document serves the MICs Group covering Matheson, Iroquois Falls, and Cochrane communities. While lacking L1 descriptive content, the L2 goals show thoughtful strategic planning with specific, measurable objectives.
+=====================================
+END OF EXTRACTION - HOSPITAL 10
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 10
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

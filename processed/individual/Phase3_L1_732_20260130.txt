@@ -1,0 +1,65 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 42
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 42 OF BATCH 0
+
+=====================================
+
+FAC: 732
+HOSPITAL_NAME_FILE: Kemptville District Hospital
+HOSPITAL_NAME_TEXT: Kemptville District Hospital
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2022
+PLAN_END: 2026
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Strategic plan titled "Your Hospital, Your Community: Growing Together" with five strategic directions supported by four key priorities each, developed in collaboration with over 800 stakeholders
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Person-Centered Care
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Service Excellence and Innovation
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Team KDH
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Strong and Vital Partnerships
+L1.4_TEXT: nf
+
+---
+
+L1.5_TITLE: Sustainability and Growth
+L1.5_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This document appears to be a website or promotional material about KDH's strategic plan rather than the actual strategic plan document itself. The content shows the hospital's vision statement about being "a hospital that is much more than a place for treating illness" and mentions their Strategic Plan "Your Hospital, Your Community: Growing Together" covering 2022-2026 with five strategic directions and four key priorities each. However, the document only lists the five strategic direction titles without any descriptive text, goals, or implementation details. The plan was developed with over 800 stakeholders and mentions upcoming progress reports, but the actual strategic content is not present in this document. There are references to viewing the "Strategic Plan flip book" and "Strategic Plan At-A-Glance" but these materials are not included. The document also contains news items and a patient testimonial, suggesting this is more of a website homepage or overview rather than the comprehensive strategic plan itself.
+=====================================
+END OF EXTRACTION - HOSPITAL 42
+=====================================
+
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```

@@ -1,0 +1,61 @@
+```
+PHASE 3 - LEVEL 1 EXTRACTION
+BATCH 0 - HOSPITAL 82
+Extraction Date: 2024-12
+Protocol Version: V4.1
+
+=====================================
+
+HOSPITAL 82 OF BATCH 0
+
+=====================================
+
+FAC: 938
+HOSPITAL_NAME_FILE: Haliburton Highlands Health Services
+HOSPITAL_NAME_TEXT: Haliburton Highlands Health Services
+EXTRACTION_DATE: 2024-12
+PLAN_START: 2025
+PLAN_END: 2028
+PLAN_CLASSIFICATION: Current
+DOCUMENT_STRUCTURE: Four-year strategic plan organized around four Strategic Directions with mission statement "Together - be the model of excellence in rural healthcare" and core values of Compassion, Accountability, Integrity, and Respect
+DOCUMENT_ISSUES: None
+L2_PRESENT: Yes
+=====================================
+
+L1.1_TITLE: Deliver compassionate, high-quality person-centred care
+L1.1_TEXT: nf
+
+---
+
+L1.2_TITLE: Nurture and support a thriving team culture
+L1.2_TEXT: nf
+
+---
+
+L1.3_TITLE: Cultivate partnerships to strengthen care delivery
+L1.3_TEXT: nf
+
+---
+
+L1.4_TITLE: Build the future through sustainable and responsible resource management and innovation
+L1.4_TEXT: nf
+
+---
+
+=====================================
+QUALITY INDICATORS (Overall Document)
+=====================================
+SPECIFICITY: Low
+SCOPE: Limited
+OVERALL_QUALITY_NOTES: This is a very high-level strategic framework document that presents four strategic directions as titles only, with no descriptive text explaining what each priority encompasses. The document jumps directly from strategic direction titles to implementation goals and initiatives. While professionally presented with clear branding and visual design, the strategic content is minimal and lacks the narrative depth typically found in comprehensive strategic plans. The mission statement "Together - be the model of excellence in rural healthcare" and core values (Compassion, Accountability, Integrity, Respect) are clearly articulated, but the strategic directions themselves lack conceptual explanation. The document appears to be more of a strategic framework or summary rather than a detailed strategic plan, though it does contain specific goals and initiatives under each direction that would be suitable for Level 2 extraction.
+=====================================
+END OF EXTRACTION - HOSPITAL 82
+=====================================
+
+=====================================
+END OF BATCH 0
+=====================================
+Total Hospitals Extracted: 1
+Protocol Version: V4.1
+Extraction Complete: 2024-12
+```
